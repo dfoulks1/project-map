@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITLE}}</title>
+<!--
+  Template for scripts/build_map.py --html.  Placeholders: {{TITLE}} {{SUBTITLE}}
+  {{CREDIT}} {{DATA}} (JSON) {{SVG}} (the map).  Self-contained: no external requests.
+-->
+<style>
+:root {
+  --bg: #ffffff; --fg: #1c1c1c; --mute: #5f6670; --panel: #ffffff;
+  --rule: #d9dde3; --accent: #0019A8; --chip: #eef1f5; --shadow: 0 4px 18px rgba(0,0,0,.14);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171c; --fg: #eef0f3; --mute: #a0a9b4; --panel: #1d2128;
+    --rule: #2c323b; --accent: #8aa6ff; --chip: #262c35; --shadow: 0 4px 18px rgba(0,0,0,.5);
+  }
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--bg); color: var(--fg);
+  font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  display: flex; flex-direction: column;
+}
+header {
+  display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center;
+  padding: .6rem 16px; border-bottom: 1px solid var(--rule); background: var(--panel);
+}
+header h1 { margin: 0; font-size: 1.1rem; color: var(--accent); white-space: nowrap; }
+header .sub { color: var(--mute); font-size: .85rem; flex: 1 1 14rem; }
+.tools { display: flex; gap: .4rem; align-items: center; flex-wrap: wrap; }
+input[type=search] {
+  font: inherit; padding: .35rem .6rem; border: 1px solid var(--rule); border-radius: 6px;
+  background: var(--bg); color: var(--fg); width: 15rem; max-width: 60vw;
+}
+input[type=search]:focus-visible, button:focus-visible, .chip:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+button {
+  font: inherit; padding: .3rem .65rem; border: 1px solid var(--rule); border-radius: 6px;
+  background: var(--chip); color: var(--fg); cursor: pointer;
+}
+button:hover { border-color: var(--accent); }
+
+main { position: relative; flex: 1 1 auto; min-height: 0; }
+#stage { position: absolute; inset: 0; overflow: hidden; touch-action: none; cursor: grab; }
+#stage.dragging { cursor: grabbing; }
+#stage svg { width: 100%; height: 100%; display: block; }
+
+/* ---- map styling: these rules override the SVG's inline defaults ---- */
+.map .bg { fill: var(--bg); }
+.map .ttl { fill: var(--accent); }
+.map .sub, .map .foot, .map .legtxt .n { fill: var(--mute); }
+.map .rule { stroke: var(--rule); }
+.map .tick { stroke: var(--fg); }
+.map .hub { fill: var(--bg); stroke: var(--fg); }
+.map .halo { fill: var(--bg); stroke: var(--bg); }
+.map .fg, .map .legtxt { fill: var(--fg); }
+
+.map .line, .map .st, .map .lbl, .map .leg { transition: opacity .15s, stroke-width .1s; }
+.map .line { cursor: pointer; }
+.map .st, .map .lbl { cursor: pointer; }
+.map .leg { cursor: pointer; }
+.map .leg.off { opacity: .35; }
+.map .dim { opacity: .12; }
+.map .st:hover { stroke-width: 4.2; }
+.map .hub:hover { stroke: var(--accent); }
+.map .tick:hover { stroke: var(--accent); }
+.map .sel.hub, .map .sel.tick { stroke: var(--accent); stroke-width: 4.6; }
+.map .match.hub, .map .match.tick { stroke: var(--accent); stroke-width: 4.2; }
+.map .term:hover { stroke: var(--accent); }
+.map .sel.term, .map .match.term { stroke: var(--accent); }
+.map .box { fill: #fff; }
+.map .fg.sel, .map .fg.match { font-weight: bold; fill: var(--accent); }
+
+/* ---- floating tooltip + detail panel ---- */
+#tip {
+  position: fixed; z-index: 5; pointer-events: none; max-width: 22rem;
+  background: var(--panel); color: var(--fg); border: 1px solid var(--rule);
+  border-radius: 8px; padding: .5rem .7rem; box-shadow: var(--shadow); font-size: .85rem;
+  opacity: 0; transition: opacity .1s;
+}
+#tip.on { opacity: 1; }
+#tip b { display: block; font-size: .95rem; }
+#tip .d { color: var(--mute); margin-top: .25rem; }
+
+#panel {
+  position: absolute; z-index: 4; top: 12px; right: 12px; width: 21rem; max-width: calc(100% - 24px);
+  max-height: calc(100% - 24px); overflow: auto;
+  background: var(--panel); border: 1px solid var(--rule); border-radius: 10px;
+  padding: .8rem .95rem; box-shadow: var(--shadow);
+}
+#panel h2 { margin: 0 0 .15rem; font-size: 1.15rem; }
+#panel .kind { color: var(--mute); font-size: .8rem; margin-bottom: .5rem; }
+#panel p { margin: .5rem 0 0; font-size: .88rem; }
+#panel .members { color: var(--mute); font-size: .82rem; margin-top: .5rem; }
+#panel .help { color: var(--mute); font-size: .85rem; margin: 0; }
+#panel .x { float: right; padding: 0 .45rem; line-height: 1.4; }
+.chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .45rem; }
+.chip {
+  border: 1px solid var(--rule); border-radius: 999px; padding: .1rem .6rem .1rem .35rem;
+  font-size: .8rem; display: inline-flex; align-items: center; gap: .35rem; cursor: pointer;
+  background: var(--chip); color: var(--fg);
+}
+.chip i { width: 14px; height: 7px; border-radius: 4px; display: inline-block; }
+.chip.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top: 1px solid var(--rule); background: var(--panel); }
+
+@media (max-width: 640px) {
+  #panel { top: auto; bottom: 8px; right: 8px; left: 8px; width: auto; max-height: 45%; }
+  header .sub { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .map * { transition: none !important; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>{{TITLE}}</h1>
+  <span class="sub">{{SUBTITLE}}</span>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Find a project…  ( / )" list="names" autocomplete="off" aria-label="Find a project">
+    <datalist id="names"></datalist>
+    <button id="zin" title="Zoom in" aria-label="Zoom in">+</button>
+    <button id="zout" title="Zoom out" aria-label="Zoom out">−</button>
+    <button id="reset" title="Reset view and filters (Esc)">Reset</button>
+  </div>
+</header>
+<main>
+  <div id="stage">{{SVG}}</div>
+  <aside id="panel" aria-live="polite"></aside>
+</main>
+<div id="tip" role="tooltip"></div>
+<footer>{{CREDIT}} · Click a station or a line (or its legend entry) to highlight it · drag to pan · scroll to zoom</footer>
+
+<script id="map-data" type="application/json">{{DATA}}</script>
+<script>
+(() => {
+  const D = JSON.parse(document.getElementById('map-data').textContent);
+  const stage = document.getElementById('stage');
+  const svg = stage.querySelector('svg.map');
+  const panel = document.getElementById('panel');
+  const tip = document.getElementById('tip');
+  const qIn = document.getElementById('q');
+
+  // ---- index the SVG --------------------------------------------------
+  const els = {}, lineEls = {}, legEls = {};
+  svg.querySelectorAll('[data-s]').forEach(e => (els[e.dataset.s] ||= []).push(e));
+  svg.querySelectorAll('.line').forEach(e => (lineEls[e.dataset.l] ||= []).push(e));
+  svg.querySelectorAll('.leg').forEach(e => (legEls[e.dataset.l] = e));
+  const byName = new Map(D.stations.map(s => [s.name.toLowerCase(), s]));
+  document.getElementById('names').innerHTML =
+    D.stations.map(s => `<option value="${s.name.replace(/"/g, '&quot;')}">`).join('');
+
+  const state = { lines: new Set(), sel: null, q: '' };
+
+  // ---- state -> classes -----------------------------------------------
+  function apply() {
+    const hl = state.lines.size ? state.lines
+      : state.sel != null ? new Set(D.stations[state.sel].lines) : null;
+    const q = state.q.trim().toLowerCase();
+    D.stations.forEach(s => {
+      const match = !!q && s.name.toLowerCase().includes(q);
+      let dim = (hl && !s.lines.some(l => hl.has(l))) || (q && !match);
+      (els[s.i] || []).forEach(e => {
+        e.classList.toggle('dim', !!dim);
+        e.classList.toggle('sel', state.sel === s.i);
+        e.classList.toggle('match', match);
+      });
+    });
+    D.lines.forEach((_, i) => {
+      (lineEls[i] || []).forEach(e => e.classList.toggle('dim', !!(hl && !hl.has(i))));
+      if (legEls[i]) legEls[i].classList.toggle('off', state.lines.size > 0 && !state.lines.has(i));
+    });
+    renderPanel();
+    syncHash();
+  }
+
+  // ---- detail panel ---------------------------------------------------
+  const esc = t => t.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const chip = i => `<button class="chip${state.lines.has(i) ? ' active' : ''}" data-chip="${i}" ` +
+    `title="Show only this line"><i style="background:${D.lines[i].color}"></i>${esc(D.lines[i].name)}</button>`;
+  function renderPanel() {
+    if (state.sel == null) {
+      panel.innerHTML = `<p class="help"><b>${D.stats.stations}</b> projects on <b>${D.lines.length}</b> lines, ` +
+        `<b>${D.stats.hubs}</b> of them interchanges. Click a station for details, or pick a line:</p>` +
+        `<div class="chips">${D.lines.map((_, i) => chip(i)).join('')}</div>`;
+      return;
+    }
+    const s = D.stations[state.sel];
+    const kind = s.lines.length > 1 ? `Interchange · ${s.lines.length} lines` : 'Station';
+    panel.innerHTML =
+      `<button class="x" data-clear aria-label="Close">×</button><h2>${esc(s.name)}</h2>` +
+      `<div class="kind">${kind}</div><div class="chips">${s.lines.map(chip).join('')}</div>` +
+      (s.desc ? `<p>${esc(s.desc)}</p>` : '') +
+      (s.members.length ? `<div class="members">Includes: ${s.members.map(esc).join(', ')}</div>` : '');
+  }
+  panel.addEventListener('click', e => {
+    const c = e.target.closest('[data-chip]');
+    if (c) { toggleLine(+c.dataset.chip); return; }
+    if (e.target.closest('[data-clear]')) { state.sel = null; apply(); }
+  });
+
+  // ---- actions --------------------------------------------------------
+  function toggleLine(i) {
+    state.lines.has(i) ? state.lines.delete(i) : state.lines.add(i);
+    apply();
+  }
+  function select(i, zoom) {
+    state.sel = i;
+    apply();
+    if (zoom != null && i != null) zoomTo(D.stations[i].x, D.stations[i].y, zoom);
+  }
+  function resetAll() {
+    state.lines.clear(); state.sel = null; state.q = ''; qIn.value = '';
+    setVB({ ...full }); apply();
+  }
+
+  // ---- pan / zoom -----------------------------------------------------
+  const v0 = svg.viewBox.baseVal;
+  const full = { x: v0.x, y: v0.y, w: v0.width, h: v0.height };
+  let vb = { ...full };
+  function setVB(n) {
+    vb = n;
+    svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.w} ${vb.h}`);
+  }
+  const toSvg = (cx, cy) => {
+    const p = svg.createSVGPoint(); p.x = cx; p.y = cy;
+    return p.matrixTransform(svg.getScreenCTM().inverse());
+  };
+  function zoomAt(px, py, k) {
+    const nw = Math.min(Math.max(vb.w * k, full.w / 14), full.w * 1.4);
+    const f = nw / vb.w;
+    setVB({ x: px - (px - vb.x) * f, y: py - (py - vb.y) * f, w: nw, h: vb.h * f });
+  }
+  function zoomTo(x, y, frac) {
+    const w = full.w * frac, h = full.h * frac;
+    setVB({ x: x - w / 2, y: y - h / 2, w, h });
+  }
+  stage.addEventListener('wheel', e => {
+    e.preventDefault();
+    const p = toSvg(e.clientX, e.clientY);
+    zoomAt(p.x, p.y, Math.exp(e.deltaY * 0.0015));
+  }, { passive: false });
+  const mid = () => ({ x: vb.x + vb.w / 2, y: vb.y + vb.h / 2 });
+  document.getElementById('zin').onclick = () => { const m = mid(); zoomAt(m.x, m.y, 0.7); };
+  document.getElementById('zout').onclick = () => { const m = mid(); zoomAt(m.x, m.y, 1 / 0.7); };
+  document.getElementById('reset').onclick = resetAll;
+
+  // pointer: drag to pan; click (no drag) to select
+  const ptrs = new Map();
+  let drag = null, pinch = null;
+  stage.addEventListener('pointerdown', e => {
+    ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (ptrs.size === 1) {
+      drag = { sx: e.clientX, sy: e.clientY, vb: { ...vb }, moved: false, target: e.target };
+    } else if (ptrs.size === 2) {
+      const [a, b] = [...ptrs.values()];
+      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y) };
+      if (drag) drag.moved = true;
+    }
+  });
+  stage.addEventListener('pointermove', e => {
+    if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch && ptrs.size === 2) {
+      const [a, b] = [...ptrs.values()];
+      const d = Math.hypot(a.x - b.x, a.y - b.y);
+      const p = toSvg((a.x + b.x) / 2, (a.y + b.y) / 2);
+      zoomAt(p.x, p.y, pinch.d / d);
+      pinch.d = d;
+      return;
+    }
+    if (drag && ptrs.size === 1) {
+      const dx = e.clientX - drag.sx, dy = e.clientY - drag.sy;
+      if (!drag.moved && Math.hypot(dx, dy) > 5) {
+        drag.moved = true; stage.classList.add('dragging');
+        try { stage.setPointerCapture(e.pointerId); } catch (_) {}
+        hideTip();
+      }
+      if (drag.moved) {
+        const r = svg.getBoundingClientRect();
+        const k = Math.max(drag.vb.w / r.width, drag.vb.h / r.height);
+        setVB({ x: drag.vb.x - dx * k, y: drag.vb.y - dy * k, w: vb.w, h: vb.h });
+      }
+    } else if (!drag || !drag.moved) {
+      hover(e);
+    }
+  });
+  const end = e => {
+    ptrs.delete(e.pointerId);
+    if (ptrs.size < 2) pinch = null;
+    if (drag && ptrs.size === 0) {
+      if (!drag.moved && e.type === 'pointerup') click(drag.target);
+      drag = null; stage.classList.remove('dragging');
+    }
+  };
+  stage.addEventListener('pointerup', end);
+  stage.addEventListener('pointercancel', end);
+  stage.addEventListener('pointerleave', hideTip);
+
+  function click(t) {
+    const st = t.closest && t.closest('[data-s]');
+    if (st) { select(state.sel === +st.dataset.s ? null : +st.dataset.s); return; }
+    const lg = t.closest && (t.closest('.leg') || t.closest('.line'));
+    if (lg) { toggleLine(+lg.dataset.l); return; }
+    if (state.sel != null) { state.sel = null; apply(); }
+  }
+
+  // ---- tooltip --------------------------------------------------------
+  function hideTip() { tip.classList.remove('on'); }
+  function hover(e) {
+    const el = e.target.closest && e.target.closest('[data-s]');
+    if (!el) { hideTip(); return; }
+    const s = D.stations[+el.dataset.s];
+    const d = s.desc ? (s.desc.length > 220 ? s.desc.slice(0, 220) + '…' : s.desc) : '';
+    tip.innerHTML = `<b>${esc(s.name)}</b>` +
+      `<div class="chips">${s.lines.map(i => `<span class="chip"><i style="background:${D.lines[i].color}"></i>${esc(D.lines[i].name)}</span>`).join('')}</div>` +
+      (d ? `<div class="d">${esc(d)}</div>` : '');
+    tip.classList.add('on');
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    tip.style.left = Math.min(e.clientX + 14, innerWidth - w - 8) + 'px';
+    tip.style.top = Math.min(e.clientY + 16, innerHeight - h - 8) + 'px';
+  }
+
+  // ---- search, keyboard, URL hash --------------------------------------
+  qIn.addEventListener('input', () => { state.q = qIn.value; apply(); });
+  qIn.addEventListener('keydown', e => {
+    if (e.key !== 'Enter') return;
+    const q = qIn.value.trim().toLowerCase();
+    const hit = byName.get(q) || D.stations.find(s => s.name.toLowerCase().includes(q));
+    if (hit) { state.q = ''; qIn.value = hit.name; select(hit.i, 0.28); }
+  });
+  addEventListener('keydown', e => {
+    if (e.key === '/' && document.activeElement !== qIn) { e.preventDefault(); qIn.focus(); }
+    else if (e.key === 'Escape') { resetAll(); qIn.blur(); }
+  });
+  function syncHash() {
+    try {
+      const parts = [];
+      if (state.sel != null) parts.push('s=' + encodeURIComponent(D.stations[state.sel].name));
+      if (state.lines.size) parts.push('l=' + [...state.lines].sort().join(','));
+      history.replaceState(null, '', parts.length ? '#' + parts.join('&') : location.pathname + location.search);
+    } catch (_) {}
+  }
+  function readHash() {
+    const h = new URLSearchParams(location.hash.slice(1));
+    (h.get('l') || '').split(',').filter(Boolean).forEach(n => {
+      if (D.lines[+n]) state.lines.add(+n);
+    });
+    const s = h.get('s') && byName.get(h.get('s').toLowerCase());
+    if (s) { state.sel = s.i; apply(); zoomTo(s.x, s.y, 0.35); } else apply();
+  }
+  readHash();
+})();
+</script>
+</body>
+</html>

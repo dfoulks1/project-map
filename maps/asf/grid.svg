@@ -1,0 +1,721 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="map" role="img" aria-label="The Apache Projects Underground" viewBox="-911.1 -754.1 1686.0 1529.2" width="1686" height="1529" font-family="Johnston, 'Gill Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title>The Apache Projects Underground</title>
+<rect class="bg" x="-911.1" y="-754.1" width="1686.0" height="1529.2" fill="#ffffff"/>
+<text class="ttl" x="-877.1" y="-698.1" font-size="34" font-weight="bold" fill="#0019A8">The Apache Projects Underground</text>
+<text class="sub" x="-875.1" y="-674.1" font-size="13" fill="#555">Top-level projects by area  ·  data: projects.apache.org  ·  option: grid</text>
+<g class="lines" fill="none" stroke-width="7.0" stroke-linecap="round" stroke-linejoin="round">
+<path class="line l0" data-l="0" d="M297.0,-594.0 L108.0,-594.0 L108.0,-351.0 L104.8,-351.0 L104.8,-270.0 L108.0,-270.0 L114.5,-270.0 L114.5,-209.5 L54.0,-209.5 L54.0,-216.0 L54.0,-225.8 L-36.8,-225.8 L-36.8,-189.0 L-27.0,-189.0 L-27.0,-297.0 L-54.0,-297.0 L-54.0,-108.0 L-54.0,-101.5 L-20.5,-101.5 L-20.5,-270.0 L-27.0,-270.0 L-27.0,-266.8 L-104.8,-266.8 L-104.8,-243.0 L-108.0,-243.0 L-108.0,-216.0 L-189.0,-216.0 L-189.0,-405.0 L-189.0,-408.2 L-270.0,-408.2 L-270.0,-405.0 L-270.0,-408.2 L-327.2,-408.2 L-327.2,-351.0 L-324.0,-351.0 L-324.0,135.0 L-351.0,135.0 L-347.8,135.0 L-347.8,216.0 L-351.0,216.0 L-459.0,216.0 L-459.0,27.0 L-432.0,27.0 L-428.8,27.0 L-428.8,84.2 L-486.0,84.2 L-486.0,81.0 L-486.0,77.8 L-570.2,77.8 L-570.2,108.0 L-567.0,108.0 L-567.0,104.8 L-651.2,104.8 L-651.2,135.0 L-648.0,135.0 L-644.8,135.0 L-644.8,104.8 L-729.0,104.8 L-729.0,108.0 L-729.0,111.2 L-779.8,111.2 L-779.8,162.0 L-783.0,162.0 L-486.0,162.0 L-486.0,351.0" stroke="#E32017"><title>Big Data</title></path>
+<path class="line l1" data-l="1" d="M-189.0,-567.0 L-189.0,-405.0 L-189.0,-401.8 L-270.0,-401.8 L-270.0,-405.0 L-270.0,-401.8 L-320.8,-401.8 L-320.8,-351.0 L-324.0,-351.0 L-324.0,-347.8 L-405.0,-347.8 L-405.0,-351.0 L-405.0,-189.0 L-351.0,-189.0 L-243.0,-189.0 L-243.0,-27.0 L-243.0,-30.2 L-192.2,-30.2 L-192.2,-81.0 L-189.0,-81.0 L-189.0,-74.5 L-128.5,-74.5 L-128.5,-135.0 L-135.0,-135.0 L-94.5,-135.0 L-94.5,-243.0 L-108.0,-243.0 L-111.2,-243.0 L-111.2,-273.2 L-27.0,-273.2 L-27.0,-270.0 L-27.0,-108.0 L-54.0,-108.0 L-54.0,-54.0 L0.0,-54.0 L-9.8,-54.0 L-9.8,27.0 L0.0,27.0 L0.0,33.5 L-74.5,33.5 L-74.5,54.0 L-81.0,54.0 L-81.0,50.8 L-165.2,50.8 L-165.2,108.0 L-162.0,108.0 L-162.0,216.0 L-216.0,216.0 L-216.0,189.0 L-135.0,189.0 L-135.0,192.2 L-111.2,192.2 L-111.2,270.0 L-108.0,270.0 L-108.0,266.8 L-50.8,266.8 L-50.8,324.0 L-54.0,324.0 L-54.0,327.2 L23.8,327.2 L23.8,351.0 L27.0,351.0 L27.0,354.2 L108.0,354.2 L108.0,351.0 L104.8,351.0 L104.8,320.8 L189.0,320.8 L189.0,324.0 L189.0,378.0 L297.0,378.0 L300.2,378.0 L300.2,327.2 L351.0,327.2 L351.0,324.0 L351.0,216.0 L405.0,216.0 L405.0,212.8 L486.0,212.8 L486.0,216.0 L489.2,216.0 L489.2,165.2 L540.0,165.2 L540.0,162.0 L536.8,162.0 L536.8,77.8 L567.0,77.8 L567.0,81.0 L570.2,81.0 L570.2,-3.2 L540.0,-3.2 L540.0,0.0 L540.0,-3.2 L489.2,-3.2 L489.2,-54.0 L486.0,-54.0 L489.2,-54.0 L489.2,-111.2 L405.0,-111.2 L405.0,-108.0 L405.0,-101.5 L324.0,-101.5 L324.0,-108.0 L324.0,54.0" stroke="#0019A8"><title>Libraries</title></path>
+<path class="line l2" data-l="2" d="M243.0,-27.0 L81.0,-27.0 L74.5,-27.0 L74.5,-114.5 L108.0,-114.5 L108.0,-108.0 L108.0,-40.5 L0.0,-40.5 L0.0,-54.0 L-3.2,-54.0 L-3.2,27.0 L0.0,27.0 L-189.0,27.0 L-189.0,-81.0 L-135.0,-81.0 L-135.0,-135.0 L-13.5,-135.0 L-13.5,-108.0 L-54.0,-108.0 L-54.0,-114.5 L-33.5,-114.5 L-33.5,-270.0 L-27.0,-270.0 L-23.8,-270.0 L-23.8,-189.0 L-27.0,-189.0 L-30.2,-189.0 L-30.2,-219.2 L54.0,-219.2 L54.0,-216.0 L108.0,-216.0 L108.0,-270.0 L111.2,-270.0 L111.2,-351.0 L108.0,-351.0 L189.0,-351.0 L189.0,-216.0 L185.8,-216.0 L185.8,-158.8 L243.0,-158.8 L243.0,-162.0 L246.2,-162.0 L246.2,-81.0 L243.0,-81.0 L239.8,-81.0 L239.8,-0.0 L243.0,-0.0 L243.0,3.2 L192.2,3.2 L192.2,54.0 L189.0,54.0 L189.0,57.2 L239.8,57.2 L239.8,135.0 L243.0,135.0 L405.0,135.0 L405.0,216.0 L405.0,219.2 L486.0,219.2 L486.0,216.0 L482.8,216.0 L482.8,158.8 L540.0,158.8 L540.0,162.0 L543.2,162.0 L543.2,84.2 L567.0,84.2 L567.0,81.0 L563.8,81.0 L563.8,3.2 L540.0,3.2 L540.0,0.0 L540.0,3.2 L482.8,3.2 L482.8,-54.0 L486.0,-54.0 L482.8,-54.0 L482.8,-104.8 L405.0,-104.8 L405.0,-108.0 L324.0,-108.0 L324.0,-270.0 L459.0,-270.0 L455.8,-270.0 L455.8,-327.2 L513.0,-327.2 L513.0,-324.0 L513.0,-162.0" stroke="#00782A"><title>Networking</title></path>
+<path class="line l3" data-l="3" d="M-567.0,-351.0 L-405.0,-351.0 L-405.0,-354.2 L-324.0,-354.2 L-324.0,-351.0 L-189.0,-351.0 L-189.0,-405.0 L-27.0,-405.0 L-27.0,-270.0 L-30.2,-270.0 L-30.2,-189.0 L-27.0,-189.0 L-23.8,-189.0 L-23.8,-212.8 L54.0,-212.8 L54.0,-216.0 L54.0,-108.0 L108.0,-108.0 L81.0,-108.0 L81.0,-27.0 L84.2,-27.0 L84.2,-57.2 L0.0,-57.2 L0.0,-54.0 L3.2,-54.0 L3.2,27.0 L0.0,27.0 L-81.0,27.0 L-81.0,54.0 L-81.0,57.2 L-158.8,57.2 L-158.8,108.0 L-162.0,108.0 L-162.0,81.0 L-297.0,81.0 L-432.0,81.0 L-432.0,27.0 L-435.2,27.0 L-435.2,77.8 L-486.0,77.8 L-486.0,81.0 L-486.0,84.2 L-563.8,84.2 L-563.8,108.0 L-567.0,108.0 L-567.0,111.2 L-644.8,111.2 L-644.8,135.0 L-648.0,135.0 L-651.2,135.0 L-651.2,111.2 L-729.0,111.2 L-729.0,108.0 L-729.0,104.8 L-786.2,104.8 L-786.2,162.0 L-783.0,162.0 L-783.0,324.0" stroke="#9B0056"><title>Data Stores</title></path>
+<path class="line l4" data-l="4" d="M459.0,378.0 L297.0,378.0 L293.8,378.0 L293.8,320.8 L351.0,320.8 L351.0,324.0 L216.0,324.0 L216.0,243.0 L216.0,54.0 L189.0,54.0 L185.8,54.0 L185.8,-3.2 L243.0,-3.2 L243.0,-0.0 L246.2,0.0 L246.2,-81.0 L243.0,-81.0 L239.8,-81.0 L239.8,-162.0 L243.0,-162.0 L243.0,-165.2 L192.2,-165.2 L192.2,-216.0 L189.0,-216.0 L54.0,-216.0 L81.0,-216.0 L81.0,-27.0 L81.0,27.0 L0.0,27.0 L0.0,20.5 L-87.5,20.5 L-87.5,54.0 L-81.0,54.0 L-81.0,216.0" stroke="#FFD300"><title>Frameworks</title></path>
+<path class="line l5" data-l="5" d="M-351.0,-27.0 L-351.0,-189.0 L-108.0,-189.0 L-108.0,-243.0 L-108.0,27.0 L0.0,27.0 L9.8,27.0 L9.8,-54.0 L0.0,-54.0 L0.0,-50.8 L77.8,-50.8 L77.8,-27.0 L81.0,-27.0 L81.0,-108.0 L324.0,-108.0 L324.0,-114.5 L405.0,-114.5 L405.0,-108.0 L405.0,-270.0 L459.0,-270.0 L462.2,-270.0 L462.2,-320.8 L513.0,-320.8 L513.0,-324.0 L675.0,-324.0" stroke="#B36305"><title>XML &amp; Graphics</title></path>
+<path class="line l6" data-l="6" d="M135.0,-189.0 L-27.0,-189.0 L108.0,-189.0 L108.0,-108.0 L108.0,-101.5 L87.5,-101.5 L87.5,-27.0 L81.0,-27.0 L81.0,54.0 L189.0,54.0 L189.0,50.8 L246.2,50.8 L246.2,135.0 L243.0,135.0 L243.0,243.0 L216.0,243.0 L216.0,324.0 L189.0,324.0 L189.0,327.2 L111.2,327.2 L111.2,351.0 L108.0,351.0 L108.0,347.8 L27.0,347.8 L27.0,351.0 L30.2,351.0 L30.2,320.8 L-54.0,320.8 L-54.0,324.0 L-57.2,324.0 L-57.2,273.2 L-108.0,273.2 L-108.0,270.0 L-104.8,270.0 L-104.8,185.8 L-135.0,185.8 L-135.0,189.0 L-162.0,189.0 L-162.0,108.0 L-162.0,54.0 L-216.0,54.0 L-54.0,54.0" stroke="#0098D4"><title>Content &amp; Search</title></path>
+<path class="line l8" data-l="8" d="M270.0,-270.0 L108.0,-270.0 L101.5,-270.0 L101.5,-222.5 L54.0,-222.5 L54.0,-216.0 L54.0,-206.2 L-17.2,-206.2 L-17.2,-189.0 L-27.0,-189.0 L-27.0,-135.0 L-135.0,-135.0 L-141.5,-135.0 L-141.5,-87.5 L-189.0,-87.5 L-189.0,-81.0 L-185.8,-81.0 L-185.8,-23.8 L-243.0,-23.8 L-243.0,-27.0 L-216.0,-27.0 L-216.0,54.0 L-297.0,54.0 L-297.0,81.0 L-351.0,81.0 L-351.0,135.0 L-354.2,135.0 L-354.2,216.0 L-351.0,216.0 L-351.0,378.0" stroke="#EE7C0E"><title>Cloud &amp; IoT</title></path>
+<path class="line l7" data-l="7" d="M27.0,405.0 L27.0,216.0 L-216.0,216.0 L-216.0,513.0 L-405.0,513.0" stroke="#8A9199"><title>Build &amp; Test</title></path>
+</g>
+<g class="ticks" stroke="#1c1c1c" stroke-width="2.6" stroke-linecap="butt">
+<line class="st tick" data-s="0" x1="297.0" y1="-601.0" x2="297.0" y2="-587.0"><title>Accumulo — Big Data</title></line>
+<line class="st tick" data-s="4" x1="243.0" y1="-601.0" x2="243.0" y2="-587.0"><title>Airflow — Big Data</title></line>
+<line class="st tick" data-s="6" x1="189.0" y1="-601.0" x2="189.0" y2="-587.0"><title>Ambari — Big Data</title></line>
+<line class="st tick" data-s="18" x1="135.0" y1="-601.0" x2="135.0" y2="-587.0"><title>Beam — Big Data</title></line>
+<line class="st tick" data-s="19" x1="101.0" y1="-567.0" x2="115.0" y2="-567.0"><title>Bigtop — Big Data</title></line>
+<line class="st tick" data-s="20" x1="101.0" y1="-513.0" x2="115.0" y2="-513.0"><title>BookKeeper — Big Data</title></line>
+<line class="st tick" data-s="26" x1="101.0" y1="-459.0" x2="115.0" y2="-459.0"><title>CarbonData — Big Data</title></line>
+<line class="st tick" data-s="42" x1="101.0" y1="-405.0" x2="115.0" y2="-405.0"><title>DataFu — Big Data</title></line>
+<line class="st tick" data-s="51" x1="-61.0" y1="-162.0" x2="-47.0" y2="-162.0"><title>Drill — Big Data</title></line>
+<line class="st tick" data-s="58" x1="-61.0" y1="-216.0" x2="-47.0" y2="-216.0"><title>Flink — Big Data</title></line>
+<line class="st tick" data-s="59" x1="-61.0" y1="-270.0" x2="-47.0" y2="-270.0"><title>Flume — Big Data</title></line>
+<line class="st tick" data-s="60" x1="-27.0" y1="-304.0" x2="-27.0" y2="-290.0"><title>Fluo — Big Data</title></line>
+<line class="st tick" data-s="61" x1="-20.0" y1="-243.0" x2="-34.0" y2="-243.0"><title>Fluo Recipes — Big Data</title></line>
+<line class="st tick" data-s="62" x1="-130.5" y1="-209.0" x2="-130.5" y2="-223.0"><title>Fluo YARN — Big Data</title></line>
+<line class="st tick" data-s="69" x1="-180.0" y1="-209.0" x2="-180.0" y2="-223.0"><title>Gobblin — Big Data</title></line>
+<line class="st tick" data-s="74" x1="-196.0" y1="-256.5" x2="-182.0" y2="-256.5"><title>Hadoop — Big Data</title></line>
+<line class="st tick" data-s="78" x1="-196.0" y1="-306.0" x2="-182.0" y2="-306.0"><title>Hop — Big Data</title></line>
+<line class="st tick" data-s="85" x1="-196.0" y1="-355.5" x2="-182.0" y2="-355.5"><title>Impala — Big Data</title></line>
+<line class="st tick" data-s="86" x1="-317.0" y1="-265.5" x2="-331.0" y2="-265.5"><title>InLong — Big Data</title></line>
+<line class="st tick" data-s="96" x1="-317.0" y1="-180.0" x2="-331.0" y2="-180.0"><title>Kafka — Big Data</title></line>
+<line class="st tick" data-s="99" x1="-317.0" y1="-94.5" x2="-331.0" y2="-94.5"><title>Knox — Big Data</title></line>
+<line class="st tick" data-s="100" x1="-317.0" y1="-9.0" x2="-331.0" y2="-9.0"><title>Kudu — Big Data</title></line>
+<line class="st tick" data-s="101" x1="-317.0" y1="76.5" x2="-331.0" y2="76.5"><title>Kylin — Big Data</title></line>
+<line class="st tick" data-s="103" x1="-452.0" y1="54.0" x2="-466.0" y2="54.0"><title>Linkis — Big Data</title></line>
+<line class="st tick" data-s="122" x1="-452.0" y1="108.0" x2="-466.0" y2="108.0"><title>NiFi — Big Data</title></line>
+<line class="st tick" data-s="132" x1="-452.0" y1="162.0" x2="-466.0" y2="162.0"><title>Ozone — Big Data</title></line>
+<line class="st tick" data-s="133" x1="-452.0" y1="216.0" x2="-466.0" y2="216.0"><title>Parquet — Big Data</title></line>
+<line class="st tick" data-s="137" x1="-405.0" y1="209.0" x2="-405.0" y2="223.0"><title>Pinot — Big Data</title></line>
+<line class="st tick" data-s="144" x1="-729.0" y1="155.0" x2="-729.0" y2="169.0"><title>Pulsar — Big Data</title></line>
+<line class="st tick" data-s="152" x1="-675.0" y1="155.0" x2="-675.0" y2="169.0"><title>Samza — Big Data</title></line>
+<line class="st tick" data-s="155" x1="-621.0" y1="155.0" x2="-621.0" y2="169.0"><title>SeaTunnel — Big Data</title></line>
+<line class="st tick" data-s="162" x1="-567.0" y1="155.0" x2="-567.0" y2="169.0"><title>Spark — Big Data</title></line>
+<line class="st tick" data-s="165" x1="-513.0" y1="155.0" x2="-513.0" y2="169.0"><title>Storm — Big Data</title></line>
+<line class="st tick" data-s="174" x1="-479.0" y1="189.0" x2="-493.0" y2="189.0"><title>Tez — Big Data</title></line>
+<line class="st tick" data-s="184" x1="-479.0" y1="243.0" x2="-493.0" y2="243.0"><title>TVM — Big Data</title></line>
+<line class="st tick" data-s="207" x1="-479.0" y1="297.0" x2="-493.0" y2="297.0"><title>Zeppelin — Big Data</title></line>
+<line class="st tick" data-s="125" x1="-479.0" y1="351.0" x2="-493.0" y2="351.0"><title>OpenDAL — Big Data</title></line>
+<line class="st tick" data-s="7" x1="-196.0" y1="-567.0" x2="-182.0" y2="-567.0"><title>Anakia — Libraries</title></line>
+<line class="st tick" data-s="11" x1="-196.0" y1="-513.0" x2="-182.0" y2="-513.0"><title>APR — Libraries</title></line>
+<line class="st tick" data-s="12" x1="-196.0" y1="-459.0" x2="-182.0" y2="-459.0"><title>Aries — Libraries</title></line>
+<line class="st tick" data-s="22" x1="-412.0" y1="-207.0" x2="-398.0" y2="-207.0"><title>bRPC — Libraries</title></line>
+<line class="st tick" data-s="71" x1="-412.0" y1="-279.0" x2="-398.0" y2="-279.0"><title>Groovy — Libraries</title></line>
+<line class="st tick" data-s="82" x1="-261.0" y1="-196.0" x2="-261.0" y2="-182.0"><title>Hudi — Libraries</title></line>
+<line class="st tick" data-s="93" x1="-236.0" y1="-117.0" x2="-250.0" y2="-117.0"><title>Jena — Libraries</title></line>
+<line class="st tick" data-s="104" x1="-101.5" y1="-148.5" x2="-87.5" y2="-148.5"><title>log4cxx — Libraries</title></line>
+<line class="st tick" data-s="105" x1="-101.5" y1="-202.5" x2="-87.5" y2="-202.5"><title>Log4j — Libraries</title></line>
+<line class="st tick" data-s="106" x1="-47.0" y1="-54.0" x2="-61.0" y2="-54.0"><title>log4net — Libraries</title></line>
+<line class="st tick" data-s="107" x1="-155.0" y1="189.0" x2="-169.0" y2="189.0"><title>log4php — Libraries</title></line>
+<line class="st tick" data-s="111" x1="-189.0" y1="196.0" x2="-189.0" y2="182.0"><title>Mahout — Libraries</title></line>
+<line class="st tick" data-s="128" x1="216.0" y1="371.0" x2="216.0" y2="385.0"><title>OpenNLP — Libraries</title></line>
+<line class="st tick" data-s="156" x1="344.0" y1="243.0" x2="358.0" y2="243.0"><title>Serf — Libraries</title></line>
+<line class="st tick" data-s="164" x1="331.0" y1="-54.0" x2="317.0" y2="-54.0"><title>STeVe — Libraries</title></line>
+<line class="st tick" data-s="173" x1="331.0" y1="0.0" x2="317.0" y2="0.0"><title>Texen — Libraries</title></line>
+<line class="st tick" data-s="187" x1="331.0" y1="54.0" x2="317.0" y2="54.0"><title>Velocity — Libraries</title></line>
+<line class="st tick" data-s="1" x1="243.0" y1="-34.0" x2="243.0" y2="-20.0"><title>ActiveMQ — Networking</title></line>
+<line class="st tick" data-s="30" x1="189.0" y1="-34.0" x2="189.0" y2="-20.0"><title>Celix — Networking</title></line>
+<line class="st tick" data-s="48" x1="135.0" y1="-34.0" x2="135.0" y2="-20.0"><title>Directory Server — Networking</title></line>
+<line class="st tick" data-s="56" x1="33.8" y1="-47.5" x2="33.8" y2="-33.5"><title>Felix — Networking</title></line>
+<line class="st tick" data-s="66" x1="81.0" y1="-47.5" x2="81.0" y2="-33.5"><title>FtpServer — Networking</title></line>
+<line class="st tick" data-s="72" x1="101.0" y1="-60.8" x2="115.0" y2="-60.8"><title>Guacamole — Networking</title></line>
+<line class="st tick" data-s="79" x1="-74.2" y1="34.0" x2="-74.2" y2="20.0"><title>HTTP Server — Networking</title></line>
+<line class="st tick" data-s="91" x1="-148.5" y1="34.0" x2="-148.5" y2="20.0"><title>JAMES — Networking</title></line>
+<line class="st tick" data-s="98" x1="-196.0" y1="-6.8" x2="-182.0" y2="-6.8"><title>Kerby — Networking</title></line>
+<line class="st tick" data-s="115" x1="-20.5" y1="-114.8" x2="-6.5" y2="-114.8"><title>MINA — Networking</title></line>
+<line class="st tick" data-s="116" x1="-40.5" y1="-128.0" x2="-40.5" y2="-142.0"><title>mod_ftp — Networking</title></line>
+<line class="st tick" data-s="127" x1="-87.8" y1="-128.0" x2="-87.8" y2="-142.0"><title>OpenMeetings — Networking</title></line>
+<line class="st tick" data-s="146" x1="162.0" y1="-358.0" x2="162.0" y2="-344.0"><title>Qpid — Networking</title></line>
+<line class="st tick" data-s="163" x1="196.0" y1="-324.0" x2="182.0" y2="-324.0"><title>SSHD — Networking</title></line>
+<line class="st tick" data-s="179" x1="196.0" y1="-270.0" x2="182.0" y2="-270.0"><title>TomEE — Networking</title></line>
+<line class="st tick" data-s="188" x1="398.0" y1="135.0" x2="412.0" y2="135.0"><title>Vysper — Networking</title></line>
+<line class="st tick" data-s="181" x1="324.0" y1="142.0" x2="324.0" y2="128.0"><title>Traffic Server — Networking</title></line>
+<line class="st tick" data-s="117" x1="360.0" y1="-263.0" x2="360.0" y2="-277.0"><title>mod_perl — Networking</title></line>
+<line class="st tick" data-s="31" x1="331.0" y1="-207.0" x2="317.0" y2="-207.0"><title>Chainsaw — Networking</title></line>
+<line class="st tick" data-s="47" x1="520.0" y1="-270.0" x2="506.0" y2="-270.0"><title>Directory LDAP — Networking</title></line>
+<line class="st tick" data-s="49" x1="520.0" y1="-216.0" x2="506.0" y2="-216.0"><title>Directory Studio — Networking</title></line>
+<line class="st tick" data-s="170" x1="520.0" y1="-162.0" x2="506.0" y2="-162.0"><title>Syncope — Networking</title></line>
+<line class="st tick" data-s="2" x1="-567.0" y1="-344.0" x2="-567.0" y2="-358.0"><title>AGE — Data Stores</title></line>
+<line class="st tick" data-s="27" x1="-513.0" y1="-344.0" x2="-513.0" y2="-358.0"><title>Cassandra — Data Stores</title></line>
+<line class="st tick" data-s="38" x1="-459.0" y1="-344.0" x2="-459.0" y2="-358.0"><title>Curator — Data Stores</title></line>
+<line class="st tick" data-s="46" x1="-261.0" y1="-358.0" x2="-261.0" y2="-344.0"><title>Derby — Data Stores</title></line>
+<line class="st tick" data-s="50" x1="-198.0" y1="-358.0" x2="-198.0" y2="-344.0"><title>Doris — Data Stores</title></line>
+<line class="st tick" data-s="54" x1="-34.0" y1="-369.0" x2="-20.0" y2="-369.0"><title>Empire-db — Data Stores</title></line>
+<line class="st tick" data-s="67" x1="-90.0" y1="-398.0" x2="-90.0" y2="-412.0"><title>Geode — Data Stores</title></line>
+<line class="st tick" data-s="75" x1="61.0" y1="-162.0" x2="47.0" y2="-162.0"><title>HBase — Data Stores</title></line>
+<line class="st tick" data-s="77" x1="61.0" y1="-108.0" x2="47.0" y2="-108.0"><title>Hive — Data Stores</title></line>
+<line class="st tick" data-s="92" x1="-216.0" y1="74.0" x2="-216.0" y2="88.0"><title>JDO — Data Stores</title></line>
+<line class="st tick" data-s="109" x1="-391.5" y1="74.0" x2="-391.5" y2="88.0"><title>Lucene.Net — Data Stores</title></line>
+<line class="st tick" data-s="136" x1="-776.0" y1="216.0" x2="-790.0" y2="216.0"><title>Pig — Data Stores</title></line>
+<line class="st tick" data-s="180" x1="-776.0" y1="270.0" x2="-790.0" y2="270.0"><title>Torque — Data Stores</title></line>
+<line class="st tick" data-s="208" x1="-776.0" y1="324.0" x2="-790.0" y2="324.0"><title>ZooKeeper — Data Stores</title></line>
+<line class="st tick" data-s="28" x1="459.0" y1="371.0" x2="459.0" y2="385.0"><title>Causeway — Frameworks</title></line>
+<line class="st tick" data-s="57" x1="405.0" y1="371.0" x2="405.0" y2="385.0"><title>Flex — Frameworks</title></line>
+<line class="st tick" data-s="70" x1="351.0" y1="371.0" x2="351.0" y2="385.0"><title>Grails — Frameworks</title></line>
+<line class="st tick" data-s="118" x1="279.0" y1="331.0" x2="279.0" y2="317.0"><title>MyFaces — Frameworks</title></line>
+<line class="st tick" data-s="123" x1="209.0" y1="315.0" x2="223.0" y2="315.0"><title>Nutch — Frameworks</title></line>
+<line class="st tick" data-s="151" x1="209.0" y1="171.0" x2="223.0" y2="171.0"><title>Royale — Frameworks</title></line>
+<line class="st tick" data-s="166" x1="209.0" y1="99.0" x2="223.0" y2="99.0"><title>Struts — Frameworks</title></line>
+<line class="st tick" data-s="171" x1="121.5" y1="-223.0" x2="121.5" y2="-209.0"><title>Tapestry — Frameworks</title></line>
+<line class="st tick" data-s="177" x1="88.0" y1="-135.0" x2="74.0" y2="-135.0"><title>Tobago — Frameworks</title></line>
+<line class="st tick" data-s="183" x1="67.5" y1="20.0" x2="67.5" y2="34.0"><title>Turbine — Frameworks</title></line>
+<line class="st tick" data-s="192" x1="-74.0" y1="108.0" x2="-88.0" y2="108.0"><title>Wicket — Frameworks</title></line>
+<line class="st tick" data-s="45" x1="-74.0" y1="162.0" x2="-88.0" y2="162.0"><title>DeltaSpike — Frameworks</title></line>
+<line class="st tick" data-s="130" x1="-74.0" y1="216.0" x2="-88.0" y2="216.0"><title>OpenWebBeans — Frameworks</title></line>
+<line class="st tick" data-s="17" x1="-344.0" y1="-27.0" x2="-358.0" y2="-27.0"><title>Batik — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="63" x1="-344.0" y1="-81.0" x2="-358.0" y2="-81.0"><title>FOP — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="120" x1="-344.0" y1="-135.0" x2="-358.0" y2="-135.0"><title>Neethi — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="153" x1="-276.8" y1="-196.0" x2="-276.8" y2="-182.0"><title>Sandesha2 — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="193" x1="-202.5" y1="-196.0" x2="-202.5" y2="-182.0"><title>Woden — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="194" x1="-128.2" y1="-196.0" x2="-128.2" y2="-182.0"><title>WSS4J — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="195" x1="-94.5" y1="34.0" x2="-94.5" y2="20.0"><title>Xalan C++ — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="196" x1="-115.0" y1="-54.0" x2="-101.0" y2="-54.0"><title>Xalan Java — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="197" x1="-115.0" y1="-148.5" x2="-101.0" y2="-148.5"><title>Xerces C++ — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="198" x1="108.0" y1="-115.0" x2="108.0" y2="-101.0"><title>Xerces Java — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="199" x1="216.0" y1="-115.0" x2="216.0" y2="-101.0"><title>Xerces Perl — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="201" x1="412.0" y1="-252.0" x2="398.0" y2="-252.0"><title>XML Commons Ext — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="202" x1="412.0" y1="-180.0" x2="398.0" y2="-180.0"><title>XML Commons Res — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="203" x1="567.0" y1="-331.0" x2="567.0" y2="-317.0"><title>XMLBeans — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="204" x1="621.0" y1="-331.0" x2="621.0" y2="-317.0"><title>XMLSchema — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="200" x1="675.0" y1="-331.0" x2="675.0" y2="-317.0"><title>XG Commons — XML &amp; Graphics</title></line>
+<line class="st tick" data-s="5" x1="135.0" y1="-196.0" x2="135.0" y2="-182.0"><title>Allura — Content &amp; Search</title></line>
+<line class="st tick" data-s="8" x1="81.0" y1="-196.0" x2="81.0" y2="-182.0"><title>Annotator — Content &amp; Search</title></line>
+<line class="st tick" data-s="95" x1="27.0" y1="-196.0" x2="27.0" y2="-182.0"><title>JSPWiki — Content &amp; Search</title></line>
+<line class="st tick" data-s="112" x1="81.0" y1="-196.0" x2="81.0" y2="-182.0"><title>ManifoldCF — Content &amp; Search</title></line>
+<line class="st tick" data-s="129" x1="94.5" y1="47.0" x2="94.5" y2="61.0"><title>OpenOffice — Content &amp; Search</title></line>
+<line class="st tick" data-s="149" x1="236.0" y1="202.5" x2="250.0" y2="202.5"><title>rivet — Content &amp; Search</title></line>
+<line class="st tick" data-s="150" x1="-162.0" y1="47.0" x2="-162.0" y2="61.0"><title>Roller — Content &amp; Search</title></line>
+<line class="st tick" data-s="190" x1="-108.0" y1="47.0" x2="-108.0" y2="61.0"><title>Whimsy — Content &amp; Search</title></line>
+<line class="st tick" data-s="185" x1="-54.0" y1="47.0" x2="-54.0" y2="61.0"><title>Unomi — Content &amp; Search</title></line>
+<line class="st tick" data-s="9" x1="34.0" y1="405.0" x2="20.0" y2="405.0"><title>Ant — Build &amp; Test</title></line>
+<line class="st tick" data-s="10" x1="34.0" y1="351.0" x2="20.0" y2="351.0"><title>AntUnit — Build &amp; Test</title></line>
+<line class="st tick" data-s="34" x1="34.0" y1="297.0" x2="20.0" y2="297.0"><title>Compress Ant — Build &amp; Test</title></line>
+<line class="st tick" data-s="40" x1="34.0" y1="243.0" x2="20.0" y2="243.0"><title>CycloneDX Ant — Build &amp; Test</title></line>
+<line class="st tick" data-s="73" x1="0.0" y1="209.0" x2="0.0" y2="223.0"><title>Gump — Build &amp; Test</title></line>
+<line class="st tick" data-s="88" x1="-54.0" y1="209.0" x2="-54.0" y2="223.0"><title>Ivy — Build &amp; Test</title></line>
+<line class="st tick" data-s="89" x1="-108.0" y1="209.0" x2="-108.0" y2="223.0"><title>IvyDE — Build &amp; Test</title></line>
+<line class="st tick" data-s="110" x1="-162.0" y1="209.0" x2="-162.0" y2="223.0"><title>Magpie — Build &amp; Test</title></line>
+<line class="st tick" data-s="113" x1="-209.0" y1="270.0" x2="-223.0" y2="270.0"><title>Maven — Build &amp; Test</title></line>
+<line class="st tick" data-s="114" x1="-209.0" y1="324.0" x2="-223.0" y2="324.0"><title>Maven Doxia — Build &amp; Test</title></line>
+<line class="st tick" data-s="143" x1="-209.0" y1="378.0" x2="-223.0" y2="378.0"><title>Props Ant — Build &amp; Test</title></line>
+<line class="st tick" data-s="148" x1="-209.0" y1="432.0" x2="-223.0" y2="432.0"><title>Rat — Build &amp; Test</title></line>
+<line class="st tick" data-s="167" x1="-209.0" y1="486.0" x2="-223.0" y2="486.0"><title>Subversion — Build &amp; Test</title></line>
+<line class="st tick" data-s="172" x1="-243.0" y1="520.0" x2="-243.0" y2="506.0"><title>Tentacles — Build &amp; Test</title></line>
+<line class="st tick" data-s="191" x1="-297.0" y1="520.0" x2="-297.0" y2="506.0"><title>Whisker — Build &amp; Test</title></line>
+<line class="st tick" data-s="94" x1="-351.0" y1="520.0" x2="-351.0" y2="506.0"><title>JMeter — Build &amp; Test</title></line>
+<line class="st tick" data-s="121" x1="-405.0" y1="520.0" x2="-405.0" y2="506.0"><title>NetBeans — Build &amp; Test</title></line>
+<line class="st tick" data-s="21" x1="270.0" y1="-277.0" x2="270.0" y2="-263.0"><title>Brooklyn — Cloud &amp; IoT</title></line>
+<line class="st tick" data-s="32" x1="216.0" y1="-277.0" x2="216.0" y2="-263.0"><title>CloudStack — Cloud &amp; IoT</title></line>
+<line class="st tick" data-s="55" x1="162.0" y1="-277.0" x2="162.0" y2="-263.0"><title>EventMesh — Cloud &amp; IoT</title></line>
+<line class="st tick" data-s="186" x1="-54.0" y1="-142.0" x2="-54.0" y2="-128.0"><title>VCL — Cloud &amp; IoT</title></line>
+<line class="st tick" data-s="206" x1="-344.0" y1="270.0" x2="-358.0" y2="270.0"><title>YuniKorn — Cloud &amp; IoT</title></line>
+<line class="st tick" data-s="119" x1="-344.0" y1="324.0" x2="-358.0" y2="324.0"><title>Mynewt — Cloud &amp; IoT</title></line>
+<line class="st tick" data-s="159" x1="-344.0" y1="378.0" x2="-358.0" y2="378.0"><title>SkyWalking — Cloud &amp; IoT</title></line>
+</g>
+<g class="hubs" fill="#ffffff" stroke="#1c1c1c" stroke-width="2.6">
+<circle class="st hub" data-s="3" cx="108.0" cy="-270.0" r="7.9"><title>Airavata — Big Data, Networking, Cloud &amp; IoT
+Apache Airavata is a micro-service architecture based software framework for executing and managing computational jobs and workflows on distributed computing resources including local clusters, supercomputers, national grids, academic and c</title></circle>
+<circle class="st hub" data-s="13" cx="-27.0" cy="-270.0" r="8.8"><title>Arrow — Big Data, Libraries, Networking, Data Stores
+Apache Arrow defines a language-independent columnar memory format for flat and nested data, organized for efficient analytic operations on modern hardware like CPUs and GPUs. The Arrow memory format also supports zero-copy reads for lightn</title></circle>
+<circle class="st hub" data-s="14" cx="-54.0" cy="-108.0" r="7.9"><title>Avro — Big Data, Libraries, Networking
+Apache Avro is a data serialization system.</title></circle>
+<circle class="st hub" data-s="15" cx="-351.0" cy="-189.0" r="7.0"><title>Axiom — Libraries, XML &amp; Graphics
+Apache Axiom is a StAX-based, XML Infoset compliant object model which supports on-demand building of the object tree. It supports a novel "pull-through" model which allows one to turn off the tree building and directly access the underlyin</title></circle>
+<circle class="st hub" data-s="16" cx="459.0" cy="-270.0" r="7.0"><title>Axis2 — Networking, XML &amp; Graphics
+Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM, XML/HTTP and advanced WS-* standards such as WSRM and WSSecurity. Axis2 includes a very fast runtime engine, together with tooling support for WSDL and WS-</title></circle>
+<circle class="st hub" data-s="23" cx="351.0" cy="324.0" r="7.0"><title>BVal — Libraries, Frameworks
+The goal of the Apache BVal project is to deliver an implementation of the Java Bean Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The initial codebase for the project was donated to the ASF by</title></circle>
+<circle class="st hub" data-s="39" cx="405.0" cy="-108.0" r="7.9"><title>CXF — Libraries, Networking, XML &amp; Graphics
+Apache CXF is an open source services framework. CXF helps you build and develop services using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols such as SOAP, XML/HTTP, RESTful HTTP, or CORBA</title></circle>
+<circle class="st hub" data-s="24" cx="-432.0" cy="27.0" r="7.0"><title>Calcite — Big Data, Data Stores
+Calcite is a framework for writing data management systems. It converts queries, represented in relational algebra, into an efficient executable form using pluggable query transformation rules. There is an optional SQL parser and JDBC drive</title></circle>
+<circle class="st hub" data-s="25" cx="-135.0" cy="-135.0" r="7.9"><title>Camel — Libraries, Networking, Cloud &amp; IoT
+Apache Camel is an open source integration framework with 350+ connectors. Write routes in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.</title></circle>
+<circle class="st hub" data-s="29" cx="0.0" cy="27.0" r="9.7"><title>Cayenne — Libraries, Networking, Data Stores, Frameworks, XML &amp; Graphics
+Cayenne is a powerful, full-featured, opensource framework created for developers working with relational databases. it seamlessly maps any relational database to Java objects, reducing development time and adding considerable functionality</title></circle>
+<circle class="st hub" data-s="33" cx="486.0" cy="-54.0" r="7.0"><title>Commons — Libraries, Networking
+The Byte Code Engineering Library is intended to give users a convenient possibility to analyze, create, and manipulate (binary) Java class files (those ending with .class). Classes are represented by objects which contain all the symbolic </title></circle>
+<circle class="st hub" data-s="35" cx="540.0" cy="0.0" r="7.0"><title>Cordova — Libraries, Networking
+Apache Cordova is a tool to create cross-platform apps from standard web technologies (HTML, CSS, and JavaScript). Its primary purpose is to provide a bridge for native device API access and to bundle for distribution.</title></circle>
+<circle class="st hub" data-s="36" cx="-27.0" cy="-189.0" r="9.7"><title>CouchDB — Big Data, Networking, Data Stores, Content &amp; Search, Cloud &amp; IoT
+Apache CouchDB is a database that completely embraces the web. Store your data with JSON documents. Access your documents with your web browser, via HTTP. Query, combine, and transform your documents with JavaScript. Apache CouchDB works we</title></circle>
+<circle class="st hub" data-s="41" cx="-108.0" cy="-243.0" r="7.9"><title>Daffodil — Big Data, Libraries, XML &amp; Graphics
+Apache Daffodil is an open-source implementation of the DFDL specification that uses DFDL data descriptions to parse fixed format data into an infoset. This infoset is commonly converted into XML or JSON to enable the use of well-establishe</title></circle>
+<circle class="st hub" data-s="43" cx="-324.0" cy="-351.0" r="7.9"><title>DataFusion — Big Data, Libraries, Data Stores
+Apache DataFusion is a fast, extensible query engine for building high-quality data-centric systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion offers SQL and Dataframe APIs, excellent pe</title></circle>
+<circle class="st hub" data-s="44" cx="-270.0" cy="-405.0" r="7.0"><title>DataSketches — Big Data, Libraries
+In the analysis of big data there are often problem queries that don’t scale because they require huge compute resources and time to generate exact results. Examples include count distinct, quantiles, distribution analysis, most-frequent it</title></circle>
+<circle class="st hub" data-s="52" cx="-729.0" cy="108.0" r="7.0"><title>Druid — Big Data, Data Stores
+Apache Druid is a high performance real-time analytics database. Druid's main value add is to reduce time to insight and action. Apache Druid is designed for workflows where fast queries and ingest really matter. Druid excels at powering UI</title></circle>
+<circle class="st hub" data-s="53" cx="108.0" cy="351.0" r="7.0"><title>ECharts — Libraries, Content &amp; Search
+Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products. It is written in pure JavaScript and based on zrender, which</title></circle>
+<circle class="st hub" data-s="64" cx="540.0" cy="162.0" r="7.0"><title>Fortress — Libraries, Networking
+Apache Fortress is a standards-based authorization system, written in Java, that provides role-based access control, delegated administration and password policy services using an LDAP backend.</title></circle>
+<circle class="st hub" data-s="65" cx="216.0" cy="243.0" r="7.0"><title>FreeMarker — Frameworks, Content &amp; Search
+Apache FreeMarker is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data. Templates are written in the FreeMarker Template Language</title></circle>
+<circle class="st hub" data-s="68" cx="243.0" cy="-162.0" r="7.0"><title>Geronimo — Networking, Frameworks
+Apache Geronimo is an open source server runtime that integrates the best open source projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system administrators. Our most popular distribution is a fu</title></circle>
+<circle class="st hub" data-s="76" cx="-351.0" cy="135.0" r="7.0"><title>Helix — Big Data, Cloud &amp; IoT
+Apache Helix is a generic cluster management framework used for the automatic management of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates reassignment of resources in the face of node failur</title></circle>
+<circle class="st hub" data-s="80" cx="405.0" cy="216.0" r="7.0"><title>HttpClient 5 — Libraries, Networking
+HttpClient is a library for client-side HTTP communication built on HttpCore. It provides connection management, cookie management, and authentication. This is the successor to the widely used Jakarta Commons HttpClient 3.1.</title></circle>
+<circle class="st hub" data-s="81" cx="567.0" cy="81.0" r="7.0"><title>HttpCore — Libraries, Networking
+HttpCore is a set of low level HTTP transport components that can be used to build custom client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models: blocking I/O model based on the classic Java I/O and </title></circle>
+<circle class="st hub" data-s="83" cx="-648.0" cy="135.0" r="7.0"><title>Iceberg — Big Data, Data Stores
+Iceberg brings the reliability and simplicity of SQL tables to big data, while making it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the same tables, at the same time.</title></circle>
+<circle class="st hub" data-s="84" cx="54.0" cy="-216.0" r="9.7"><title>Ignite — Big Data, Networking, Data Stores, Frameworks, Cloud &amp; IoT
+Apache Ignite is a distributed database for high-performance computing with in-memory speed.</title></circle>
+<circle class="st hub" data-s="87" cx="-297.0" cy="81.0" r="7.0"><title>IoTDB — Data Stores, Cloud &amp; IoT
+Apache IoTDB (Database for Internet of Things) is an integrated data management engine designed for time series data. It provides users with services for data collection, storage and analysis. Due to its light-weight architecture, high perf</title></circle>
+<circle class="st hub" data-s="90" cx="0.0" cy="-54.0" r="8.8"><title>Jackrabbit — Libraries, Networking, Data Stores, XML &amp; Graphics
+Apache Jackrabbit is a fully conforming implementation of the Content Repository for Java Technology API (JCR). A content repository is a hierarchical content store with support for structured and unstructured content, full text search, ver</title></circle>
+<circle class="st hub" data-s="97" cx="243.0" cy="-0.0" r="7.0"><title>Karaf — Networking, Frameworks
+Apache Karaf is a small OSGi based runtime which provides a lightweight container onto which various components and applications can be deployed.</title></circle>
+<circle class="st hub" data-s="102" cx="-243.0" cy="-27.0" r="7.0"><title>Libcloud — Libraries, Cloud &amp; IoT
+Apache Libcloud is a standard Python library that abstracts away differences among multiple cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.</title></circle>
+<circle class="st hub" data-s="108" cx="-162.0" cy="108.0" r="7.9"><title>Lucene — Libraries, Data Stores, Content &amp; Search
+Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.</title></circle>
+<circle class="st hub" data-s="124" cx="81.0" cy="-27.0" r="9.7"><title>OFBiz — Networking, Data Stores, Frameworks, XML &amp; Graphics, Content &amp; Search
+Apache OFBiz is an open source product for the automation of enterprise processes that includes framework components and business applications for ERP (Enterprise Resource Planning), CRM (Customer Relationship Management), E-Business / E-Co</title></circle>
+<circle class="st hub" data-s="131" cx="-189.0" cy="-405.0" r="7.9"><title>ORC — Big Data, Libraries, Data Stores
+ORC is a self-describing type-aware columnar file format designed for Hadoop workloads. It is optimized for large streaming reads, but with integrated support for finding required rows quickly. Storing data in a columnar format lets the rea</title></circle>
+<circle class="st hub" data-s="126" cx="-81.0" cy="54.0" r="7.9"><title>OpenJPA — Libraries, Data Stores, Frameworks
+Apache OpenJPA is a Java persistence project at The Apache Software Foundation that can be used as a stand-alone POJO persistence layer or integrated into any Java EE compliant container and many other lightweight frameworks, such as Tomcat</title></circle>
+<circle class="st hub" data-s="134" cx="189.0" cy="324.0" r="7.0"><title>PDFBox — Libraries, Content &amp; Search
+The Apache PDFBox library is an open source Java tool for working with PDF documents.</title></circle>
+<circle class="st hub" data-s="138" cx="-189.0" cy="-81.0" r="7.9"><title>PLC4X — Libraries, Networking, Cloud &amp; IoT
+PLC4X is a set of libraries for communicating with industrial programmable logic controllers (PLCs) using a variety of protocols but with a shared API.</title></circle>
+<circle class="st hub" data-s="139" cx="-108.0" cy="270.0" r="7.0"><title>POI — Libraries, Content &amp; Search
+APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word and PowerPoint solution. We have a complete API for portin</title></circle>
+<circle class="st hub" data-s="135" cx="-567.0" cy="108.0" r="7.0"><title>Phoenix — Big Data, Data Stores
+Apache Phoenix enables OLTP and operational analytics for Apache Hadoop by providing a relational database layer leveraging Apache HBase as its backing store. It includes integration with Apache Spark, Pig, Flume, Map Reduce, and other prod</title></circle>
+<circle class="st hub" data-s="140" cx="-783.0" cy="162.0" r="7.0"><title>Polaris — Big Data, Data Stores
+Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache Spark, ...</title></circle>
+<circle class="st hub" data-s="141" cx="243.0" cy="135.0" r="7.0"><title>Pony Mail — Networking, Content &amp; Search
+Apache Pony Mail is a web-based mail archive browser and interaction platform for mailing lists. It provides full-text search, threading, and real-time interaction with archived mailing lists, and is the engine behind lists.apache.org.</title></circle>
+<circle class="st hub" data-s="142" cx="108.0" cy="-108.0" r="7.9"><title>PouchDB — Networking, Data Stores, Content &amp; Search
+PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser. PouchDB was created to help web developers build applications that work as well offline as they do online. It enables </title></circle>
+<circle class="st hub" data-s="145" cx="27.0" cy="351.0" r="7.0"><title>PyLucene — Libraries, Content &amp; Search
+PyLucene is a Python extension for accessing Java Lucene TM. Its goal is to allow you to use Lucene's text indexing and searching capabilities from Python.</title></circle>
+<circle class="st hub" data-s="147" cx="108.0" cy="-351.0" r="7.0"><title>Ranger — Big Data, Networking
+Apache Ranger is a framework to enable, monitor and manage comprehensive data security - consistently across various data processing services. Integrated with most of the Big-Data technologies (Hadoop, Hive, HBase, Spark, Trino, ...)</title></circle>
+<circle class="st hub" data-s="158" cx="-405.0" cy="-351.0" r="7.0"><title>SIS — Libraries, Data Stores
+Apache SIS provides data structures for geographic data and associated metadata along with methods to manipulate those data structures. The library is an implementation of GeoAPI interfaces and can be used for desktop or server applications</title></circle>
+<circle class="st hub" data-s="154" cx="324.0" cy="-108.0" r="7.9"><title>Santuario — Libraries, Networking, XML &amp; Graphics
+Library implementing XML Digital Signature Specification &amp; XML Encryption Specification</title></circle>
+<circle class="st hub" data-s="157" cx="297.0" cy="378.0" r="7.0"><title>Shiro — Libraries, Frameworks
+Apache Shiro is a powerful and flexible open-source security framework that cleanly handles authentication, authorization, enterprise session management, single sign-on and cryptography services.</title></circle>
+<circle class="st hub" data-s="160" cx="189.0" cy="54.0" r="7.9"><title>Solr — Networking, Frameworks, Content &amp; Search
+Solr is an open source enterprise search server based on the Lucene Java search library, with Rest-like JSON/HTTP APIs, high performance, high availability, powerful analytics, hit highlighting, faceted search, caching, replication, and a w</title></circle>
+<circle class="st hub" data-s="161" cx="-216.0" cy="54.0" r="7.0"><title>Solr Operator — Content &amp; Search, Cloud &amp; IoT
+Manages Solr resources in Kubernetes</title></circle>
+<circle class="st hub" data-s="168" cx="-486.0" cy="81.0" r="7.0"><title>Superset — Big Data, Data Stores
+Superset is a fast, lightweight, intuitive, business intelligence platform. Loaded with options, Superset makes it easy for users of all skill sets to explore and visualize their data, from simple line charts to highly detailed geospatial c</title></circle>
+<circle class="st hub" data-s="169" cx="513.0" cy="-324.0" r="7.0"><title>Synapse — Networking, XML &amp; Graphics
+Apache Synapse is a simple and highly effective ESB, Web Services intermediary and SOA framework. It can be added to your existing network very simply either as a services gateway or as an HTTP proxy. Once Apache Synapse is mediating your s</title></circle>
+<circle class="st hub" data-s="175" cx="486.0" cy="216.0" r="7.0"><title>Thrift — Libraries, Networking
+Apache Thrift allows you to define data types and service interfaces in a simple definition file. Taking that file as input, the compiler generates code to be used to easily build RPC clients and servers that communicate seamlessly across p</title></circle>
+<circle class="st hub" data-s="176" cx="-135.0" cy="189.0" r="7.0"><title>Tika — Libraries, Content &amp; Search
+The Apache Tika toolkit is an ASFv2 licensed open source tool for extracting information from digital documents. Tika allows search engines, content management systems and other applications that work with various kinds of digital documents</title></circle>
+<circle class="st hub" data-s="178" cx="189.0" cy="-216.0" r="7.0"><title>Tomcat — Networking, Frameworks
+Apache Tomcat is a web server that is an open source software implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. The Java Servlet, JavaServer Pages, Java Expression Language and J</title></circle>
+<circle class="st hub" data-s="182" cx="-351.0" cy="216.0" r="7.0"><title>TsFile — Big Data, Cloud &amp; IoT
+TsFile is a high-performance columnar storage file format designed for industrial time-series data, featuring multi-language interfaces, high compression ratios, high read/write throughput, and fast random access capabilities. It is ideal f</title></circle>
+<circle class="st hub" data-s="189" cx="243.0" cy="-81.0" r="7.0"><title>Websh — Networking, Frameworks
+Websh is a rapid development environment for building powerful, fast, and reliable web applications in Tcl. Websh is versatile and handles everything from HTML generation to data-base driven one-to-one page customization. Websh can be run i</title></circle>
+<circle class="st hub" data-s="205" cx="-216.0" cy="216.0" r="7.0"><title>Yetus — Libraries, Build &amp; Test
+A collection of libraries and tools that enable contribution and release processes for software projects.</title></circle>
+<circle class="st hub" data-s="37" cx="-54.0" cy="324.0" r="7.0"><title>cTAKES — Libraries, Content &amp; Search
+Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source natural language processing system for information extraction from electronic medical record clinical free-text. It processes clinical notes, identifyi</title></circle>
+</g>
+<g class="labels halo-g" stroke="#ffffff" stroke-width="3.4" stroke-linejoin="round" fill="#ffffff">
+<text class="lbl halo" data-s="29" x="0.0" y="50.0" font-size="12.0" text-anchor="middle" font-weight="bold">Cayenne</text>
+<text class="lbl halo" data-s="36" x="-19.7" y="-167.3" font-size="12.0" text-anchor="start" font-weight="bold">CouchDB</text>
+<text class="lbl halo" data-s="84" x="54.0" y="-231.2" font-size="12.0" text-anchor="middle" font-weight="bold">Ignite</text>
+<text class="lbl halo" data-s="124" x="88.3" y="-5.3" font-size="12.0" text-anchor="start" font-weight="bold">OFBiz</text>
+<text class="lbl halo" data-s="13" x="-20.2" y="-283.2" font-size="12.0" text-anchor="start" font-weight="bold">Arrow</text>
+<text class="lbl halo" data-s="90" x="0.0" y="-68.3" font-size="12.0" text-anchor="middle" font-weight="bold">Jackrabbit</text>
+<text class="lbl halo" data-s="3" x="114.2" y="-282.4" font-size="12.0" text-anchor="start" font-weight="bold">Airavata</text>
+<text class="lbl halo" data-s="14" x="-60.2" y="-87.9" font-size="12.0" text-anchor="end" font-weight="bold">Avro</text>
+<text class="lbl halo" data-s="39" x="405.0" y="-86.8" font-size="12.0" text-anchor="middle" font-weight="bold">CXF</text>
+<text class="lbl halo" data-s="25" x="-135.0" y="-148.4" font-size="12.0" text-anchor="middle" font-weight="bold">Camel</text>
+<text class="lbl halo" data-s="41" x="-114.2" y="-255.4" font-size="12.0" text-anchor="end" font-weight="bold">Daffodil</text>
+<text class="lbl halo" data-s="43" x="-317.8" y="-363.4" font-size="12.0" text-anchor="start" font-weight="bold">DataFusion</text>
+<text class="lbl halo" data-s="108" x="-155.8" y="128.1" font-size="12.0" text-anchor="start" font-weight="bold">Lucene</text>
+<text class="lbl halo" data-s="131" x="-195.2" y="-417.4" font-size="12.0" text-anchor="end" font-weight="bold">ORC</text>
+<text class="lbl halo" data-s="126" x="-87.2" y="74.1" font-size="12.0" text-anchor="end" font-weight="bold">OpenJPA</text>
+<text class="lbl halo" data-s="138" x="-189.0" y="-94.4" font-size="12.0" text-anchor="middle" font-weight="bold">PLC4X</text>
+<text class="lbl halo" data-s="142" x="114.2" y="-87.9" font-size="12.0" text-anchor="start" font-weight="bold">PouchDB</text>
+<text class="lbl halo" data-s="154" x="330.2" y="-120.4" font-size="12.0" text-anchor="start" font-weight="bold">Santuario</text>
+<text class="lbl halo" data-s="160" x="189.0" y="75.2" font-size="12.0" text-anchor="middle" font-weight="bold">Solr</text>
+<text class="lbl halo" data-s="15" x="-351.0" y="-201.5" font-size="12.0" text-anchor="middle" font-weight="bold">Axiom</text>
+<text class="lbl halo" data-s="16" x="459.0" y="-249.7" font-size="12.0" text-anchor="middle" font-weight="bold">Axis2</text>
+<text class="lbl halo" data-s="23" x="351.0" y="344.3" font-size="12.0" text-anchor="middle" font-weight="bold">BVal</text>
+<text class="lbl halo" data-s="24" x="-432.0" y="14.5" font-size="12.0" text-anchor="middle" font-weight="bold">Calcite</text>
+<text class="lbl halo" data-s="33" x="495.5" y="-50.1" font-size="12.0" text-anchor="start" font-weight="bold">Commons</text>
+<text class="lbl halo" data-s="35" x="540.0" y="-12.5" font-size="12.0" text-anchor="middle" font-weight="bold">Cordova</text>
+<text class="lbl halo" data-s="44" x="-270.0" y="-417.5" font-size="12.0" text-anchor="middle" font-weight="bold">DataSketches</text>
+<text class="lbl halo" data-s="52" x="-729.0" y="95.5" font-size="12.0" text-anchor="middle" font-weight="bold">Druid</text>
+<text class="lbl halo" data-s="53" x="108.0" y="371.3" font-size="12.0" text-anchor="middle" font-weight="bold">ECharts</text>
+<text class="lbl halo" data-s="64" x="540.0" y="182.3" font-size="12.0" text-anchor="middle" font-weight="bold">Fortress</text>
+<text class="lbl halo" data-s="65" x="210.3" y="231.4" font-size="12.0" text-anchor="end" font-weight="bold">FreeMarker</text>
+<text class="lbl halo" data-s="68" x="243.0" y="-174.5" font-size="12.0" text-anchor="middle" font-weight="bold">Geronimo</text>
+<text class="lbl halo" data-s="76" x="-356.7" y="123.4" font-size="12.0" text-anchor="end" font-weight="bold">Helix</text>
+<text class="lbl halo" data-s="80" x="405.0" y="236.3" font-size="12.0" text-anchor="middle" font-weight="bold">HttpClient 5</text>
+<text class="lbl halo" data-s="81" x="572.7" y="100.3" font-size="12.0" text-anchor="start" font-weight="bold">HttpCore</text>
+<text class="lbl halo" data-s="83" x="-653.7" y="154.3" font-size="12.0" text-anchor="end" font-weight="bold">Iceberg</text>
+<text class="lbl halo" data-s="87" x="-297.0" y="101.3" font-size="12.0" text-anchor="middle" font-weight="bold">IoTDB</text>
+<text class="lbl halo" data-s="97" x="243.0" y="20.3" font-size="12.0" text-anchor="middle" font-weight="bold">Karaf</text>
+<text class="lbl halo" data-s="102" x="-248.7" y="-7.7" font-size="12.0" text-anchor="end" font-weight="bold">Libcloud</text>
+<text class="lbl halo" data-s="134" x="189.0" y="311.5" font-size="12.0" text-anchor="middle" font-weight="bold">PDFBox</text>
+<text class="lbl halo" data-s="139" x="-108.0" y="290.3" font-size="12.0" text-anchor="middle" font-weight="bold">POI</text>
+<text class="lbl halo" data-s="135" x="-567.0" y="128.3" font-size="12.0" text-anchor="middle" font-weight="bold">Phoenix</text>
+<text class="lbl halo" data-s="140" x="-788.7" y="181.3" font-size="12.0" text-anchor="end" font-weight="bold">Polaris</text>
+<text class="lbl halo" data-s="141" x="248.7" y="154.3" font-size="12.0" text-anchor="start" font-weight="bold">Pony Mail</text>
+<text class="lbl halo" data-s="145" x="21.3" y="370.3" font-size="12.0" text-anchor="end" font-weight="bold">PyLucene</text>
+<text class="lbl halo" data-s="147" x="102.3" y="-362.6" font-size="12.0" text-anchor="end" font-weight="bold">Ranger</text>
+<text class="lbl halo" data-s="158" x="-405.0" y="-363.5" font-size="12.0" text-anchor="middle" font-weight="bold">SIS</text>
+<text class="lbl halo" data-s="157" x="297.0" y="398.3" font-size="12.0" text-anchor="middle" font-weight="bold">Shiro</text>
+<text class="lbl halo" data-s="161" x="-216.0" y="74.3" font-size="12.0" text-anchor="middle" font-weight="bold">Solr Operator</text>
+<text class="lbl halo" data-s="168" x="-491.7" y="100.3" font-size="12.0" text-anchor="end" font-weight="bold">Superset</text>
+<text class="lbl halo" data-s="169" x="513.0" y="-336.5" font-size="12.0" text-anchor="middle" font-weight="bold">Synapse</text>
+<text class="lbl halo" data-s="175" x="486.0" y="236.3" font-size="12.0" text-anchor="middle" font-weight="bold">Thrift</text>
+<text class="lbl halo" data-s="176" x="-135.0" y="176.5" font-size="12.0" text-anchor="middle" font-weight="bold">Tika</text>
+<text class="lbl halo" data-s="178" x="194.7" y="-227.6" font-size="12.0" text-anchor="start" font-weight="bold">Tomcat</text>
+<text class="lbl halo" data-s="182" x="-356.7" y="235.3" font-size="12.0" text-anchor="end" font-weight="bold">TsFile</text>
+<text class="lbl halo" data-s="189" x="252.5" y="-77.1" font-size="12.0" text-anchor="start" font-weight="bold">Websh</text>
+<text class="lbl halo" data-s="205" x="-210.3" y="204.4" font-size="12.0" text-anchor="start" font-weight="bold">Yetus</text>
+<text class="lbl halo" data-s="37" x="-54.0" y="344.3" font-size="12.0" text-anchor="middle" font-weight="bold">cTAKES</text>
+<text class="lbl halo" data-s="2" x="-567.0" y="-361.7" font-size="10.5" text-anchor="middle">AGE</text>
+<text class="lbl halo" data-s="11" x="-181.0" y="-509.6" font-size="10.5" text-anchor="start">APR</text>
+<text class="lbl halo" data-s="0" x="297.0" y="-604.7" font-size="10.5" text-anchor="middle">Accumulo</text>
+<text class="lbl halo" data-s="1" x="251.0" y="-23.6" font-size="10.5" text-anchor="start">ActiveMQ</text>
+<text class="lbl halo" data-s="4" x="243.0" y="-604.7" font-size="10.5" text-anchor="middle">Airflow</text>
+<text class="lbl halo" data-s="5" x="135.0" y="-171.6" font-size="10.5" text-anchor="middle">Allura</text>
+<text class="lbl halo" data-s="6" x="189.0" y="-604.7" font-size="10.5" text-anchor="middle">Ambari</text>
+<text class="lbl halo" data-s="7" x="-181.0" y="-563.6" font-size="10.5" text-anchor="start">Anakia</text>
+<text class="lbl halo" data-s="8" x="85.8" y="-198.9" font-size="10.5" text-anchor="start">Annotator</text>
+<text class="lbl halo" data-s="9" x="35.0" y="408.4" font-size="10.5" text-anchor="start">Ant</text>
+<text class="lbl halo" data-s="10" x="19.0" y="354.4" font-size="10.5" text-anchor="end">AntUnit</text>
+<text class="lbl halo" data-s="12" x="-181.0" y="-455.6" font-size="10.5" text-anchor="start">Aries</text>
+<text class="lbl halo" data-s="17" x="-359.0" y="-23.6" font-size="10.5" text-anchor="end">Batik</text>
+<text class="lbl halo" data-s="18" x="135.0" y="-604.7" font-size="10.5" text-anchor="middle">Beam</text>
+<text class="lbl halo" data-s="19" x="116.0" y="-563.6" font-size="10.5" text-anchor="start">Bigtop</text>
+<text class="lbl halo" data-s="20" x="116.0" y="-509.6" font-size="10.5" text-anchor="start">BookKeeper</text>
+<text class="lbl halo" data-s="21" x="270.0" y="-280.7" font-size="10.5" text-anchor="middle">Brooklyn</text>
+<text class="lbl halo" data-s="26" x="116.0" y="-455.6" font-size="10.5" text-anchor="start">CarbonData</text>
+<text class="lbl halo" data-s="27" x="-513.0" y="-361.7" font-size="10.5" text-anchor="middle">Cassandra</text>
+<text class="lbl halo" data-s="28" x="459.0" y="367.3" font-size="10.5" text-anchor="middle">Causeway</text>
+<text class="lbl halo" data-s="30" x="189.0" y="-37.7" font-size="10.5" text-anchor="middle">Celix</text>
+<text class="lbl halo" data-s="31" x="332.0" y="-203.6" font-size="10.5" text-anchor="start">Chainsaw</text>
+<text class="lbl halo" data-s="32" x="220.8" y="-253.4" font-size="10.5" text-anchor="start">CloudStack</text>
+<text class="lbl halo" data-s="34" x="35.0" y="300.4" font-size="10.5" text-anchor="start">Compress Ant</text>
+<text class="lbl halo" data-s="38" x="-459.0" y="-361.7" font-size="10.5" text-anchor="middle">Curator</text>
+<text class="lbl halo" data-s="40" x="35.0" y="246.4" font-size="10.5" text-anchor="start">CycloneDX Ant</text>
+<text class="lbl halo" data-s="42" x="116.0" y="-401.6" font-size="10.5" text-anchor="start">DataFu</text>
+<text class="lbl halo" data-s="45" x="-73.0" y="165.4" font-size="10.5" text-anchor="start">DeltaSpike</text>
+<text class="lbl halo" data-s="46" x="-261.0" y="-333.6" font-size="10.5" text-anchor="middle">Derby</text>
+<text class="lbl halo" data-s="47" x="521.0" y="-266.6" font-size="10.5" text-anchor="start">Directory LDAP</text>
+<text class="lbl halo" data-s="48" x="139.8" y="-10.4" font-size="10.5" text-anchor="start">Directory Server</text>
+<text class="lbl halo" data-s="49" x="521.0" y="-212.6" font-size="10.5" text-anchor="start">Directory Studio</text>
+<text class="lbl halo" data-s="50" x="-202.8" y="-334.4" font-size="10.5" text-anchor="end">Doris</text>
+<text class="lbl halo" data-s="51" x="-58.8" y="-171.9" font-size="10.5" text-anchor="end">Drill</text>
+<text class="lbl halo" data-s="54" x="-19.0" y="-365.6" font-size="10.5" text-anchor="start">Empire-db</text>
+<text class="lbl halo" data-s="55" x="162.0" y="-252.6" font-size="10.5" text-anchor="middle">EventMesh</text>
+<text class="lbl halo" data-s="63" x="-359.0" y="-77.6" font-size="10.5" text-anchor="end">FOP</text>
+<text class="lbl halo" data-s="56" x="33.8" y="-23.1" font-size="10.5" text-anchor="middle">Felix</text>
+<text class="lbl halo" data-s="57" x="405.0" y="367.3" font-size="10.5" text-anchor="middle">Flex</text>
+<text class="lbl halo" data-s="58" x="-58.8" y="-225.9" font-size="10.5" text-anchor="end">Flink</text>
+<text class="lbl halo" data-s="59" x="-58.8" y="-279.9" font-size="10.5" text-anchor="end">Flume</text>
+<text class="lbl halo" data-s="60" x="-22.2" y="-306.9" font-size="10.5" text-anchor="start">Fluo</text>
+<text class="lbl halo" data-s="61" x="-22.2" y="-252.9" font-size="10.5" text-anchor="start">Fluo Recipes</text>
+<text class="lbl halo" data-s="62" x="-135.3" y="-199.4" font-size="10.5" text-anchor="end">Fluo YARN</text>
+<text class="lbl halo" data-s="66" x="85.8" y="-50.4" font-size="10.5" text-anchor="start">FtpServer</text>
+<text class="lbl halo" data-s="67" x="-90.0" y="-415.7" font-size="10.5" text-anchor="middle">Geode</text>
+<text class="lbl halo" data-s="69" x="-175.2" y="-225.9" font-size="10.5" text-anchor="start">Gobblin</text>
+<text class="lbl halo" data-s="70" x="351.0" y="367.3" font-size="10.5" text-anchor="middle">Grails</text>
+<text class="lbl halo" data-s="71" x="-397.0" y="-275.6" font-size="10.5" text-anchor="start">Groovy</text>
+<text class="lbl halo" data-s="72" x="112.8" y="-70.6" font-size="10.5" text-anchor="start">Guacamole</text>
+<text class="lbl halo" data-s="73" x="0.0" y="205.3" font-size="10.5" text-anchor="middle">Gump</text>
+<text class="lbl halo" data-s="75" x="49.2" y="-145.4" font-size="10.5" text-anchor="end">HBase</text>
+<text class="lbl halo" data-s="79" x="-79.0" y="43.6" font-size="10.5" text-anchor="end">HTTP Server</text>
+<text class="lbl halo" data-s="74" x="-197.0" y="-253.1" font-size="10.5" text-anchor="end">Hadoop</text>
+<text class="lbl halo" data-s="77" x="46.0" y="-104.6" font-size="10.5" text-anchor="end">Hive</text>
+<text class="lbl halo" data-s="78" x="-181.0" y="-302.6" font-size="10.5" text-anchor="start">Hop</text>
+<text class="lbl halo" data-s="82" x="-261.0" y="-199.7" font-size="10.5" text-anchor="middle">Hudi</text>
+<text class="lbl halo" data-s="85" x="-181.0" y="-352.1" font-size="10.5" text-anchor="start">Impala</text>
+<text class="lbl halo" data-s="86" x="-316.0" y="-262.1" font-size="10.5" text-anchor="start">InLong</text>
+<text class="lbl halo" data-s="88" x="-54.0" y="205.3" font-size="10.5" text-anchor="middle">Ivy</text>
+<text class="lbl halo" data-s="89" x="-103.2" y="232.6" font-size="10.5" text-anchor="start">IvyDE</text>
+<text class="lbl halo" data-s="91" x="-148.5" y="16.3" font-size="10.5" text-anchor="middle">JAMES</text>
+<text class="lbl halo" data-s="92" x="-216.0" y="98.4" font-size="10.5" text-anchor="middle">JDO</text>
+<text class="lbl halo" data-s="94" x="-351.0" y="502.3" font-size="10.5" text-anchor="middle">JMeter</text>
+<text class="lbl halo" data-s="95" x="27.0" y="-199.7" font-size="10.5" text-anchor="middle">JSPWiki</text>
+<text class="lbl halo" data-s="93" x="-235.0" y="-113.6" font-size="10.5" text-anchor="start">Jena</text>
+<text class="lbl halo" data-s="96" x="-316.0" y="-176.6" font-size="10.5" text-anchor="start">Kafka</text>
+<text class="lbl halo" data-s="98" x="-181.0" y="-3.4" font-size="10.5" text-anchor="start">Kerby</text>
+<text class="lbl halo" data-s="99" x="-316.0" y="-91.1" font-size="10.5" text-anchor="start">Knox</text>
+<text class="lbl halo" data-s="100" x="-332.0" y="-5.6" font-size="10.5" text-anchor="end">Kudu</text>
+<text class="lbl halo" data-s="101" x="-328.8" y="66.6" font-size="10.5" text-anchor="end">Kylin</text>
+<text class="lbl halo" data-s="103" x="-467.0" y="57.4" font-size="10.5" text-anchor="end">Linkis</text>
+<text class="lbl halo" data-s="105" x="-89.7" y="-212.4" font-size="10.5" text-anchor="start">Log4j</text>
+<text class="lbl halo" data-s="109" x="-391.5" y="70.3" font-size="10.5" text-anchor="middle">Lucene.Net</text>
+<text class="lbl halo" data-s="115" x="-8.7" y="-98.1" font-size="10.5" text-anchor="start">MINA</text>
+<text class="lbl halo" data-s="110" x="-162.0" y="233.4" font-size="10.5" text-anchor="middle">Magpie</text>
+<text class="lbl halo" data-s="111" x="-189.0" y="178.3" font-size="10.5" text-anchor="middle">Mahout</text>
+<text class="lbl halo" data-s="112" x="81.0" y="-171.6" font-size="10.5" text-anchor="middle">ManifoldCF</text>
+<text class="lbl halo" data-s="113" x="-208.0" y="273.4" font-size="10.5" text-anchor="start">Maven</text>
+<text class="lbl halo" data-s="114" x="-208.0" y="327.4" font-size="10.5" text-anchor="start">Maven Doxia</text>
+<text class="lbl halo" data-s="118" x="279.0" y="313.3" font-size="10.5" text-anchor="middle">MyFaces</text>
+<text class="lbl halo" data-s="119" x="-343.0" y="327.4" font-size="10.5" text-anchor="start">Mynewt</text>
+<text class="lbl halo" data-s="120" x="-359.0" y="-131.6" font-size="10.5" text-anchor="end">Neethi</text>
+<text class="lbl halo" data-s="121" x="-405.0" y="502.3" font-size="10.5" text-anchor="middle">NetBeans</text>
+<text class="lbl halo" data-s="122" x="-451.0" y="111.4" font-size="10.5" text-anchor="start">NiFi</text>
+<text class="lbl halo" data-s="123" x="224.0" y="318.4" font-size="10.5" text-anchor="start">Nutch</text>
+<text class="lbl halo" data-s="125" x="-478.0" y="354.4" font-size="10.5" text-anchor="start">OpenDAL</text>
+<text class="lbl halo" data-s="127" x="-87.8" y="-117.6" font-size="10.5" text-anchor="middle">OpenMeetings</text>
+<text class="lbl halo" data-s="128" x="216.0" y="367.3" font-size="10.5" text-anchor="middle">OpenNLP</text>
+<text class="lbl halo" data-s="129" x="94.5" y="71.4" font-size="10.5" text-anchor="middle">OpenOffice</text>
+<text class="lbl halo" data-s="130" x="-85.8" y="206.1" font-size="10.5" text-anchor="end">OpenWebBeans</text>
+<text class="lbl halo" data-s="132" x="-451.0" y="165.4" font-size="10.5" text-anchor="start">Ozone</text>
+<text class="lbl halo" data-s="133" x="-454.2" y="206.1" font-size="10.5" text-anchor="start">Parquet</text>
+<text class="lbl halo" data-s="136" x="-775.0" y="219.4" font-size="10.5" text-anchor="start">Pig</text>
+<text class="lbl halo" data-s="137" x="-400.2" y="206.1" font-size="10.5" text-anchor="start">Pinot</text>
+<text class="lbl halo" data-s="143" x="-208.0" y="381.4" font-size="10.5" text-anchor="start">Props Ant</text>
+<text class="lbl halo" data-s="144" x="-729.0" y="151.3" font-size="10.5" text-anchor="middle">Pulsar</text>
+<text class="lbl halo" data-s="146" x="162.0" y="-361.7" font-size="10.5" text-anchor="middle">Qpid</text>
+<text class="lbl halo" data-s="148" x="-208.0" y="435.4" font-size="10.5" text-anchor="start">Rat</text>
+<text class="lbl halo" data-s="150" x="-166.8" y="44.1" font-size="10.5" text-anchor="end">Roller</text>
+<text class="lbl halo" data-s="151" x="208.0" y="174.4" font-size="10.5" text-anchor="end">Royale</text>
+<text class="lbl halo" data-s="163" x="197.0" y="-320.6" font-size="10.5" text-anchor="start">SSHD</text>
+<text class="lbl halo" data-s="164" x="332.0" y="-50.6" font-size="10.5" text-anchor="start">STeVe</text>
+<text class="lbl halo" data-s="152" x="-675.0" y="179.4" font-size="10.5" text-anchor="middle">Samza</text>
+<text class="lbl halo" data-s="153" x="-271.9" y="-172.4" font-size="10.5" text-anchor="start">Sandesha2</text>
+<text class="lbl halo" data-s="155" x="-621.0" y="151.3" font-size="10.5" text-anchor="middle">SeaTunnel</text>
+<text class="lbl halo" data-s="156" x="343.0" y="246.4" font-size="10.5" text-anchor="end">Serf</text>
+<text class="lbl halo" data-s="159" x="-343.0" y="381.4" font-size="10.5" text-anchor="start">SkyWalking</text>
+<text class="lbl halo" data-s="162" x="-567.0" y="151.3" font-size="10.5" text-anchor="middle">Spark</text>
+<text class="lbl halo" data-s="165" x="-513.0" y="151.3" font-size="10.5" text-anchor="middle">Storm</text>
+<text class="lbl halo" data-s="166" x="208.0" y="102.4" font-size="10.5" text-anchor="end">Struts</text>
+<text class="lbl halo" data-s="167" x="-208.0" y="489.4" font-size="10.5" text-anchor="start">Subversion</text>
+<text class="lbl halo" data-s="170" x="521.0" y="-158.6" font-size="10.5" text-anchor="start">Syncope</text>
+<text class="lbl halo" data-s="184" x="-478.0" y="246.4" font-size="10.5" text-anchor="start">TVM</text>
+<text class="lbl halo" data-s="171" x="126.3" y="-225.9" font-size="10.5" text-anchor="start">Tapestry</text>
+<text class="lbl halo" data-s="172" x="-243.0" y="530.4" font-size="10.5" text-anchor="middle">Tentacles</text>
+<text class="lbl halo" data-s="173" x="332.0" y="3.4" font-size="10.5" text-anchor="start">Texen</text>
+<text class="lbl halo" data-s="174" x="-494.0" y="192.4" font-size="10.5" text-anchor="end">Tez</text>
+<text class="lbl halo" data-s="177" x="89.0" y="-131.6" font-size="10.5" text-anchor="start">Tobago</text>
+<text class="lbl halo" data-s="179" x="193.8" y="-279.9" font-size="10.5" text-anchor="start">TomEE</text>
+<text class="lbl halo" data-s="180" x="-775.0" y="273.4" font-size="10.5" text-anchor="start">Torque</text>
+<text class="lbl halo" data-s="181" x="324.0" y="124.3" font-size="10.5" text-anchor="middle">Traffic Server</text>
+<text class="lbl halo" data-s="183" x="62.7" y="17.1" font-size="10.5" text-anchor="end">Turbine</text>
+<text class="lbl halo" data-s="185" x="-54.0" y="71.4" font-size="10.5" text-anchor="middle">Unomi</text>
+<text class="lbl halo" data-s="186" x="-58.8" y="-144.9" font-size="10.5" text-anchor="end">VCL</text>
+<text class="lbl halo" data-s="187" x="332.0" y="57.4" font-size="10.5" text-anchor="start">Velocity</text>
+<text class="lbl halo" data-s="188" x="413.0" y="138.4" font-size="10.5" text-anchor="start">Vysper</text>
+<text class="lbl halo" data-s="194" x="-128.2" y="-171.6" font-size="10.5" text-anchor="middle">WSS4J</text>
+<text class="lbl halo" data-s="190" x="-116.0" y="57.4" font-size="10.5" text-anchor="end">Whimsy</text>
+<text class="lbl halo" data-s="191" x="-297.0" y="502.3" font-size="10.5" text-anchor="middle">Whisker</text>
+<text class="lbl halo" data-s="192" x="-73.0" y="111.4" font-size="10.5" text-anchor="start">Wicket</text>
+<text class="lbl halo" data-s="193" x="-197.7" y="-172.4" font-size="10.5" text-anchor="start">Woden</text>
+<text class="lbl halo" data-s="200" x="675.0" y="-334.7" font-size="10.5" text-anchor="middle">XG Commons</text>
+<text class="lbl halo" data-s="201" x="409.8" y="-235.4" font-size="10.5" text-anchor="start">XML Commons Ext</text>
+<text class="lbl halo" data-s="202" x="413.0" y="-176.6" font-size="10.5" text-anchor="start">XML Commons Res</text>
+<text class="lbl halo" data-s="203" x="567.0" y="-334.7" font-size="10.5" text-anchor="middle">XMLBeans</text>
+<text class="lbl halo" data-s="204" x="621.0" y="-306.6" font-size="10.5" text-anchor="middle">XMLSchema</text>
+<text class="lbl halo" data-s="195" x="-94.5" y="16.3" font-size="10.5" text-anchor="middle">Xalan C++</text>
+<text class="lbl halo" data-s="196" x="-116.0" y="-50.6" font-size="10.5" text-anchor="end">Xalan Java</text>
+<text class="lbl halo" data-s="197" x="-103.2" y="-158.4" font-size="10.5" text-anchor="start">Xerces C++</text>
+<text class="lbl halo" data-s="198" x="112.8" y="-117.9" font-size="10.5" text-anchor="start">Xerces Java</text>
+<text class="lbl halo" data-s="199" x="216.0" y="-118.7" font-size="10.5" text-anchor="middle">Xerces Perl</text>
+<text class="lbl halo" data-s="206" x="-343.0" y="273.4" font-size="10.5" text-anchor="start">YuniKorn</text>
+<text class="lbl halo" data-s="207" x="-478.0" y="300.4" font-size="10.5" text-anchor="start">Zeppelin</text>
+<text class="lbl halo" data-s="208" x="-775.0" y="327.4" font-size="10.5" text-anchor="start">ZooKeeper</text>
+<text class="lbl halo" data-s="22" x="-397.0" y="-203.6" font-size="10.5" text-anchor="start">bRPC</text>
+<text class="lbl halo" data-s="104" x="-94.5" y="-131.1" font-size="10.5" text-anchor="middle">log4cxx</text>
+<text class="lbl halo" data-s="106" x="-62.0" y="-50.6" font-size="10.5" text-anchor="end">log4net</text>
+<text class="lbl halo" data-s="107" x="-154.0" y="192.4" font-size="10.5" text-anchor="start">log4php</text>
+<text class="lbl halo" data-s="116" x="-35.7" y="-144.9" font-size="10.5" text-anchor="start">mod_ftp</text>
+<text class="lbl halo" data-s="117" x="360.0" y="-280.7" font-size="10.5" text-anchor="middle">mod_perl</text>
+<text class="lbl halo" data-s="149" x="251.0" y="205.9" font-size="10.5" text-anchor="start">rivet</text>
+</g>
+<g class="labels" fill="#1c1c1c">
+<text class="lbl fg" data-s="29" x="0.0" y="50.0" font-size="12.0" text-anchor="middle" font-weight="bold">Cayenne</text>
+<text class="lbl fg" data-s="36" x="-19.7" y="-167.3" font-size="12.0" text-anchor="start" font-weight="bold">CouchDB</text>
+<text class="lbl fg" data-s="84" x="54.0" y="-231.2" font-size="12.0" text-anchor="middle" font-weight="bold">Ignite</text>
+<text class="lbl fg" data-s="124" x="88.3" y="-5.3" font-size="12.0" text-anchor="start" font-weight="bold">OFBiz</text>
+<text class="lbl fg" data-s="13" x="-20.2" y="-283.2" font-size="12.0" text-anchor="start" font-weight="bold">Arrow</text>
+<text class="lbl fg" data-s="90" x="0.0" y="-68.3" font-size="12.0" text-anchor="middle" font-weight="bold">Jackrabbit</text>
+<text class="lbl fg" data-s="3" x="114.2" y="-282.4" font-size="12.0" text-anchor="start" font-weight="bold">Airavata</text>
+<text class="lbl fg" data-s="14" x="-60.2" y="-87.9" font-size="12.0" text-anchor="end" font-weight="bold">Avro</text>
+<text class="lbl fg" data-s="39" x="405.0" y="-86.8" font-size="12.0" text-anchor="middle" font-weight="bold">CXF</text>
+<text class="lbl fg" data-s="25" x="-135.0" y="-148.4" font-size="12.0" text-anchor="middle" font-weight="bold">Camel</text>
+<text class="lbl fg" data-s="41" x="-114.2" y="-255.4" font-size="12.0" text-anchor="end" font-weight="bold">Daffodil</text>
+<text class="lbl fg" data-s="43" x="-317.8" y="-363.4" font-size="12.0" text-anchor="start" font-weight="bold">DataFusion</text>
+<text class="lbl fg" data-s="108" x="-155.8" y="128.1" font-size="12.0" text-anchor="start" font-weight="bold">Lucene</text>
+<text class="lbl fg" data-s="131" x="-195.2" y="-417.4" font-size="12.0" text-anchor="end" font-weight="bold">ORC</text>
+<text class="lbl fg" data-s="126" x="-87.2" y="74.1" font-size="12.0" text-anchor="end" font-weight="bold">OpenJPA</text>
+<text class="lbl fg" data-s="138" x="-189.0" y="-94.4" font-size="12.0" text-anchor="middle" font-weight="bold">PLC4X</text>
+<text class="lbl fg" data-s="142" x="114.2" y="-87.9" font-size="12.0" text-anchor="start" font-weight="bold">PouchDB</text>
+<text class="lbl fg" data-s="154" x="330.2" y="-120.4" font-size="12.0" text-anchor="start" font-weight="bold">Santuario</text>
+<text class="lbl fg" data-s="160" x="189.0" y="75.2" font-size="12.0" text-anchor="middle" font-weight="bold">Solr</text>
+<text class="lbl fg" data-s="15" x="-351.0" y="-201.5" font-size="12.0" text-anchor="middle" font-weight="bold">Axiom</text>
+<text class="lbl fg" data-s="16" x="459.0" y="-249.7" font-size="12.0" text-anchor="middle" font-weight="bold">Axis2</text>
+<text class="lbl fg" data-s="23" x="351.0" y="344.3" font-size="12.0" text-anchor="middle" font-weight="bold">BVal</text>
+<text class="lbl fg" data-s="24" x="-432.0" y="14.5" font-size="12.0" text-anchor="middle" font-weight="bold">Calcite</text>
+<text class="lbl fg" data-s="33" x="495.5" y="-50.1" font-size="12.0" text-anchor="start" font-weight="bold">Commons</text>
+<text class="lbl fg" data-s="35" x="540.0" y="-12.5" font-size="12.0" text-anchor="middle" font-weight="bold">Cordova</text>
+<text class="lbl fg" data-s="44" x="-270.0" y="-417.5" font-size="12.0" text-anchor="middle" font-weight="bold">DataSketches</text>
+<text class="lbl fg" data-s="52" x="-729.0" y="95.5" font-size="12.0" text-anchor="middle" font-weight="bold">Druid</text>
+<text class="lbl fg" data-s="53" x="108.0" y="371.3" font-size="12.0" text-anchor="middle" font-weight="bold">ECharts</text>
+<text class="lbl fg" data-s="64" x="540.0" y="182.3" font-size="12.0" text-anchor="middle" font-weight="bold">Fortress</text>
+<text class="lbl fg" data-s="65" x="210.3" y="231.4" font-size="12.0" text-anchor="end" font-weight="bold">FreeMarker</text>
+<text class="lbl fg" data-s="68" x="243.0" y="-174.5" font-size="12.0" text-anchor="middle" font-weight="bold">Geronimo</text>
+<text class="lbl fg" data-s="76" x="-356.7" y="123.4" font-size="12.0" text-anchor="end" font-weight="bold">Helix</text>
+<text class="lbl fg" data-s="80" x="405.0" y="236.3" font-size="12.0" text-anchor="middle" font-weight="bold">HttpClient 5</text>
+<text class="lbl fg" data-s="81" x="572.7" y="100.3" font-size="12.0" text-anchor="start" font-weight="bold">HttpCore</text>
+<text class="lbl fg" data-s="83" x="-653.7" y="154.3" font-size="12.0" text-anchor="end" font-weight="bold">Iceberg</text>
+<text class="lbl fg" data-s="87" x="-297.0" y="101.3" font-size="12.0" text-anchor="middle" font-weight="bold">IoTDB</text>
+<text class="lbl fg" data-s="97" x="243.0" y="20.3" font-size="12.0" text-anchor="middle" font-weight="bold">Karaf</text>
+<text class="lbl fg" data-s="102" x="-248.7" y="-7.7" font-size="12.0" text-anchor="end" font-weight="bold">Libcloud</text>
+<text class="lbl fg" data-s="134" x="189.0" y="311.5" font-size="12.0" text-anchor="middle" font-weight="bold">PDFBox</text>
+<text class="lbl fg" data-s="139" x="-108.0" y="290.3" font-size="12.0" text-anchor="middle" font-weight="bold">POI</text>
+<text class="lbl fg" data-s="135" x="-567.0" y="128.3" font-size="12.0" text-anchor="middle" font-weight="bold">Phoenix</text>
+<text class="lbl fg" data-s="140" x="-788.7" y="181.3" font-size="12.0" text-anchor="end" font-weight="bold">Polaris</text>
+<text class="lbl fg" data-s="141" x="248.7" y="154.3" font-size="12.0" text-anchor="start" font-weight="bold">Pony Mail</text>
+<text class="lbl fg" data-s="145" x="21.3" y="370.3" font-size="12.0" text-anchor="end" font-weight="bold">PyLucene</text>
+<text class="lbl fg" data-s="147" x="102.3" y="-362.6" font-size="12.0" text-anchor="end" font-weight="bold">Ranger</text>
+<text class="lbl fg" data-s="158" x="-405.0" y="-363.5" font-size="12.0" text-anchor="middle" font-weight="bold">SIS</text>
+<text class="lbl fg" data-s="157" x="297.0" y="398.3" font-size="12.0" text-anchor="middle" font-weight="bold">Shiro</text>
+<text class="lbl fg" data-s="161" x="-216.0" y="74.3" font-size="12.0" text-anchor="middle" font-weight="bold">Solr Operator</text>
+<text class="lbl fg" data-s="168" x="-491.7" y="100.3" font-size="12.0" text-anchor="end" font-weight="bold">Superset</text>
+<text class="lbl fg" data-s="169" x="513.0" y="-336.5" font-size="12.0" text-anchor="middle" font-weight="bold">Synapse</text>
+<text class="lbl fg" data-s="175" x="486.0" y="236.3" font-size="12.0" text-anchor="middle" font-weight="bold">Thrift</text>
+<text class="lbl fg" data-s="176" x="-135.0" y="176.5" font-size="12.0" text-anchor="middle" font-weight="bold">Tika</text>
+<text class="lbl fg" data-s="178" x="194.7" y="-227.6" font-size="12.0" text-anchor="start" font-weight="bold">Tomcat</text>
+<text class="lbl fg" data-s="182" x="-356.7" y="235.3" font-size="12.0" text-anchor="end" font-weight="bold">TsFile</text>
+<text class="lbl fg" data-s="189" x="252.5" y="-77.1" font-size="12.0" text-anchor="start" font-weight="bold">Websh</text>
+<text class="lbl fg" data-s="205" x="-210.3" y="204.4" font-size="12.0" text-anchor="start" font-weight="bold">Yetus</text>
+<text class="lbl fg" data-s="37" x="-54.0" y="344.3" font-size="12.0" text-anchor="middle" font-weight="bold">cTAKES</text>
+<text class="lbl fg" data-s="2" x="-567.0" y="-361.7" font-size="10.5" text-anchor="middle">AGE</text>
+<text class="lbl fg" data-s="11" x="-181.0" y="-509.6" font-size="10.5" text-anchor="start">APR</text>
+<text class="lbl fg" data-s="0" x="297.0" y="-604.7" font-size="10.5" text-anchor="middle">Accumulo</text>
+<text class="lbl fg" data-s="1" x="251.0" y="-23.6" font-size="10.5" text-anchor="start">ActiveMQ</text>
+<text class="lbl fg" data-s="4" x="243.0" y="-604.7" font-size="10.5" text-anchor="middle">Airflow</text>
+<text class="lbl fg" data-s="5" x="135.0" y="-171.6" font-size="10.5" text-anchor="middle">Allura</text>
+<text class="lbl fg" data-s="6" x="189.0" y="-604.7" font-size="10.5" text-anchor="middle">Ambari</text>
+<text class="lbl fg" data-s="7" x="-181.0" y="-563.6" font-size="10.5" text-anchor="start">Anakia</text>
+<text class="lbl fg" data-s="8" x="85.8" y="-198.9" font-size="10.5" text-anchor="start">Annotator</text>
+<text class="lbl fg" data-s="9" x="35.0" y="408.4" font-size="10.5" text-anchor="start">Ant</text>
+<text class="lbl fg" data-s="10" x="19.0" y="354.4" font-size="10.5" text-anchor="end">AntUnit</text>
+<text class="lbl fg" data-s="12" x="-181.0" y="-455.6" font-size="10.5" text-anchor="start">Aries</text>
+<text class="lbl fg" data-s="17" x="-359.0" y="-23.6" font-size="10.5" text-anchor="end">Batik</text>
+<text class="lbl fg" data-s="18" x="135.0" y="-604.7" font-size="10.5" text-anchor="middle">Beam</text>
+<text class="lbl fg" data-s="19" x="116.0" y="-563.6" font-size="10.5" text-anchor="start">Bigtop</text>
+<text class="lbl fg" data-s="20" x="116.0" y="-509.6" font-size="10.5" text-anchor="start">BookKeeper</text>
+<text class="lbl fg" data-s="21" x="270.0" y="-280.7" font-size="10.5" text-anchor="middle">Brooklyn</text>
+<text class="lbl fg" data-s="26" x="116.0" y="-455.6" font-size="10.5" text-anchor="start">CarbonData</text>
+<text class="lbl fg" data-s="27" x="-513.0" y="-361.7" font-size="10.5" text-anchor="middle">Cassandra</text>
+<text class="lbl fg" data-s="28" x="459.0" y="367.3" font-size="10.5" text-anchor="middle">Causeway</text>
+<text class="lbl fg" data-s="30" x="189.0" y="-37.7" font-size="10.5" text-anchor="middle">Celix</text>
+<text class="lbl fg" data-s="31" x="332.0" y="-203.6" font-size="10.5" text-anchor="start">Chainsaw</text>
+<text class="lbl fg" data-s="32" x="220.8" y="-253.4" font-size="10.5" text-anchor="start">CloudStack</text>
+<text class="lbl fg" data-s="34" x="35.0" y="300.4" font-size="10.5" text-anchor="start">Compress Ant</text>
+<text class="lbl fg" data-s="38" x="-459.0" y="-361.7" font-size="10.5" text-anchor="middle">Curator</text>
+<text class="lbl fg" data-s="40" x="35.0" y="246.4" font-size="10.5" text-anchor="start">CycloneDX Ant</text>
+<text class="lbl fg" data-s="42" x="116.0" y="-401.6" font-size="10.5" text-anchor="start">DataFu</text>
+<text class="lbl fg" data-s="45" x="-73.0" y="165.4" font-size="10.5" text-anchor="start">DeltaSpike</text>
+<text class="lbl fg" data-s="46" x="-261.0" y="-333.6" font-size="10.5" text-anchor="middle">Derby</text>
+<text class="lbl fg" data-s="47" x="521.0" y="-266.6" font-size="10.5" text-anchor="start">Directory LDAP</text>
+<text class="lbl fg" data-s="48" x="139.8" y="-10.4" font-size="10.5" text-anchor="start">Directory Server</text>
+<text class="lbl fg" data-s="49" x="521.0" y="-212.6" font-size="10.5" text-anchor="start">Directory Studio</text>
+<text class="lbl fg" data-s="50" x="-202.8" y="-334.4" font-size="10.5" text-anchor="end">Doris</text>
+<text class="lbl fg" data-s="51" x="-58.8" y="-171.9" font-size="10.5" text-anchor="end">Drill</text>
+<text class="lbl fg" data-s="54" x="-19.0" y="-365.6" font-size="10.5" text-anchor="start">Empire-db</text>
+<text class="lbl fg" data-s="55" x="162.0" y="-252.6" font-size="10.5" text-anchor="middle">EventMesh</text>
+<text class="lbl fg" data-s="63" x="-359.0" y="-77.6" font-size="10.5" text-anchor="end">FOP</text>
+<text class="lbl fg" data-s="56" x="33.8" y="-23.1" font-size="10.5" text-anchor="middle">Felix</text>
+<text class="lbl fg" data-s="57" x="405.0" y="367.3" font-size="10.5" text-anchor="middle">Flex</text>
+<text class="lbl fg" data-s="58" x="-58.8" y="-225.9" font-size="10.5" text-anchor="end">Flink</text>
+<text class="lbl fg" data-s="59" x="-58.8" y="-279.9" font-size="10.5" text-anchor="end">Flume</text>
+<text class="lbl fg" data-s="60" x="-22.2" y="-306.9" font-size="10.5" text-anchor="start">Fluo</text>
+<text class="lbl fg" data-s="61" x="-22.2" y="-252.9" font-size="10.5" text-anchor="start">Fluo Recipes</text>
+<text class="lbl fg" data-s="62" x="-135.3" y="-199.4" font-size="10.5" text-anchor="end">Fluo YARN</text>
+<text class="lbl fg" data-s="66" x="85.8" y="-50.4" font-size="10.5" text-anchor="start">FtpServer</text>
+<text class="lbl fg" data-s="67" x="-90.0" y="-415.7" font-size="10.5" text-anchor="middle">Geode</text>
+<text class="lbl fg" data-s="69" x="-175.2" y="-225.9" font-size="10.5" text-anchor="start">Gobblin</text>
+<text class="lbl fg" data-s="70" x="351.0" y="367.3" font-size="10.5" text-anchor="middle">Grails</text>
+<text class="lbl fg" data-s="71" x="-397.0" y="-275.6" font-size="10.5" text-anchor="start">Groovy</text>
+<text class="lbl fg" data-s="72" x="112.8" y="-70.6" font-size="10.5" text-anchor="start">Guacamole</text>
+<text class="lbl fg" data-s="73" x="0.0" y="205.3" font-size="10.5" text-anchor="middle">Gump</text>
+<text class="lbl fg" data-s="75" x="49.2" y="-145.4" font-size="10.5" text-anchor="end">HBase</text>
+<text class="lbl fg" data-s="79" x="-79.0" y="43.6" font-size="10.5" text-anchor="end">HTTP Server</text>
+<text class="lbl fg" data-s="74" x="-197.0" y="-253.1" font-size="10.5" text-anchor="end">Hadoop</text>
+<text class="lbl fg" data-s="77" x="46.0" y="-104.6" font-size="10.5" text-anchor="end">Hive</text>
+<text class="lbl fg" data-s="78" x="-181.0" y="-302.6" font-size="10.5" text-anchor="start">Hop</text>
+<text class="lbl fg" data-s="82" x="-261.0" y="-199.7" font-size="10.5" text-anchor="middle">Hudi</text>
+<text class="lbl fg" data-s="85" x="-181.0" y="-352.1" font-size="10.5" text-anchor="start">Impala</text>
+<text class="lbl fg" data-s="86" x="-316.0" y="-262.1" font-size="10.5" text-anchor="start">InLong</text>
+<text class="lbl fg" data-s="88" x="-54.0" y="205.3" font-size="10.5" text-anchor="middle">Ivy</text>
+<text class="lbl fg" data-s="89" x="-103.2" y="232.6" font-size="10.5" text-anchor="start">IvyDE</text>
+<text class="lbl fg" data-s="91" x="-148.5" y="16.3" font-size="10.5" text-anchor="middle">JAMES</text>
+<text class="lbl fg" data-s="92" x="-216.0" y="98.4" font-size="10.5" text-anchor="middle">JDO</text>
+<text class="lbl fg" data-s="94" x="-351.0" y="502.3" font-size="10.5" text-anchor="middle">JMeter</text>
+<text class="lbl fg" data-s="95" x="27.0" y="-199.7" font-size="10.5" text-anchor="middle">JSPWiki</text>
+<text class="lbl fg" data-s="93" x="-235.0" y="-113.6" font-size="10.5" text-anchor="start">Jena</text>
+<text class="lbl fg" data-s="96" x="-316.0" y="-176.6" font-size="10.5" text-anchor="start">Kafka</text>
+<text class="lbl fg" data-s="98" x="-181.0" y="-3.4" font-size="10.5" text-anchor="start">Kerby</text>
+<text class="lbl fg" data-s="99" x="-316.0" y="-91.1" font-size="10.5" text-anchor="start">Knox</text>
+<text class="lbl fg" data-s="100" x="-332.0" y="-5.6" font-size="10.5" text-anchor="end">Kudu</text>
+<text class="lbl fg" data-s="101" x="-328.8" y="66.6" font-size="10.5" text-anchor="end">Kylin</text>
+<text class="lbl fg" data-s="103" x="-467.0" y="57.4" font-size="10.5" text-anchor="end">Linkis</text>
+<text class="lbl fg" data-s="105" x="-89.7" y="-212.4" font-size="10.5" text-anchor="start">Log4j</text>
+<text class="lbl fg" data-s="109" x="-391.5" y="70.3" font-size="10.5" text-anchor="middle">Lucene.Net</text>
+<text class="lbl fg" data-s="115" x="-8.7" y="-98.1" font-size="10.5" text-anchor="start">MINA</text>
+<text class="lbl fg" data-s="110" x="-162.0" y="233.4" font-size="10.5" text-anchor="middle">Magpie</text>
+<text class="lbl fg" data-s="111" x="-189.0" y="178.3" font-size="10.5" text-anchor="middle">Mahout</text>
+<text class="lbl fg" data-s="112" x="81.0" y="-171.6" font-size="10.5" text-anchor="middle">ManifoldCF</text>
+<text class="lbl fg" data-s="113" x="-208.0" y="273.4" font-size="10.5" text-anchor="start">Maven</text>
+<text class="lbl fg" data-s="114" x="-208.0" y="327.4" font-size="10.5" text-anchor="start">Maven Doxia</text>
+<text class="lbl fg" data-s="118" x="279.0" y="313.3" font-size="10.5" text-anchor="middle">MyFaces</text>
+<text class="lbl fg" data-s="119" x="-343.0" y="327.4" font-size="10.5" text-anchor="start">Mynewt</text>
+<text class="lbl fg" data-s="120" x="-359.0" y="-131.6" font-size="10.5" text-anchor="end">Neethi</text>
+<text class="lbl fg" data-s="121" x="-405.0" y="502.3" font-size="10.5" text-anchor="middle">NetBeans</text>
+<text class="lbl fg" data-s="122" x="-451.0" y="111.4" font-size="10.5" text-anchor="start">NiFi</text>
+<text class="lbl fg" data-s="123" x="224.0" y="318.4" font-size="10.5" text-anchor="start">Nutch</text>
+<text class="lbl fg" data-s="125" x="-478.0" y="354.4" font-size="10.5" text-anchor="start">OpenDAL</text>
+<text class="lbl fg" data-s="127" x="-87.8" y="-117.6" font-size="10.5" text-anchor="middle">OpenMeetings</text>
+<text class="lbl fg" data-s="128" x="216.0" y="367.3" font-size="10.5" text-anchor="middle">OpenNLP</text>
+<text class="lbl fg" data-s="129" x="94.5" y="71.4" font-size="10.5" text-anchor="middle">OpenOffice</text>
+<text class="lbl fg" data-s="130" x="-85.8" y="206.1" font-size="10.5" text-anchor="end">OpenWebBeans</text>
+<text class="lbl fg" data-s="132" x="-451.0" y="165.4" font-size="10.5" text-anchor="start">Ozone</text>
+<text class="lbl fg" data-s="133" x="-454.2" y="206.1" font-size="10.5" text-anchor="start">Parquet</text>
+<text class="lbl fg" data-s="136" x="-775.0" y="219.4" font-size="10.5" text-anchor="start">Pig</text>
+<text class="lbl fg" data-s="137" x="-400.2" y="206.1" font-size="10.5" text-anchor="start">Pinot</text>
+<text class="lbl fg" data-s="143" x="-208.0" y="381.4" font-size="10.5" text-anchor="start">Props Ant</text>
+<text class="lbl fg" data-s="144" x="-729.0" y="151.3" font-size="10.5" text-anchor="middle">Pulsar</text>
+<text class="lbl fg" data-s="146" x="162.0" y="-361.7" font-size="10.5" text-anchor="middle">Qpid</text>
+<text class="lbl fg" data-s="148" x="-208.0" y="435.4" font-size="10.5" text-anchor="start">Rat</text>
+<text class="lbl fg" data-s="150" x="-166.8" y="44.1" font-size="10.5" text-anchor="end">Roller</text>
+<text class="lbl fg" data-s="151" x="208.0" y="174.4" font-size="10.5" text-anchor="end">Royale</text>
+<text class="lbl fg" data-s="163" x="197.0" y="-320.6" font-size="10.5" text-anchor="start">SSHD</text>
+<text class="lbl fg" data-s="164" x="332.0" y="-50.6" font-size="10.5" text-anchor="start">STeVe</text>
+<text class="lbl fg" data-s="152" x="-675.0" y="179.4" font-size="10.5" text-anchor="middle">Samza</text>
+<text class="lbl fg" data-s="153" x="-271.9" y="-172.4" font-size="10.5" text-anchor="start">Sandesha2</text>
+<text class="lbl fg" data-s="155" x="-621.0" y="151.3" font-size="10.5" text-anchor="middle">SeaTunnel</text>
+<text class="lbl fg" data-s="156" x="343.0" y="246.4" font-size="10.5" text-anchor="end">Serf</text>
+<text class="lbl fg" data-s="159" x="-343.0" y="381.4" font-size="10.5" text-anchor="start">SkyWalking</text>
+<text class="lbl fg" data-s="162" x="-567.0" y="151.3" font-size="10.5" text-anchor="middle">Spark</text>
+<text class="lbl fg" data-s="165" x="-513.0" y="151.3" font-size="10.5" text-anchor="middle">Storm</text>
+<text class="lbl fg" data-s="166" x="208.0" y="102.4" font-size="10.5" text-anchor="end">Struts</text>
+<text class="lbl fg" data-s="167" x="-208.0" y="489.4" font-size="10.5" text-anchor="start">Subversion</text>
+<text class="lbl fg" data-s="170" x="521.0" y="-158.6" font-size="10.5" text-anchor="start">Syncope</text>
+<text class="lbl fg" data-s="184" x="-478.0" y="246.4" font-size="10.5" text-anchor="start">TVM</text>
+<text class="lbl fg" data-s="171" x="126.3" y="-225.9" font-size="10.5" text-anchor="start">Tapestry</text>
+<text class="lbl fg" data-s="172" x="-243.0" y="530.4" font-size="10.5" text-anchor="middle">Tentacles</text>
+<text class="lbl fg" data-s="173" x="332.0" y="3.4" font-size="10.5" text-anchor="start">Texen</text>
+<text class="lbl fg" data-s="174" x="-494.0" y="192.4" font-size="10.5" text-anchor="end">Tez</text>
+<text class="lbl fg" data-s="177" x="89.0" y="-131.6" font-size="10.5" text-anchor="start">Tobago</text>
+<text class="lbl fg" data-s="179" x="193.8" y="-279.9" font-size="10.5" text-anchor="start">TomEE</text>
+<text class="lbl fg" data-s="180" x="-775.0" y="273.4" font-size="10.5" text-anchor="start">Torque</text>
+<text class="lbl fg" data-s="181" x="324.0" y="124.3" font-size="10.5" text-anchor="middle">Traffic Server</text>
+<text class="lbl fg" data-s="183" x="62.7" y="17.1" font-size="10.5" text-anchor="end">Turbine</text>
+<text class="lbl fg" data-s="185" x="-54.0" y="71.4" font-size="10.5" text-anchor="middle">Unomi</text>
+<text class="lbl fg" data-s="186" x="-58.8" y="-144.9" font-size="10.5" text-anchor="end">VCL</text>
+<text class="lbl fg" data-s="187" x="332.0" y="57.4" font-size="10.5" text-anchor="start">Velocity</text>
+<text class="lbl fg" data-s="188" x="413.0" y="138.4" font-size="10.5" text-anchor="start">Vysper</text>
+<text class="lbl fg" data-s="194" x="-128.2" y="-171.6" font-size="10.5" text-anchor="middle">WSS4J</text>
+<text class="lbl fg" data-s="190" x="-116.0" y="57.4" font-size="10.5" text-anchor="end">Whimsy</text>
+<text class="lbl fg" data-s="191" x="-297.0" y="502.3" font-size="10.5" text-anchor="middle">Whisker</text>
+<text class="lbl fg" data-s="192" x="-73.0" y="111.4" font-size="10.5" text-anchor="start">Wicket</text>
+<text class="lbl fg" data-s="193" x="-197.7" y="-172.4" font-size="10.5" text-anchor="start">Woden</text>
+<text class="lbl fg" data-s="200" x="675.0" y="-334.7" font-size="10.5" text-anchor="middle">XG Commons</text>
+<text class="lbl fg" data-s="201" x="409.8" y="-235.4" font-size="10.5" text-anchor="start">XML Commons Ext</text>
+<text class="lbl fg" data-s="202" x="413.0" y="-176.6" font-size="10.5" text-anchor="start">XML Commons Res</text>
+<text class="lbl fg" data-s="203" x="567.0" y="-334.7" font-size="10.5" text-anchor="middle">XMLBeans</text>
+<text class="lbl fg" data-s="204" x="621.0" y="-306.6" font-size="10.5" text-anchor="middle">XMLSchema</text>
+<text class="lbl fg" data-s="195" x="-94.5" y="16.3" font-size="10.5" text-anchor="middle">Xalan C++</text>
+<text class="lbl fg" data-s="196" x="-116.0" y="-50.6" font-size="10.5" text-anchor="end">Xalan Java</text>
+<text class="lbl fg" data-s="197" x="-103.2" y="-158.4" font-size="10.5" text-anchor="start">Xerces C++</text>
+<text class="lbl fg" data-s="198" x="112.8" y="-117.9" font-size="10.5" text-anchor="start">Xerces Java</text>
+<text class="lbl fg" data-s="199" x="216.0" y="-118.7" font-size="10.5" text-anchor="middle">Xerces Perl</text>
+<text class="lbl fg" data-s="206" x="-343.0" y="273.4" font-size="10.5" text-anchor="start">YuniKorn</text>
+<text class="lbl fg" data-s="207" x="-478.0" y="300.4" font-size="10.5" text-anchor="start">Zeppelin</text>
+<text class="lbl fg" data-s="208" x="-775.0" y="327.4" font-size="10.5" text-anchor="start">ZooKeeper</text>
+<text class="lbl fg" data-s="22" x="-397.0" y="-203.6" font-size="10.5" text-anchor="start">bRPC</text>
+<text class="lbl fg" data-s="104" x="-94.5" y="-131.1" font-size="10.5" text-anchor="middle">log4cxx</text>
+<text class="lbl fg" data-s="106" x="-62.0" y="-50.6" font-size="10.5" text-anchor="end">log4net</text>
+<text class="lbl fg" data-s="107" x="-154.0" y="192.4" font-size="10.5" text-anchor="start">log4php</text>
+<text class="lbl fg" data-s="116" x="-35.7" y="-144.9" font-size="10.5" text-anchor="start">mod_ftp</text>
+<text class="lbl fg" data-s="117" x="360.0" y="-280.7" font-size="10.5" text-anchor="middle">mod_perl</text>
+<text class="lbl fg" data-s="149" x="251.0" y="205.9" font-size="10.5" text-anchor="start">rivet</text>
+</g>
+<line class="rule" x1="-877.1" y1="615.1" x2="740.9" y2="615.1" stroke="#ccc"/>
+<g class="leg" data-l="0"><rect class="hit" x="-883.1" y="625.1" width="542.0" height="30" fill="transparent"/><rect x="-877.1" y="633.1" width="40" height="9.0" rx="4" fill="#E32017"/><text class="legtxt" x="-825.1" y="645.1" font-size="15" font-weight="bold" fill="#1c1c1c">Big Data<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 55 stations</tspan></text></g>
+<g class="leg" data-l="1"><rect class="hit" x="-321.1" y="625.1" width="542.0" height="30" fill="transparent"/><rect x="-315.1" y="633.1" width="40" height="9.0" rx="4" fill="#0019A8"/><text class="legtxt" x="-263.1" y="645.1" font-size="15" font-weight="bold" fill="#1c1c1c">Libraries<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 49 stations</tspan></text></g>
+<g class="leg" data-l="2"><rect class="hit" x="240.9" y="625.1" width="542.0" height="30" fill="transparent"/><rect x="246.9" y="633.1" width="40" height="9.0" rx="4" fill="#00782A"/><text class="legtxt" x="298.9" y="645.1" font-size="15" font-weight="bold" fill="#1c1c1c">Networking<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 50 stations</tspan></text></g>
+<g class="leg" data-l="3"><rect class="hit" x="-883.1" y="659.1" width="542.0" height="30" fill="transparent"/><rect x="-877.1" y="667.1" width="40" height="9.0" rx="4" fill="#9B0056"/><text class="legtxt" x="-825.1" y="679.1" font-size="15" font-weight="bold" fill="#1c1c1c">Data Stores<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 33 stations</tspan></text></g>
+<g class="leg" data-l="4"><rect class="hit" x="-321.1" y="659.1" width="542.0" height="30" fill="transparent"/><rect x="-315.1" y="667.1" width="40" height="9.0" rx="4" fill="#FFD300"/><text class="legtxt" x="-263.1" y="679.1" font-size="15" font-weight="bold" fill="#1c1c1c">Frameworks<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 25 stations</tspan></text></g>
+<g class="leg" data-l="5"><rect class="hit" x="240.9" y="659.1" width="542.0" height="30" fill="transparent"/><rect x="246.9" y="667.1" width="40" height="9.0" rx="4" fill="#B36305"/><text class="legtxt" x="298.9" y="679.1" font-size="15" font-weight="bold" fill="#1c1c1c">XML &amp; Graphics<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 25 stations</tspan></text></g>
+<g class="leg" data-l="6"><rect class="hit" x="-883.1" y="693.1" width="542.0" height="30" fill="transparent"/><rect x="-877.1" y="701.1" width="40" height="9.0" rx="4" fill="#0098D4"/><text class="legtxt" x="-825.1" y="713.1" font-size="15" font-weight="bold" fill="#1c1c1c">Content &amp; Search<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 23 stations</tspan></text></g>
+<g class="leg" data-l="7"><rect class="hit" x="-321.1" y="693.1" width="542.0" height="30" fill="transparent"/><rect x="-315.1" y="701.1" width="40" height="9.0" rx="4" fill="#8A9199"/><text class="legtxt" x="-263.1" y="713.1" font-size="15" font-weight="bold" fill="#1c1c1c">Build &amp; Test<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 18 stations</tspan></text></g>
+<g class="leg" data-l="8"><rect class="hit" x="240.9" y="693.1" width="542.0" height="30" fill="transparent"/><rect x="246.9" y="701.1" width="40" height="9.0" rx="4" fill="#EE7C0E"/><text class="legtxt" x="298.9" y="713.1" font-size="15" font-weight="bold" fill="#1c1c1c">Cloud &amp; IoT<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · 17 stations</tspan></text></g>
+<text class="foot" x="-877.1" y="759.1" font-size="12" fill="#444"><tspan font-weight="bold">○</tspan> interchange (project on several lines)    <tspan font-weight="bold">|</tspan> station    ·   209 stations, 57 interchanges, 9 lines</text>
+<text class="foot credit" x="740.9" y="759.1" font-size="11" fill="#777" text-anchor="end">Style after the London Underground diagram (H. Beck) and the STM Métro de Montréal</text>
+</svg>

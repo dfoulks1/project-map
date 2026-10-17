@@ -1,0 +1,1768 @@
+{
+ "stations": {
+  "Accumulo": {
+   "x": 938.3767670841371,
+   "y": -455.3767670841365,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Airflow": {
+   "x": 905.8498551495559,
+   "y": -422.8498551495553,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Ambari": {
+   "x": 873.3229432149747,
+   "y": -390.3229432149741,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Beam": {
+   "x": 840.7960312803934,
+   "y": -357.7960312803929,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Bigtop": {
+   "x": 808.2691193458121,
+   "y": -325.26911934581176,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "BookKeeper": {
+   "x": 775.7422074112309,
+   "y": -292.74220741123054,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "CarbonData": {
+   "x": 743.2152954766497,
+   "y": -260.2152954766494,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "DataFu": {
+   "x": 710.6883835420684,
+   "y": -227.6883835420682,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Drill": {
+   "x": 678.1614716074872,
+   "y": -195.16147160748702,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Flink": {
+   "x": 645.634559672906,
+   "y": -162.63455967290582,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Flume": {
+   "x": 613.1076477383248,
+   "y": -130.10764773832466,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Fluo": {
+   "x": 580.5807358037437,
+   "y": -97.5807358037435,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Fluo Recipes": {
+   "x": 548.0538238691624,
+   "y": -65.05382386916234,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Fluo YARN": {
+   "x": 515.5269119345812,
+   "y": -32.52691193458117,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Gobblin": {
+   "x": 278.71057599454844,
+   "y": 186.71057599454844,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Hadoop": {
+   "x": 315.92115198909687,
+   "y": 223.92115198909687,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Hop": {
+   "x": 206.3423039781937,
+   "y": 68.34230397819371,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Impala": {
+   "x": 240.18460795638742,
+   "y": 102.18460795638744,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "InLong": {
+   "x": 112.28942400545156,
+   "y": -60.210575994548435,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Kafka": {
+   "x": 75.07884801090313,
+   "y": -97.42115198909687,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Knox": {
+   "x": 243.08781865576353,
+   "y": -216.91218134423647,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Kudu": {
+   "x": 213.54390932788175,
+   "y": -246.45609067211825,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Kylin": {
+   "x": 343.02691193458116,
+   "y": -159.0269119345812,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Linkis": {
+   "x": 375.55382386916233,
+   "y": -191.5538238691624,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "NiFi": {
+   "x": 408.0807358037435,
+   "y": -224.08073580374358,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Ozone": {
+   "x": 440.60764773832466,
+   "y": -256.6076477383248,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Parquet": {
+   "x": 473.1345596729058,
+   "y": -289.13455967290594,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Pinot": {
+   "x": 505.661471607487,
+   "y": -321.6614716074871,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Pulsar": {
+   "x": 538.1883835420682,
+   "y": -354.18838354206827,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Samza": {
+   "x": 570.7152954766494,
+   "y": -386.71529547664943,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "SeaTunnel": {
+   "x": 603.2422074112307,
+   "y": -419.2422074112306,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Spark": {
+   "x": 635.7691193458119,
+   "y": -451.76911934581176,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Storm": {
+   "x": 668.2960312803931,
+   "y": -484.2960312803929,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Tez": {
+   "x": 700.8229432149743,
+   "y": -516.8229432149741,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "TVM": {
+   "x": 733.3498551495555,
+   "y": -549.3498551495553,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Zeppelin": {
+   "x": 765.8767670841366,
+   "y": -581.8767670841364,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "OpenDAL": {
+   "x": 798.4036790187179,
+   "y": -614.4036790187176,
+   "kind": "tick",
+   "lines": [
+    "Big Data"
+   ]
+  },
+  "Anakia": {
+   "x": 580.5807358037437,
+   "y": 385.0807358037435,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "APR": {
+   "x": 548.0538238691624,
+   "y": 352.55382386916233,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Aries": {
+   "x": 515.5269119345812,
+   "y": 320.02691193458116,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "bRPC": {
+   "x": 318.6317279836453,
+   "y": 241.5,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Groovy": {
+   "x": 276.0,
+   "y": 188.3548160490641,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Hudi": {
+   "x": 264.5,
+   "y": 108.26345596729058,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Jena": {
+   "x": 213.73654403270942,
+   "y": 57.5,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "log4cxx": {
+   "x": 142.76345596729058,
+   "y": 29.736544032709407,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Log4j": {
+   "x": 0.0,
+   "y": 23.0,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "log4net": {
+   "x": -41.2365440327094,
+   "y": 85.2634559672906,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "log4php": {
+   "x": -11.5,
+   "y": 184.98654403270942,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Mahout": {
+   "x": -55.1182720163547,
+   "y": 230.0,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "OpenNLP": {
+   "x": -264.5,
+   "y": 177.2634559672906,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Serf": {
+   "x": -36.473088065418814,
+   "y": -308.52691193458116,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "STeVe": {
+   "x": -3.946176130837628,
+   "y": -341.05382386916233,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Texen": {
+   "x": 28.580735803743558,
+   "y": -373.5807358037435,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "Velocity": {
+   "x": 61.107647738324744,
+   "y": -406.10764773832466,
+   "kind": "tick",
+   "lines": [
+    "Libraries"
+   ]
+  },
+  "ActiveMQ": {
+   "x": 314.1076477383247,
+   "y": -406.10764773832466,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Celix": {
+   "x": 281.58073580374355,
+   "y": -373.5807358037435,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Directory Server": {
+   "x": 249.0538238691624,
+   "y": -341.05382386916233,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Felix": {
+   "x": 216.5269119345812,
+   "y": -308.52691193458116,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "FtpServer": {
+   "x": 97.14872537694586,
+   "y": -23.0,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Guacamole": {
+   "x": 48.51794128972078,
+   "y": -31.98205871027922,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "HTTP Server": {
+   "x": 74.42115198909687,
+   "y": 51.42115198909686,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "JAMES": {
+   "x": 48.710575994548435,
+   "y": 25.710575994548435,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Kerby": {
+   "x": -135.09678930062393,
+   "y": -290.4032106993761,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "MINA": {
+   "x": -149.5,
+   "y": -251.68460795638745,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "mod_ftp": {
+   "x": -121.46411742055842,
+   "y": -322.0,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "OpenMeetings": {
+   "x": -192.9820587102792,
+   "y": -322.0,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Qpid": {
+   "x": -374.44759197546796,
+   "y": -269.55240802453204,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "SSHD": {
+   "x": -471.5,
+   "y": -11.5,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "TomEE": {
+   "x": -360.8548160490641,
+   "y": 34.5,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Vysper": {
+   "x": -220.8817279836453,
+   "y": -11.5,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Traffic Server": {
+   "x": -214.43413600817735,
+   "y": 18.93413600817735,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "mod_perl": {
+   "x": -285.52691193458116,
+   "y": 24.973088065418814,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Chainsaw": {
+   "x": -318.05382386916233,
+   "y": -7.553823869162372,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Directory LDAP": {
+   "x": -350.5807358037435,
+   "y": -40.08073580374356,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Directory Studio": {
+   "x": -383.10764773832466,
+   "y": -72.60764773832474,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "Syncope": {
+   "x": -415.6345596729058,
+   "y": -105.13455967290594,
+   "kind": "tick",
+   "lines": [
+    "Networking"
+   ]
+  },
+  "AGE": {
+   "x": 341.05382386916233,
+   "y": 352.55382386916233,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Cassandra": {
+   "x": 308.52691193458116,
+   "y": 320.02691193458116,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Curator": {
+   "x": 276.0,
+   "y": 287.5,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Derby": {
+   "x": 363.2365440327094,
+   "y": 276.0,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Doris": {
+   "x": 312.47308806541884,
+   "y": 276.0,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Empire-db": {
+   "x": 435.6846079563875,
+   "y": -23.0,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Geode": {
+   "x": 378.84230397819374,
+   "y": -23.0,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "HBase": {
+   "x": 230.27242661215098,
+   "y": 34.5,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Hive": {
+   "x": 281.1487253769459,
+   "y": 17.851274623054127,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "JDO": {
+   "x": -5.421151989096863,
+   "y": 57.5,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Lucene.Net": {
+   "x": -45.342303978193726,
+   "y": 57.5,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Pig": {
+   "x": 136.0269119345812,
+   "y": -139.9730880654188,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Torque": {
+   "x": 168.5538238691624,
+   "y": -107.44617613083761,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "ZooKeeper": {
+   "x": 201.08073580374358,
+   "y": -74.91926419625642,
+   "kind": "tick",
+   "lines": [
+    "Data Stores"
+   ]
+  },
+  "Causeway": {
+   "x": 5.919264196256435,
+   "y": -270.08073580374355,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Flex": {
+   "x": 38.44617613083763,
+   "y": -237.5538238691624,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Grails": {
+   "x": 70.9730880654188,
+   "y": -205.0269119345812,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "MyFaces": {
+   "x": 70.12275733878491,
+   "y": -139.1227573387849,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Nutch": {
+   "x": 36.7455146775698,
+   "y": -105.7455146775698,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Royale": {
+   "x": -132.25,
+   "y": 46.0,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Struts": {
+   "x": -224.25,
+   "y": 86.25,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Tapestry": {
+   "x": -308.1182720163547,
+   "y": 138.0,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Tobago": {
+   "x": -368.9865440327094,
+   "y": 79.5134559672906,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Turbine": {
+   "x": -430.55240802453204,
+   "y": -16.552408024532056,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Wicket": {
+   "x": -458.02691193458116,
+   "y": -285.52691193458116,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "DeltaSpike": {
+   "x": -490.55382386916233,
+   "y": -318.05382386916233,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "OpenWebBeans": {
+   "x": -523.0807358037436,
+   "y": -350.5807358037435,
+   "kind": "tick",
+   "lines": [
+    "Frameworks"
+   ]
+  },
+  "Batik": {
+   "x": -463.60764773832466,
+   "y": -440.60764773832466,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "FOP": {
+   "x": -431.0807358037435,
+   "y": -408.0807358037435,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Neethi": {
+   "x": -398.55382386916233,
+   "y": -375.55382386916233,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Sandesha2": {
+   "x": -366.02691193458116,
+   "y": -343.02691193458116,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Woden": {
+   "x": -181.09678930062393,
+   "y": -307.5967893006239,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "WSS4J": {
+   "x": -219.81539204361255,
+   "y": -322.0,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Xalan C++": {
+   "x": -145.93909327881767,
+   "y": -88.43909327881767,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Xalan Java": {
+   "x": -149.5,
+   "y": -146.9820587102792,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Xerces C++": {
+   "x": 61.9910293551396,
+   "y": 27.491029355139602,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Xerces Java": {
+   "x": 20.482058710279205,
+   "y": -14.017941289720795,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Xerces Perl": {
+   "x": 201.1137866939245,
+   "y": 109.11378669392451,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "XML Commons Ext": {
+   "x": 160.61473059034472,
+   "y": 69.0,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "XML Commons Res": {
+   "x": 287.5,
+   "y": 149.5,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "XMLBeans": {
+   "x": 333.5,
+   "y": 149.5,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "XMLSchema": {
+   "x": 379.5,
+   "y": 149.5,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "XG Commons": {
+   "x": 425.5,
+   "y": 149.5,
+   "kind": "tick",
+   "lines": [
+    "XML & Graphics"
+   ]
+  },
+  "Allura": {
+   "x": -563.5,
+   "y": 34.5,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "Annotator": {
+   "x": -517.5,
+   "y": 34.5,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "JSPWiki": {
+   "x": -363.2365440327094,
+   "y": 34.5,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "ManifoldCF": {
+   "x": -322.9865440327094,
+   "y": 104.48654403270942,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "OpenOffice": {
+   "x": -326.06586399182265,
+   "y": 179.93413600817735,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "rivet": {
+   "x": -77.1317279836453,
+   "y": 180.6317279836453,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "Roller": {
+   "x": 4.065863991822649,
+   "y": 99.43413600817735,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "Whimsy": {
+   "x": -21.026911934581186,
+   "y": -162.9730880654188,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "Unomi": {
+   "x": -53.553823869162365,
+   "y": -130.4461761308376,
+   "kind": "tick",
+   "lines": [
+    "Content & Search"
+   ]
+  },
+  "Ant": {
+   "x": 289.13455967290594,
+   "y": 404.1345596729058,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "AntUnit": {
+   "x": 256.6076477383248,
+   "y": 371.60764773832466,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Compress Ant": {
+   "x": 224.08073580374358,
+   "y": 339.0807358037435,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "CycloneDX Ant": {
+   "x": 191.5538238691624,
+   "y": 306.55382386916233,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Gump": {
+   "x": 159.0269119345812,
+   "y": 274.02691193458116,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Ivy": {
+   "x": 126.5,
+   "y": 241.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "IvyDE": {
+   "x": 80.5,
+   "y": 241.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Magpie": {
+   "x": 34.5,
+   "y": 241.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Maven": {
+   "x": -11.5,
+   "y": 287.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Maven Doxia": {
+   "x": -11.5,
+   "y": 333.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Props Ant": {
+   "x": -11.5,
+   "y": 379.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Rat": {
+   "x": -11.5,
+   "y": 425.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Subversion": {
+   "x": -11.5,
+   "y": 471.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Tentacles": {
+   "x": -11.5,
+   "y": 517.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Whisker": {
+   "x": -11.5,
+   "y": 563.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "JMeter": {
+   "x": -11.5,
+   "y": 609.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "NetBeans": {
+   "x": -11.5,
+   "y": 655.5,
+   "kind": "tick",
+   "lines": [
+    "Build & Test"
+   ]
+  },
+  "Brooklyn": {
+   "x": -103.5,
+   "y": -368.0,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "CloudStack": {
+   "x": -28.75,
+   "y": -235.75,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "EventMesh": {
+   "x": 217.5134559672906,
+   "y": -207.0,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "VCL": {
+   "x": 322.0,
+   "y": -77.1317279836453,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "YuniKorn": {
+   "x": 301.3817279836453,
+   "y": 20.6182720163547,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "Mynewt": {
+   "x": 297.02691193458116,
+   "y": 90.0269119345812,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "SkyWalking": {
+   "x": 329.55382386916233,
+   "y": 122.55382386916239,
+   "kind": "tick",
+   "lines": [
+    "Cloud & IoT"
+   ]
+  },
+  "Airavata": {
+   "x": 161.0,
+   "y": -207.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Networking",
+    "Cloud & IoT"
+   ]
+  },
+  "Arrow": {
+   "x": 172.5,
+   "y": 34.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Libraries",
+    "Networking",
+    "Data Stores"
+   ]
+  },
+  "Avro": {
+   "x": 149.5,
+   "y": -23.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "Axiom": {
+   "x": -149.5,
+   "y": -276.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "XML & Graphics"
+   ]
+  },
+  "Axis2": {
+   "x": -333.5,
+   "y": -310.5,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "XML & Graphics"
+   ]
+  },
+  "BVal": {
+   "x": -264.5,
+   "y": 126.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Frameworks"
+   ]
+  },
+  "CXF": {
+   "x": -103.5,
+   "y": -46.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking",
+    "XML & Graphics"
+   ]
+  },
+  "Calcite": {
+   "x": 598.0,
+   "y": 207.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Data Stores"
+   ]
+  },
+  "Camel": {
+   "x": -103.5,
+   "y": -322.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking",
+    "Cloud & IoT"
+   ]
+  },
+  "Cayenne": {
+   "x": -34.5,
+   "y": -11.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking",
+    "Data Stores",
+    "Frameworks",
+    "XML & Graphics"
+   ]
+  },
+  "Commons": {
+   "x": -161.0,
+   "y": -149.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "Cordova": {
+   "x": -172.5,
+   "y": -11.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "CouchDB": {
+   "x": 46.0,
+   "y": -138.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Networking",
+    "Data Stores",
+    "Content & Search",
+    "Cloud & IoT"
+   ]
+  },
+  "Daffodil": {
+   "x": 241.5,
+   "y": 149.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Libraries",
+    "XML & Graphics"
+   ]
+  },
+  "DataFusion": {
+   "x": 483.0,
+   "y": 287.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Libraries",
+    "Data Stores"
+   ]
+  },
+  "DataSketches": {
+   "x": 356.5,
+   "y": 253.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Libraries"
+   ]
+  },
+  "Druid": {
+   "x": 483.0,
+   "y": -0.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Data Stores"
+   ]
+  },
+  "ECharts": {
+   "x": -230.0,
+   "y": 253.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Content & Search"
+   ]
+  },
+  "Fortress": {
+   "x": -322.0,
+   "y": 0.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "FreeMarker": {
+   "x": -356.5,
+   "y": 138.0,
+   "kind": "hub",
+   "lines": [
+    "Frameworks",
+    "Content & Search"
+   ]
+  },
+  "Geronimo": {
+   "x": -425.5,
+   "y": -253.0,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Frameworks"
+   ]
+  },
+  "Helix": {
+   "x": 264.5,
+   "y": -184.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Cloud & IoT"
+   ]
+  },
+  "HttpClient 5": {
+   "x": -264.5,
+   "y": 0.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "HttpCore": {
+   "x": -126.5,
+   "y": -103.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "Iceberg": {
+   "x": 540.5,
+   "y": 253.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Data Stores"
+   ]
+  },
+  "Ignite": {
+   "x": 103.5,
+   "y": -172.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Networking",
+    "Data Stores",
+    "Frameworks",
+    "Cloud & IoT"
+   ]
+  },
+  "IoTDB": {
+   "x": 322.0,
+   "y": -23.0,
+   "kind": "hub",
+   "lines": [
+    "Data Stores",
+    "Cloud & IoT"
+   ]
+  },
+  "Jackrabbit": {
+   "x": 103.5,
+   "y": 69.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking",
+    "Data Stores",
+    "XML & Graphics"
+   ]
+  },
+  "Karaf": {
+   "x": -471.5,
+   "y": -57.5,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Frameworks"
+   ]
+  },
+  "Libcloud": {
+   "x": 264.5,
+   "y": 57.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Cloud & IoT"
+   ]
+  },
+  "Lucene": {
+   "x": 34.5,
+   "y": 57.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Data Stores",
+    "Content & Search"
+   ]
+  },
+  "OFBiz": {
+   "x": 11.5,
+   "y": -69.0,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Data Stores",
+    "Frameworks",
+    "XML & Graphics",
+    "Content & Search"
+   ]
+  },
+  "ORC": {
+   "x": 414.0,
+   "y": 276.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Libraries",
+    "Data Stores"
+   ]
+  },
+  "OpenJPA": {
+   "x": -80.5,
+   "y": 46.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Data Stores",
+    "Frameworks"
+   ]
+  },
+  "PDFBox": {
+   "x": -287.5,
+   "y": 218.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Content & Search"
+   ]
+  },
+  "PLC4X": {
+   "x": -69.0,
+   "y": -276.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking",
+    "Cloud & IoT"
+   ]
+  },
+  "POI": {
+   "x": -103.5,
+   "y": 230.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Content & Search"
+   ]
+  },
+  "Phoenix": {
+   "x": 609.5,
+   "y": 149.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Data Stores"
+   ]
+  },
+  "Polaris": {
+   "x": 540.5,
+   "y": 34.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Data Stores"
+   ]
+  },
+  "Pony Mail": {
+   "x": -471.5,
+   "y": 34.5,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Content & Search"
+   ]
+  },
+  "PouchDB": {
+   "x": 23.0,
+   "y": -0.0,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Data Stores",
+    "Content & Search"
+   ]
+  },
+  "PyLucene": {
+   "x": -34.5,
+   "y": 138.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Content & Search"
+   ]
+  },
+  "Ranger": {
+   "x": 184.0,
+   "y": -276.0,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Networking"
+   ]
+  },
+  "SIS": {
+   "x": 276.0,
+   "y": 241.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Data Stores"
+   ]
+  },
+  "Santuario": {
+   "x": -149.5,
+   "y": -207.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking",
+    "XML & Graphics"
+   ]
+  },
+  "Shiro": {
+   "x": -184.0,
+   "y": 46.0,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Frameworks"
+   ]
+  },
+  "Solr": {
+   "x": -414.0,
+   "y": 34.5,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Frameworks",
+    "Content & Search"
+   ]
+  },
+  "Solr Operator": {
+   "x": 11.5,
+   "y": -195.5,
+   "kind": "hub",
+   "lines": [
+    "Content & Search",
+    "Cloud & IoT"
+   ]
+  },
+  "Superset": {
+   "x": 586.5,
+   "y": 80.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Data Stores"
+   ]
+  },
+  "Synapse": {
+   "x": -264.5,
+   "y": -322.0,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "XML & Graphics"
+   ]
+  },
+  "Thrift": {
+   "x": -253.0,
+   "y": 57.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Networking"
+   ]
+  },
+  "Tika": {
+   "x": -322.0,
+   "y": 57.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Content & Search"
+   ]
+  },
+  "Tomcat": {
+   "x": -483.0,
+   "y": -126.5,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Frameworks"
+   ]
+  },
+  "TsFile": {
+   "x": 310.5,
+   "y": -126.5,
+   "kind": "hub",
+   "lines": [
+    "Big Data",
+    "Cloud & IoT"
+   ]
+  },
+  "Websh": {
+   "x": -471.5,
+   "y": -195.5,
+   "kind": "hub",
+   "lines": [
+    "Networking",
+    "Frameworks"
+   ]
+  },
+  "Yetus": {
+   "x": -11.5,
+   "y": 241.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Build & Test"
+   ]
+  },
+  "cTAKES": {
+   "x": -161.0,
+   "y": 264.5,
+   "kind": "hub",
+   "lines": [
+    "Libraries",
+    "Content & Search"
+   ]
+  }
+ },
+ "stats": {
+  "stations": 209,
+  "hubs": 57,
+  "crossings_est": 4,
+  "labels_overlapping": 3
+ }
+}

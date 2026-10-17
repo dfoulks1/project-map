@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="3036px" height="2500px" xml:space="preserve">
+<g id="Lines">
+  <g id="Lines_L1_op" style="fill:none; stroke:#E4002B; stroke-width:6">
+    <path id="line105" d="m 903.22,1636 83,-11" />
+    <path id="line107" d="m 963.6,1628 83.6932,-11.1386" />
+    <path id="line109" d="m 1046.6,1617 145,-21" />
+    <path id="path111" d="m 1208.64,1579 c 0,10.5 -7.8679,15.6725 -19.7521,17.4749" />
+    <path id="line113" d="m 1208.6,1579.17 0,-253" />
+    <path id="path115" d="m 1208.6,1327.28 c 0,-7.738 4.6427,-11.9203 11,-15.1092" />
+    <path id="line117" d="m 1219.6,1312.17 179.8233,-80.3529" />
+    <path id="path119" d="m 1398.5,1232 c 4.5584,-2.5252 21.555,-19.6176 42.4844,-11.7745" />
+    <path id="path121" d="m 1507.52,1235.14 c -50.6418,-1.3172 -50.9202,-15.896 -62.6138,-14.1274" />
+    <path id="path123" d="m 1508.3,1234.356 c 36.7929,0.25 40.2229,-20.7412 71.8962,-21.1862" />
+    <path id="path125" d="m 1579.755,1213.32 c 0,0 46.275,-3.2535 67.9277,-21.0677 21.6527,-17.8142 59.6206,-84.181 59.6206,-84.181 l 0,-48.9" />
+    <path id="path127" d="m 1707.5,1060.28 c 0,-17.688 -3.6587,-25.9 -15.8319,-33.5251" />
+    <path id="line129" d="m 1692.3,1027.17 -42.7,-31" />
+    <path id="path131" d="m 1635.6,969.92 c 0,13.818 8.4804,23.47487 14.9705,26.66381" />
+    <line id="line133" x1="1635.8" y1="971.2" x2="1635.8" y2="72" />
+  </g>
+  <g id="Lines_L2_op" style="fill:none; stroke:#97D700; stroke-width:6">
+    <path id="line203" d="m 568.29,1161.05 -57.7646,55.1568" />
+    <path id="path205" d="m 567.3,1162 c 6.1764,-6 9.1591,-10.8432 26.2941,-10.8432" />
+    <line id="line207" x1="593" y1="1151.2" x2="797.3" y2="1151.2"/>
+    <path id="path209" d="m 808.91,1130.17 c 0,11.607 -5.367,21 -12,21" />
+    <path id="line211" d="m 808.91,1113.56 0,17" />
+    <path id="path213" d="m 808.91,1113.76 c 0,-5.527 6.6542,-10.1961 14.3922,-10.1961" />
+    <line id="line215" x1="823" y1="1103" x2="1835" y2="1103"/>
+    <path id="path223" d="m 1860.76,1126.915 c -8.3008,-8.8619 -11.5456,-23.9412 -26,-23.9412" />
+    <path id="line225" d="m 1860.27,1126.39 242,242" />
+    <path id="path227" d="m 2099.82,1366 c 6.0784,5.2063 17.0581,8.1961 34.7450996,8.1961" />
+    <line id="line229" x1="2133" y1="1374" x2="2928" y2="1374"/>
+    <path id="path231" d="m 2956.6,1409.34 c 0,-19.346 -11.5121,-35.3922 -28.6471,-35.3922" />
+    <path id="line233" d="m 2956.6,1408.17 0,233" />
+  </g>
+  <g id="Lines_L3_op" style="fill:none; stroke:#FFD100; stroke-width:6">
+    <path id="line309" d="m 1146.6,1605.87 93,0" />
+    <path id="path311" d="m 1253.6,1591.04 c 0,7.738 -6.5393,14.8319 -14.2773,14.8319" />
+    <path id="line313" d="m 1253.6,1592.57 0,-146.1" />
+    <path id="path315" d="m 1253.6,1447.2 c 0,-6.633 -7.0939,-12.9705 -14.8319,-12.9705" />
+    <path id="line317" d="m 1239.6,1434.23 -106,0" />
+    <path id="path319" d="m 1113.5,1404.68 c 0,16.029 8.2383,29.5546 21.5043,29.5546" />
+    <line id="line321" x1="1113.5" y1="1405" x2="1113.5" y2="895"/>
+    <path id="path323" d="m 1113.5,896 c 0,-10.502 10.734,-19.83189 24,-19.83189" />
+    <line id="line325" x1="1137.6" y1="876" x2="1778.6" y2="876" />
+    <path id="path327" d="m 1800,859.48 c 0,8.844 -10.5022,16.69324 -22.1092,16.69324" />
+    <line id="line329" x1="1800" y1="860.3" x2="1800" y2="89.3" />
+    <path id="path333" d="m 1800,90 c 0,-8.291 -7.0939,-15.97054 -14.8319,-15.97054" />
+    <path id="line335" d="m 1786,74.17 -75,0" />
+  </g>
+  <g id="Lines_L4_op" style="fill:none; stroke:#5F259F; stroke-width:6">
+    <line id="line405" x1="1119.5" y1="1368.5" x2="1119.5" y2="897" />
+    <path id="path407" d="m 1118.75,897.725 c 0.8319,-11.47573 10.6626,-18.38648 34.86133,-17.55459" />
+    <line id="line409" x1="1150" y1="882" x2="1883.5" y2="882" />
+    <path id="path415" d="m 1911.6,905.5 c 0,-12.713 -13.1096,-23.55459 -29.1386,-23.55459" />
+    <line id="line417" x1="1911.6" y1="905" x2="1911.6" y2="1367" />
+    <path id="path421" d="m 1911.6,1366.34 c 0,11.607 -25.2932,21.6933 -55.6932,21.6933" />
+    <line id="line423" x1="1856.6" y1="1388.2" x2="1179.6" y2="1388.2" />
+    <path id="path427" d="m 1118.6,1367.48 c 0,11.055 29.96703,20.6932 67,20.6932" />
+  </g>
+  <g id="Lines_L5_op" style="fill:none; stroke:#AC4FC6; stroke-width:6">
+    <path id="line507" d="m 916.17,1634.17 -65.5683,15.8111" />
+    <path id="path509" d="m 836.63,1674.63 c 0,-13.818 4.3074,-22.7817 14.6724,-24.8614" />
+    <path id="line511" d="m 836.6,1673.98 0,417" />
+    <path id="path513" d="m 836.57,2089.87 c 0.3867,17.2819 -13.0347,26.5408 -27.5424,26.1178" />
+    <path id="line515" d="m 615.32,2116.4 194.286,-0.4159" />
+  </g>
+  <g id="Lines_L5_uc">
+  </g>
+  <g id="Lines_L6_op" style="fill:none; stroke:#D71671; stroke-width:6">
+    <path id="line601" d="m 1664.9,1792.4 -106.5,0" />
+    <path id="line603" d="m 1650,1792.78 143,0" />
+    <path id="path605" d="m 1811.77,1782.45 c 0,6.08 -9.393,10.4454 -21,10.4454" />
+    <path id="line607" d="m 1811.6,1783.35 0,-154.8578" />
+    <path id="path609" d="m 1811.6,1629.53 c 0.1911,-8.0617 2.5682,-21.27876 8.6135,-28.86486" />
+    <path id="line611" d="m 1818.2,1603.17 c 25.8189,-35.4798 18.0184,-37.2153 61.9281,-87.0287 19.7184,-19.7662 46.086,-36.9523 45.8449,-65.3994" />
+    <path id="line613" d="m 1927,1321.96 0,129.8" />
+    <path id="path619" d="m 1928.05,1325.4 c -1.4832,-17.1903 -9.0318,-22.5976 -28.4117,-35.1619" />
+    <path id="path621" d="m 1903.22,1186.46 c -15.5287,15.4918 -18.17,96 3.2,110.6571" />
+    <path id="path625" d="m 1900.62343,1189.15 30.1937,-30.7483 c 15.1877,-9.6418 27.798,-48.1732 88.0223,-46.3801" />
+    <path id="line629" d="m 2018.6,1112.17 477,0" />
+   <path id="path631" d="m 2595.6,1041.5 c 0.2773,41.7439 -50.988,70.6638 -114,70.6638" />
+    <path id="line633" d="m 2595.6,1043.17 0,-438" />
+    <path id="path635" d="m 2595.6,606.56 c 0,-13.818 12.8189,-26.3865 31.0589,-26.3865" />
+    <path id="line637" d="m 2623.6,580.17 83,0" />
+    <path id="path639" d="m 2733.6,547.17 c 0,18.24 -10.4929,33 -29.2859,33" />
+    <path id="line641" d="m 2733.6,550.17 0,-371" />
+    <path id="path643" d="m 2733.6,180.28 c -0.2773,-14.65568 -16.5935,-23.10919 -35.3865,-23.10919" />
+    <path id="line645" d="m 2699.6,157.17 -76.6654,-0.83189" />
+  </g>
+  <g id="Lines_L7_op" style="fill:none; stroke:#FF6900; stroke-width:6">
+    <path id="line701" d="m 927.6,480.17 -77,-264" />
+    <path id="path703" d="m 928.86,481.76 c 1.3725,14.08399 17.9521,11.41176 36.7451,11.41176" />
+    <path id="line705" d="m 1089.6,493.17 -124,0" />
+    <path id="path707" d="m 1141.7,517.56 c -6.5687,-14.344436 -24.6306,-24.392156 -53.3726,-24.392156" />
+    <path id="line709" d="m 1141.6,517.17 95,201" />
+    <path id="path711" d="m 1444.23,1208.59 c -7.547,-63 -95.4467,-224.39395 -207.6263,-490.41771" />
+    <line id="line713" x1="1444.5" y1="1208" x2="1444.5" y2="1474.5" />
+    <path id="path717" d="m 1444.6,1474.17 c 0,60.801 26.836,110 60,110" />
+    <line id="line719" x1="1502" y1="1585" x2="1968" y2="1585" />
+    <path id="path725" d="m 2030.6,1498.17 c 0,47.535 -27.7553,86.9804 -64.2353,86.9804" />
+    <path id="path727" d="m 2030.6,1500.15 c 0,-74.066 46.516,-134.9804 104,-134.9804" />
+    <path id="line729" d="m 2133,1365 38.5686,0" />
+    <path id="path731" d="m 2180.6,1349.17 c 0,9.396 -6.262,17 -14,17" />
+    <path id="line733" d="m 2180.6,1351.39 0,-27" />
+  </g>
+  <g id="Lines_L8_op" style="fill:none; stroke:#009EDB; stroke-width:6">
+    <line id="line801" x1="2116.6" y1="258" x2="2116.6" y2="652.2" />
+<path id="path803" d="m 2116.6,650.78 c 0.8319,15.7543 -24.152,31.05027 -54,29.38649" />
+    <line id="line805" x1="2071.6" y1="680.2" x2="1744" y2="680.2" />
+    <path id="path807" d="m 1712.7,722.17 c 0,-23.215 15.6364,-42 32.2184,-42" />
+    <line id="line809" x1="1713.6" y1="721" x2="1713.6" y2="1670" />
+    <path id="path811" d="m 1713.7,1668.2 c 0,24.32 -23.258,44 -52,44" />
+    <path id="path813" d="m 1562.9,1769.37 c 0,-31.506 33.4213,-57.1961 99.1963,-57.1961" />
+    <line id="line815" x1="1562.9" y1="1768.6" x2="1562.9" y2="2129" />
+  </g>
+  <g id="Lines_L8_uc" style="fill:none; stroke:#009EDB; stroke-width:4.5; stroke-opacity:0.25">
+    <path id="path851" d="m 1608.06,2185.1 c -24.32,0 -44,-23.258 -44,-52" />
+    <path id="path853" d="m 1608.06,2185.13 c 24.32,0 44,23.258 44,52" />
+    <path id="line855" d="m 1652.1,2237.06 0,163" />
+    <path id="path857" d="m 1652,2399.77 c 0,24.32 -23.258,44 -52,44" />
+  </g>
+  <g id="Lines_L9_op" style="fill:none; stroke:#71C5E8; stroke-width:6">
+    <line id="line903" x1="409" y1="1950" x2="409" y2="1441" />
+    <path id="path907" d="m 409.5,1442.3 c 0,-21 10,-38.41 31,-38.41" />
+    <line id="line909" x1="439" y1="1404" x2="528.2" y2="1404" />
+    <path id="path911" d="m 527.6,1404.17 c 22.0452,0.1887 65.3627,-74 95.7627,-74" />
+    <line id="line913" x1="622" y1="1330" x2="1116.5" y2="1330" />
+    <path id="line915" d="m 1117,1330.88 c 41.25753,0.4554 60.05183,-13 92.566,-14.3865" />
+    <line id="line917" x1="1216" y1="1317" x2="1735" y2="1317" />
+    <path id="line919" d="m 1734,1317 c 13.526,-1 85.7128,8 108.6276,-20 l 39.2156,-93.8825" />
+    <path id="path921" d="m 1881.32,1202.86 c 5.4219,-16 18.527,-23.657 29.8652,-23.9545" />
+    <line id="line923" x1="1916" y1="1178" x2="2074" y2="1178" />
+  </g>
+  <g id="Lines_L9_uc">
+  </g>
+  <g id="Lines_L10_op" style="fill:none; stroke:#C1A7E2; stroke-width:6">
+    <path id="line1003" d="m 833.7,1285 -166,0" />
+    <path id="path1005" d="m 860.6,1275.48 c -6.3923,3.42 -14.3237,9.5183 -29.2477,9.5183" />
+    <path id="path1007" d="m 857.8,1277 c 11.7851,-5.7911 25.5052,-17 54.8002,-17" />
+    <path id="line1009" d="m 751.3,1157 -123.75,0" />
+    <path id="path1011" d="m 769.7,1179.17 c 0,-12.16 -7.5906,-22.1386 -19.1976,-22.1386" />
+    <path id="line1013" d="m 769.7,1221 0,-43" />
+    <path id="path1015" d="m 769.5,1220 c 0,21.557 7.3888,40.8024 19.9705,39.9705" />
+    <path id="line1017" d="m 789.1,1260 347,0" />
+    <path id="line1021" d="m 1135.16,1259.8 101.36133,-9.6807 101.3613,-9.6806 103.7143,0.5154 102.1457,-1.0532" />
+    <path id="path1023" d="m 1542.47,1240 c 59.2158,-0.8339 58.8697,20.3725 95.1373,21.1568" />
+    <path id="line1025" d="m 1637.6,1261 76.8,0" />
+    <path id="path1027" d="m 1763.5,1231.17 c 0,16.029 -19.7421,29.8319 -45.1681,29.8319" />
+    <path id="line1029" d="m 1763.6,1232 0,-244" />
+    <path id="path1031" d="m 1763.5,989 c 0,-28.3275 15.7,-51.6792 33.7664,-65.91145 9.8,-7.72 36.1592,-25.30634 44.2246,-37.559" />
+    <path id="line1033" d="m 1843,880.64 84,-204" />
+    <path id="path1035" d="m 1927.17,676.61 c 15.7722,-36.814 26.2127,-42.8461 25.4367,-66.2816" />
+    <path id="line1037" d="m 1952.6,610 0,-350" />
+  </g>
+  <g id="Lines_L10_uc" style="fill:none; stroke:#C1A7E2; stroke-width:4.5;stroke-opacity:0.25">
+    <path id="line1051" d="m 1952.6,268.17 0,-77.5" />
+    <path id="path1053" d="m 1952.6,191.41 c 0,-23.215 15.6364,-42 32.2184,-42" />
+    <path id="path1055" d="m 1984.45,149.49 826,0" />
+  </g>
+  <g id="Lines_L11_op" style="fill:none; stroke:#76232F; stroke-width:6">
+    <path id="line1105" d="m 526.6,500.17 -290,156" />
+    <path id="path1107" d="m 525.77,500.59 c 9.4275,-4.55657 9.2179,-9.82758 27.4748,-9.44541" />
+    <path id="path1109" d="m 583.6,506.17 c 0,-8.291 -14.76,-15 -33,-15" />
+    <path id="line1113" d="m 712.6,729.17 -216,-378" />
+    <path id="path1115" d="m 712.19,728.34 c 2.9116,5.80689 20.096,9.83189 44.416,9.83189" />
+    <path id="line1117" d="m 983.6,738.17 -228.66,0" />
+    <path id="path1119" d="m 1018.16,751.72 c -10.1213,-9 -16.7321,-13.55459 -35.5251,-13.55459" />
+    <path id="line1121" d="m 1017.6,751.17 178.4,185.63" />
+    <path id="path1125" d="m 1211.67,1041.49 c 4.2523,-36.0666 -3.8081,-92.48324 -17.5926,-107.32608" />
+    <path id="line1127" d="m 1212,1037.17 0,283" />
+    <path id="path1133" d="m 2155.738,1896.354 c -47.8123,-43 -112.7742,-32.5336 -112.7742,-32.5336 l -386.333,3.1683 c -16.0977,-5.5893 -25.1366,-10.2733 -41.2343,-29 -11.8337,-27.7829 -14.3144,-36.6838 -37.3126,-39.1848 l -159.4468,-0.6602 c -33.7584,1.0407 -53.9614,-16.4683 -48.074,-69.68 l -0.2307,-307.32746 c 3.8281,-22.4421 -21.627,-10.2321 -92.2544,-14.1343 -16.65,0.7412 -50.5618,-12.4678 -59.8512,-25.0754 -5.2661,-7.7662 -4.2757,-12.8733 -4.3063,-57.4879" />
+  </g>
+  <g id="Lines_L11_uc" style="fill:none; stroke:#76232F; stroke-width:4.5;stroke-opacity:0.25">
+    <path id="path1153" d="m 2614.5,1943 c -47.8123,-43.0078 -112.7742,-32.5336 -112.7742,-32.5336 l -294.833,0 c -18.1709,-0.5791 -33.4427,2.5114 -49.5404,-16.2038" />
+    <line id="line1155" x1="2208" y1="1910.5" x2="2500" y2="1910.5" />
+  </g>
+  <g id="Lines_L12_op" style="fill:none; stroke:#007B5F; stroke-width:6">
+    <path id="path1201" d="m 2916.3,1026.8 c 0.6577,-77.5234 0.6577,-77.32729 -115.6568,-77.6858" />
+    <line id="line1203" x1="2838" y1="949" x2="1638" y2="949" />
+  </g>
+  <g id="Lines_L12_uc" style="fill:none; stroke:#007B5F; stroke-width:4.5; stroke-opacity:0.25">
+    <path id="path1223" d="m 1644,949.6 c -45.501,2.118 -98.529,113.264 -111.0293,150.35 -18.659,41.484 -30.34,65.468 -31.115,136.22" />
+    <line id="line1225" x1="1502" y1="1234" x2="1502" y2="1463.5" />  
+    <path id="path1227" d="m 1502,1463.4 c 0.4075,53.6517 0.4075,53.6517 -94.5925,53.6517" />
+    <line id="line1229" x1="1407.5" y1="1517" x2="640" y2="1517" />  
+  </g>
+  <g id="Lines_L13_op" style="fill:none; stroke:#EF95CF; stroke-width:6">
+    <line id="line1301" x1="550" y1="949" x2="1630" y2="949" />  
+  </g>
+  <g id="Lines_L13_uc" style="fill:none; stroke:#EF95CF; stroke-width:4.5; stroke-opacity:0.25">
+    <path id="path1323" d="m 1634.5,1296.7 c -3.3807,-68.4226 18.6371,-68.2678 -38.0456,-106.019 -38.0914,-28.3742 -61.9286,-76.151 -56.7955,-90.3058 31.4041,-86.6 85.3209,-63.1455 89.88,-114 -1,-31.59726 11.9,-41.23142 -33.3622,-38.317" />
+    <line id="line1325" x1="1634.5" y1="1296.3" x2="1634.5" y2="1585" />  
+    <path id="path1327" d="m 2073.635,1686.27 c -53.6762,-34.212 -112.7742,-29.3651 -112.7742,-29.3651 l -89.6329,0 c 0,0 -57.7883,0.5408 -188.394,0 -33.7584,1.0407 -50,-19 -48.074,-73.413" />
+    <path id="path1329" d="m 2073.635,1686.27 c 53.6762,34.212 112.7742,29.3651 112.7742,29.3651 l 315.132895,0 c 0,0 57.7883,-0.5408 188.394,0 33.7584,-1.0407 50,19 48.074,73.413" />
+  </g>
+  <g id="Lines_L16_op" style="fill:none; stroke:#2CD5C4; stroke-width:6">
+    <line id="line1603" x1="2162" y1="1373" x2="2162" y2="1895" />  
+    <path id="path1605" d="m 2159.58,1896.69 c 44.5238,73 31.7144,96.7367 136.454195,123.1214 230.074,57.9574 456.2041,-96.44 641.4488,256.2388" />
+  </g>
+  <g id="Lines_L17_uc" style="fill:none; stroke:#C09C83; stroke-width:4.5; stroke-opacity:0.25">
+    <line id="line1703" x1="631" y1="1145" x2="248" y2="1145" />  
+    <path id="path1705" d="m 246.97,1144.48 c -22,-0.1887 -65.3627,74 -95.7627,74" />
+    <line id="line1707" x1="151.3" y1="1218.5" x2="60" y2="1218.5" />  
+  </g>
+</g>
+<g id="Stations">
+  <g id="Stns_L1_op" style="fill:#FFFFFF; stroke:#E4002B; stroke-width:1">
+    <circle id="stn102" cx="964.8" cy="1628.4" r="6"/> <!--Waihuanlu -->
+    <circle id="stn103" cx="1025.2" cy="1619.5" r="6"/>
+    <circle id="stn104" cx="1087.5" cy="1611.2" r="6"/>
+    <circle id="stn109" cx="1327.7" cy="1263.5" r="6"/>
+    <circle id="stn112" cx="1651.3" cy="1189.8" r="6"/>
+    <circle id="stn114" cx="1659.5" cy="1003" r="6"/>
+    <circle id="stn116" cx="1635.8" cy="889.3" r="6"/>
+    <circle id="stn117" cx="1635.8" cy="800" r="6"/>
+    <circle id="stn118" cx="1635.8" cy="725" r="6"/>
+    <circle id="stn119" cx="1635.8" cy="650" r="6"/>
+    <circle id="stn120" cx="1635.8" cy="585" r="6"/>
+    <circle id="stn121" cx="1635.8" cy="520" r="6"/>
+    <circle id="stn122" cx="1635.8" cy="455" r="6"/>
+    <circle id="stn123" cx="1635.8" cy="390" r="6"/>
+    <circle id="stn124" cx="1635.8" cy="310" r="6"/>
+    <circle id="stn125" cx="1635.8" cy="250" r="6"/>
+    <circle id="stn126" cx="1635.8" cy="190" r="6"/>
+    <circle id="stn127" cx="1635.8" cy="130" r="6"/>
+    <circle id="stn128" cx="1635.8" cy="75" r="6"/> <!--Fujin -->
+    <!-- If ellipse is desired, consider using:
+    <ellipse id="stn128a" cx="1658" cy="75" rx="6" ry="5.5"/>   -->
+  </g>
+  <g id="Stns_L2_op" style="fill:#FFFFFF; stroke:#97D700; stroke-width:1">
+    <circle id="stn201" cx="513.7" cy="1212.7" r="6"/> <!-- EXujing -->
+    <circle id="stn204" cx="844" cy="1103" r="6"/>
+    <circle id="stn205" cx="912" cy="1103" r="6"/>
+    <circle id="stn206" cx="980" cy="1103" r="6"/>
+    <circle id="stn207" cx="1048" cy="1103" r="6"/>
+    <circle id="stn214" cx="1851" cy="1113.2" r="6"/>
+    <circle id="stn215" cx="1877" cy="1142" r="6"/>
+    <circle id="stn217" cx="1990" cy="1256.6" r="6"/>
+    <circle id="stn218" cx="2064" cy="1330" r="6"/>
+    <circle id="stn220" cx="2272" cy="1374" r="6"/>
+    <circle id="stn221" cx="2353" cy="1374" r="6"/>
+    <circle id="stn222" cx="2434" cy="1374" r="6"/>
+    <circle id="stn223" cx="2515" cy="1374" r="6"/>
+    <circle id="stn224" cx="2596" cy="1374" r="6"/>
+    <circle id="stn225" cx="2677" cy="1374" r="6"/>
+    <circle id="stn226" cx="2758" cy="1374" r="6"/>
+    <circle id="stn227" cx="2839" cy="1374" r="6"/>
+    <circle id="stn228" cx="2920" cy="1374" r="6"/>
+    <circle id="stn229" cx="2956.5" cy="1472" r="6"/>
+    <circle id="stn230" cx="2956.5" cy="1609" r="6"/> <!-- PDAirport -->
+  </g>
+  <g id="Stns_L3_op" style="fill:#FFFFFF; stroke:#FFD100; stroke-width:1">
+    <circle id="stn301" cx="1720" cy="75" r="6"/> <!-- NJiangyang -->
+    <circle id="stn302" cx="1775" cy="75" r="6"/>
+    <circle id="stn303" cx="1800" cy="110" r="6"/>
+    <circle id="stn304" cx="1800" cy="160" r="6"/>
+    <circle id="stn305" cx="1800" cy="210" r="6"/>
+    <circle id="stn306" cx="1800" cy="265" r="6"/>
+    <circle id="stn307" cx="1800" cy="320" r="6"/>
+    <circle id="stn308" cx="1800" cy="375" r="6"/>
+    <circle id="stn309" cx="1800" cy="430" r="6"/>
+    <circle id="stn310" cx="1800" cy="480" r="6"/>
+    <circle id="stn311" cx="1800" cy="530" r="6"/>
+    <circle id="stn312" cx="1800" cy="580" r="6"/>
+    <circle id="stn313" cx="1800" cy="630" r="6"/>
+    <circle id="stn315" cx="1800" cy="770" r="6"/>
+    <circle id="stn326" cx="1253.6" cy="1473" r="6"/>
+    <circle id="stn328" cx="1253.6" cy="1578" r="6"/> <!-- Shilong -->
+  </g>
+  <g id="Stns_L4_op" style="fill:#FFFFFF; stroke:#5F259F; stroke-width:1">
+    <circle id="stn412" cx="1907" cy="893.2" r="6"/> <!-- Linping -->
+    <circle id="stn414" cx="1911.6" cy="1022" r="6"/>
+    <circle id="stn415" cx="1911.6" cy="1074" r="6"/>
+    <circle id="stn417" cx="1911.6" cy="1237" r="6"/>
+    <circle id="stn419" cx="1852" cy="1388.2" r="6"/>
+    <circle id="stn420" cx="1785" cy="1388.2" r="6"/>
+    <circle id="stn422" cx="1622" cy="1388.2" r="6"/>
+    <circle id="stn425" cx="1314" cy="1388.2" r="6"/> <!-- OutdoorStadium -->
+  </g>
+  <g id="Stns_L5_op" style="fill:#FFFFFF; stroke:#AC4FC6; stroke-width:1">
+    <circle id="stn502" cx="837" cy="1698" r="6"/> <!-- Chunshen -->
+    <circle id="stn503" cx="837" cy="1766" r="6"/>
+    <circle id="stn504" cx="837" cy="1840" r="6"/>
+    <circle id="stn505" cx="837" cy="1920" r="6"/>
+    <circle id="stn506" cx="837" cy="2000" r="6"/>
+    <circle id="stn507" cx="837" cy="2080" r="6"/>
+    <circle id="stn508" cx="785" cy="2116" r="6"/>
+    <circle id="stn509" cx="730" cy="2116" r="6"/>
+    <circle id="stn510" cx="675" cy="2116" r="6"/>
+    <circle id="stn511" cx="620" cy="2116" r="6"/> <!-- MinhangDZ -->
+  </g>
+  <g id="Stns_L5_uc">
+  </g>
+  <g id="Stns_L6_op" style="fill:#FFFFFF; stroke:#D71671; stroke-width:1">
+    <circle id="stn602" cx="2734" cy="243" r="6"/> <!-- NWaigaoqiao -->
+    <circle id="stn603" cx="2734" cy="358" r="6"/>
+    <circle id="stn604" cx="2734" cy="501" r="6"/>
+    <circle id="stn605" cx="2595.5" cy="613" r="6"/>
+    <circle id="stn606" cx="2595.5" cy="725" r="6"/>
+    <circle id="stn607" cx="2595.5" cy="837" r="6"/>
+    <circle id="stn609" cx="2595.5" cy="1013" r="6"/>
+    <circle id="stn610" cx="2569" cy="1089" r="6"/>
+    <circle id="stn611" cx="2484" cy="1112" r="6"/>
+    <circle id="stn612" cx="2380" cy="1112" r="6"/>
+    <circle id="stn613" cx="2277" cy="1112" r="6"/>
+    <circle id="stn614" cx="2173" cy="1112" r="6"/>
+    <circle id="stn615" cx="2069" cy="1112" r="6"/>
+    <circle id="stn616" cx="1993.3" cy="1114.3" r="6"/>
+    <circle id="stn618" cx="1891" cy="1237" r="6"/>
+    <circle id="stn620" cx="1927.5" cy="1396" r="6"/>
+    <circle id="stn621" cx="1884" cy="1513.7" r="6"/>
+    <circle id="stn624" cx="1812" cy="1712" r="6"/>
+    <circle id="stn625" cx="1811.7" cy="1768" r="6"/>
+    <circle id="stn626" cx="1754" cy="1793" r="6"/>
+    <circle id="stn627" cx="1683" cy="1793" r="6"/> <!-- SLingyan -->
+  </g>
+  <g id="Stns_L7_op" style="fill:#FFFFFF; stroke:#FF6900; stroke-width:1">
+    <circle id="stn701" cx="851" cy="217" r="6"/> <!-- Meilanhu -->
+    <circle id="stn702" cx="866" cy="269" r="6"/>
+    <circle id="stn703" cx="881" cy="324" r="6"/>
+    <circle id="stn704" cx="896" cy="373" r="6"/>
+    <circle id="stn705" cx="911" cy="426" r="6"/>
+    <circle id="stn706" cx="927" cy="477" r="6"/>
+    <circle id="stn707" cx="976.5" cy="493.3" r="6"/>
+    <circle id="stn708" cx="1046" cy="493.3" r="6"/>
+    <circle id="stn709" cx="1122" cy="499" r="6"/>
+    <circle id="stn710" cx="1156" cy="548" r="6"/>
+    <circle id="stn711" cx="1181" cy="603" r="6"/>
+    <circle id="stn712" cx="1207" cy="658" r="6"/>
+    <circle id="stn713" cx="1235" cy="714" r="6"/>
+    <circle id="stn714" cx="1258" cy="769" r="6"/>
+    <circle id="stn715" cx="1281" cy="824" r="6"/>
+    <circle id="stn718" cx="1384.5" cy="1050" r="6"/>
+    <circle id="stn724" cx="1519" cy="1585" r="6"/>
+    <circle id="stn727" cx="1787" cy="1585" r="6"/>
+    <circle id="stn729" cx="1934" cy="1585" r="6"/>
+    <circle id="stn730" cx="2025" cy="1536.2" r="6"/>
+    <circle id="stn731" cx="2047" cy="1428" r="6"/>
+    <circle id="stn733" cx="2180.7" cy="1327" r="6"/> <!-- Huamu -->
+  </g>
+  <g id="Stns_L8_op" style="fill:#FFFFFF; stroke:#009EDB; stroke-width:1">
+    <circle id="stn801" cx="2116.6" cy="260" r="6"/> <!-- Shiguang -->
+    <circle id="stn802" cx="2116.6" cy="343" r="6"/>
+    <circle id="stn803" cx="2116.6" cy="426" r="6"/>
+    <circle id="stn804" cx="2116.6" cy="509" r="6"/>
+    <circle id="stn805" cx="2116.6" cy="592" r="6"/>
+    <circle id="stn806" cx="2110" cy="666" r="6"/>
+    <circle id="stn807" cx="2062" cy="680.2" r="6"/>
+    <circle id="stn808" cx="1996" cy="680.2" r="6"/>
+    <circle id="stn810" cx="1863" cy="680.2" r="6"/>
+    <circle id="stn812" cx="1713.6" cy="752" r="6"/>
+    <circle id="stn813" cx="1713.6" cy="824" r="6"/>
+    <circle id="stn816" cx="1713.6" cy="1202" r="6"/>
+    <circle id="stn820" cx="1713.6" cy="1469" r="6"/>
+    <circle id="stn823" cx="1620" cy="1716.3" r="6"/>
+    <circle id="stn825" cx="1562.9" cy="1855" r="6"/>
+    <circle id="stn826" cx="1562.9" cy="1910" r="6"/>
+    <circle id="stn827" cx="1562.9" cy="1965" r="6"/>
+    <circle id="stn828" cx="1562.9" cy="2020" r="6"/>
+    <circle id="stn829" cx="1562.9" cy="2075" r="6"/>
+    <circle id="stn830" cx="1562.9" cy="2130" r="6"/> <!-- ShenduHw -->
+  </g>
+  <g id="Stns_L8_uc" style="fill:#FFFFFF; stroke:#009EDB; stroke-width:1">
+    <circle id="stn831" cx="1604" cy="2185" r="4.5"/>
+    <circle id="stn832" cx="1652" cy="2235" r="4.5"/>
+    <circle id="stn833" cx="1652" cy="2312" r="4.5"/>
+    <circle id="stn834" cx="1652" cy="2389" r="4.5"/>
+    <circle id="stn835" cx="1603" cy="2444" r="4.5"/>
+  </g>
+  <g id="Stns_L9_op" style="fill:#FFFFFF; stroke:#71C5E8; stroke-width:1">
+    <circle id="stn901" cx="409" cy="1948" r="6"/> <!-- SJSRw -->
+    <circle id="stn902" cx="409" cy="1876" r="6"/>
+    <circle id="stn903" cx="409" cy="1804" r="6"/>
+    <circle id="stn904" cx="409" cy="1732" r="6"/>
+    <circle id="stn905" cx="409" cy="1660" r="6"/>
+    <circle id="stn906" cx="409" cy="1588" r="6"/>
+    <circle id="stn907" cx="409" cy="1516" r="6"/>
+    <circle id="stn908" cx="409" cy="1444" r="6"/>
+    <circle id="stn909" cx="440" cy="1404" r="6"/>
+    <circle id="stn910" cx="515" cy="1404" r="6"/>
+    <circle id="stn911" cx="630" cy="1330" r="6"/>
+    <circle id="stn912" cx="726" cy="1330" r="6"/>
+    <circle id="stn913" cx="822" cy="1330" r="6"/>
+    <circle id="stn914" cx="918" cy="1330" r="6"/>
+    <circle id="stn915" cx="1014" cy="1330" r="6"/>
+    <circle id="stn920" cx="1580" cy="1317" r="6"/>
+    <circle id="stn923" cx="1815" cy="1313" r="6"/>
+    <circle id="stn924" cx="1860" cy="1254.5" r="6"/>
+    <circle id="stn926" cx="2073" cy="1178" r="6"/> <!-- MYanggao -->
+  </g>
+  <g id="Stns_L9_uc">
+  </g>
+  <g id="Stns_L10_op" style="fill:#FFFFFF; stroke:#C1A7E2; stroke-width:1">
+    <circle id="stn1007" cx="1952.6" cy="262" r="6"/> <!-- XJWC -->
+    <circle id="stn1008" cx="1952.6" cy="320" r="6"/>
+    <circle id="stn1009" cx="1952.6" cy="378" r="6"/>
+    <circle id="stn1010" cx="1952.6" cy="436" r="6"/>
+    <circle id="stn1011" cx="1952.6" cy="494" r="6"/>
+    <circle id="stn1012" cx="1952.6" cy="552" r="6"/>
+    <circle id="stn1013" cx="1952.6" cy="610" r="6"/>
+    <circle id="stn1015" cx="1880" cy="792" r="6"/>
+    <circle id="stn1017" cx="1819" cy="907.2" r="6"/>
+    <circle id="stn1020" cx="1763.6" cy="1195" r="6"/>
+    <circle id="stn1024" cx="1320" cy="1242" r="6"/>
+    <circle id="stn1027" cx="1058" cy="1260" r="6"/>
+    <circle id="stn1028" cx="984" cy="1260" r="6"/>
+    <circle id="stn1029" cx="910" cy="1260" r="6"/>
+    <circle id="stn10B1" cx="835" cy="1285" r="6"/>
+    <circle id="stn10B2" cx="750" cy="1285" r="6"/>
+    <circle id="stn10B3" cx="669" cy="1285" r="6"/> <!-- Hangzhong -->
+    <circle id="stn1030" cx="822" cy="1260" r="6"/>
+    <circle id="stn1031" cx="769.7" cy="1197" r="6"/> <!-- HQAirportT1 -->
+  </g>
+  <g id="Stns_L10_uc" style="fill:#FFFFFF; stroke:#C1A7E2; stroke-width:1">
+    <circle id="stn1001" cx="2809" cy="149" r="4.5"/> <!-- Huandongyi -->
+    <circle id="stn1003" cx="2456" cy="149" r="4.5"/>
+    <circle id="stn1004" cx="2286" cy="149" r="4.5"/>
+    <circle id="stn1005" cx="2116.6" cy="149" r="4.5"/>
+    <circle id="stn1006" cx="1952.6" cy="192" r="4.5"/>
+  </g>
+  <g id="Stns_L11_op" style="fill:#FFFFFF; stroke:#76232F; stroke-width:1">
+    <circle id="stn11B1" cx="534" cy="496" r="6"/>
+    <circle id="stn11B2" cx="484.5" cy="522.7" r="6"/>
+    <circle id="stn11B3" cx="435" cy="549.3" r="6"/>
+    <circle id="stn11B4" cx="385.5" cy="576" r="6"/>
+    <circle id="stn11B5" cx="336" cy="602.7" r="6"/>
+    <circle id="stn11B6" cx="286.5" cy="629.3" r="6"/>
+    <circle id="stn11B7" cx="237" cy="656" r="6"/> <!-- Huaqiao -->
+    <circle id="stn1101" cx="501" cy="358" r="6"/> <!-- NJiading -->
+    <circle id="stn1102" cx="529" cy="407" r="6"/>
+    <circle id="stn1103" cx="557" cy="456" r="6"/>
+    <circle id="stn1104" cx="585" cy="505" r="6"/>
+    <circle id="stn1105" cx="617" cy="561" r="6"/>
+    <circle id="stn1106" cx="649" cy="617" r="4.5"/>
+    <circle id="stn1107" cx="681" cy="673" r="6"/>
+    <circle id="stn1108" cx="715" cy="730.8" r="6"/>
+    <circle id="stn1109" cx="778" cy="738.2" r="6"/>
+    <circle id="stn1110" cx="857" cy="738.2" r="6"/>
+    <circle id="stn1111" cx="926" cy="738.2" r="6"/>
+    <circle id="stn1112" cx="985" cy="738.2" r="6"/>
+    <circle id="stn1113" cx="1043" cy="777.2" r="6"/>
+    <circle id="stn1114" cx="1082" cy="818" r="6"/>
+    <circle id="stn1120" cx="1280" cy="1407" r="6"/>
+    <circle id="stn1122" cx="1370.5" cy="1661" r="6"/>
+    <circle id="stn1123" cx="1372" cy="1765" r="6"/>
+    <circle id="stn1125" cx="1711" cy="1866.6" r="6"/>
+    <circle id="stn1126" cx="1802" cy="1865.8" r="6"/>
+    <circle id="stn1127" cx="1893" cy="1865.1" r="6"/>
+    <circle id="stn1128" cx="1984" cy="1864.3" r="4.5"/>
+    <circle id="stn1129" cx="2076" cy="1863.4" r="6"/> <!-- Yuqiao -->
+  </g>
+  <g id="Stns_L11_uc" style="fill:#FFFFFF; stroke:#76232F; stroke-width:1">
+    <circle id="stn1131" cx="2295" cy="1909.5" r="4.5"/>
+    <circle id="stn1132" cx="2445" cy="1908" r="4.5"/>
+    <circle id="stn1133" cx="2613" cy="1939.5" r="4.5"/> <!-- Disneyland -->
+  </g>
+  <g id="Stns_L12_op" style="fill:#FFFFFF; stroke:#007B5F; stroke-width:1">
+    <circle id="stn1219" cx="1821" cy="949" r="6"/>
+    <circle id="stn1220" cx="1866" cy="949" r="6"/>
+    <circle id="stn1222" cx="2013" cy="949" r="6"/>
+    <circle id="stn1223" cx="2110" cy="949" r="6"/>
+    <circle id="stn1224" cx="2207" cy="949" r="6"/>
+    <circle id="stn1225" cx="2304" cy="949" r="6"/>
+    <circle id="stn1226" cx="2401" cy="949" r="6"/>
+    <circle id="stn1227" cx="2498" cy="949" r="6"/>
+    <circle id="stn1229" cx="2690" cy="949" r="6"/>
+    <circle id="stn1230" cx="2783" cy="949" r="6"/>
+    <circle id="stn1231" cx="2882" cy="951.2" r="6"/>
+    <circle id="stn1232" cx="2916.2" cy="1026.4" r="6"/> <!-- Jinhai -->
+  </g>
+  <g id="Stns_L12_uc" style="fill:#FFFFFF; stroke:#007B5F; stroke-width:1">
+    <circle id="stn1201" cx="642" cy="1517" r="4.5"/> <!-- Qixin -->
+    <circle id="stn1202" cx="722" cy="1517" r="4.5"/>
+    <circle id="stn1203" cx="802" cy="1517" r="4.5"/>
+    <circle id="stn1204" cx="882" cy="1517" r="4.5"/>
+    <circle id="stn1205" cx="962" cy="1517" r="4.5"/>
+    <circle id="stn1206" cx="1042" cy="1517" r="4.5"/>
+    <circle id="stn1207" cx="1122" cy="1517" r="4.5"/>
+  </g>
+  <g id="Stns_L13_op" style="fill:#FFFFFF; stroke:#EF95CF; stroke-width:1">
+    <circle id="stn1301" cx="551" cy="949" r="6"/> <!-- Jinyun -->
+    <circle id="stn1302" cx="644" cy="949" r="6"/>
+    <circle id="stn1303" cx="737" cy="949" r="6"/>
+    <circle id="stn1304" cx="830" cy="949" r="6"/>
+    <circle id="stn1305" cx="923" cy="949" r="6"/>
+    <circle id="stn1306" cx="1016" cy="949" r="6"/>
+    <circle id="stn1309" cx="1274" cy="949" r="6"/>
+    <circle id="stn1311" cx="1488" cy="949" r="6"/>
+  </g>
+  <g id="Stns_L13_uc" style="fill:#FFFFFF; stroke:#EF95CF; stroke-width:1">
+    <circle id="stn1313" cx="1599" cy="1028" r="4.5"/>
+    <circle id="stn1315" cx="1565" cy="1159.6" r="4.5"/>
+    <circle id="stn1318" cx="1634.5" cy="1404" r="4.5"/>
+    <circle id="stn1319" cx="1634.5" cy="1481" r="4.5"/>
+    <circle id="stn1323" cx="1864" cy="1656.9" r="4.5"/>
+    <circle id="stn1324" cx="1918" cy="1656.9" r="4.5"/>
+    <circle id="stn1325" cx="1972" cy="1656.9" r="4.5"/>
+    <circle id="stn1326" cx="2032" cy="1666.7" r="4.5"/>
+    <circle id="stn1327" cx="2092" cy="1696.5" r="4.5"/>
+    <circle id="stn1329" cx="2337" cy="1715.8" r="4.5"/>
+    <circle id="stn1330" cx="2549" cy="1715.6" r="4.5"/>
+    <circle id="stn1331" cx="2738.3" cy="1789" r="4.5"/> <!-- Zhangjiang -->
+  </g>
+  <g id="Stns_L16_op" style="fill:#FFFFFF; stroke:#2CD5C4; stroke-width:1">
+    <circle id="stn1604" cx="2202" cy="1971.5" r="6"/>
+    <circle id="stn1605" cx="2280" cy="2016" r="6"/>
+    <circle id="stn1606" cx="2380" cy="2032.8" r="6"/>
+    <circle id="stn1607" cx="2493" cy="2034" r="6"/>
+    <circle id="stn1608" cx="2601" cy="2034.8" r="6"/>
+    <circle id="stn1609" cx="2719" cy="2057" r="6"/>
+    <circle id="stn1610" cx="2797" cy="2099" r="6"/>
+    <circle id="stn1611" cx="2850" cy="2147.5" r="6"/>
+    <circle id="stn1612" cx="2895" cy="2205" r="6"/>
+    <circle id="stn1613" cx="2935.6" cy="2273.3" r="6"/> <!-- Dishuihu -->
+  </g>
+  <g id="Stns_L17_uc" style="fill:#FFFFFF; stroke:#C09C83; stroke-width:1">
+    <circle id="stn1702" cx="570" cy="1145" r="4.5"/>
+    <circle id="stn1703" cx="524" cy="1145" r="4.5"/>
+    <circle id="stn1704" cx="478" cy="1145" r="4.5"/>
+    <circle id="stn1705" cx="432" cy="1145" r="4.5"/>
+    <circle id="stn1706" cx="386" cy="1145" r="4.5"/>
+    <circle id="stn1707" cx="340" cy="1145" r="4.5"/>
+    <circle id="stn1708" cx="294" cy="1145" r="4.5"/>
+    <circle id="stn1709" cx="248" cy="1145" r="4.5"/>
+    <circle id="stn1710" cx="202.5" cy="1181.5" r="4.5"/>
+    <circle id="stn1711" cx="164" cy="1215" r="4.5"/>
+    <circle id="stn1712" cx="117" cy="1218.5" r="4.5"/>
+    <circle id="stn1713" cx="61" cy="1218.5" r="4.5"/> <!-- OrientalLand -->
+  </g>
+  <g id="Ints" style="fill:#FFFFFF; stroke:#000000; stroke-width:1">
+    <circle id="stn316-410" cx="1746.6" cy="879" r="9.5"/>
+    <circle id="stn317-409-116" cx="1635.8" cy="879" r="9.5"/>
+    <circle id="stn318-408" cx="1456" cy="879" r="9.5"/>
+    <circle id="stn319-407-716" cx="1306" cy="879" r="9.5"/>
+    <circle id="stn320-406-1115" cx="1145" cy="879" r="9.5"/>
+    <circle id="stn321-405-1307" cx="1116.5" cy="949" r="9.5"/>
+    <circle id="stn322-404-208" cx="1116.5" cy="1103" r="9.5"/>
+    <circle id="stn323-403" cx="1116.5" cy="1183" r="9.5"/>
+    <circle id="stn324-402-1026" cx="1116.5" cy="1260" r="9.5"/>
+    <circle id="stn325-401-916" cx="1116.5" cy="1330" r="9.5"/>
+    <circle id="stn101-501" cx="911" cy="1635" r="9.5"/>
+    <circle id="stn105-329" cx="1148" cy="1604" r="9.5"/>
+    <circle id="stn106-1208" cx="1208.6" cy="1517" r="9.5"/>
+    <circle id="stn107-426" cx="1208.6" cy="1388.2" r="9.5"/>
+    <circle id="stn108-917-1119" cx="1212" cy="1317" r="9.5"/>
+    <circle id="stn110-720" cx="1444.5" cy="1221" r="9.5"/>
+    <circle id="stn111-1023-1214" cx="1502" cy="1238.4" r="9.5"/>
+    <circle id="stn113-212-815" cx="1710" cy="1103" r="9.5"/>
+    <circle id="stn115-1216-1312" cx="1635" cy="951" r="9.5"/>
+    <circle id="stn202-1033-1701" cx="630" cy="1151" r="9.5"/>
+    <circle id="stn203-1032" cx="711" cy="1154" r="9.5"/>
+    <circle id="stn209-1117" cx="1212" cy="1103" r="9.5"/>
+    <circle id="stn210-719" cx="1408" cy="1103" r="9.5"/>
+    <circle id="stn211-1215-1314" cx="1535" cy="1102.2" r="9.5"/>
+    <circle id="stn213-1019" cx="1763.6" cy="1103" r="9.5"/>
+    <circle id="stn216-416-617-925" cx="1912" cy="1178" r="9.5"/>
+    <circle id="stn219-732-1601" cx="2163" cy="1369.7" r="9.5"/>
+    <circle id="stn314-811" cx="1800" cy="680" r="9.5"/>
+    <circle id="stn327-1209" cx="1253.6" cy="1517" r="9.5"/>
+    <circle id="stn411-1016" cx="1844" cy="881" r="9.5"/>
+    <circle id="stn413-1221" cx="1911.6" cy="950" r="9.5"/>
+    <circle id="stn418-619" cx="1911.6" cy="1300" r="9.5"/>
+    <circle id="stn421-819" cx="1713.6" cy="1388.2" r="9.5"/>
+    <circle id="stn423-1212" cx="1502" cy="1388.2" r="9.5"/>
+    <circle id="stn424-722" cx="1445" cy="1388.2" r="9.5"/>
+    <circle id="stn601-1002" cx="2627" cy="153" r="9.5"/>
+    <circle id="stn608-1228" cx="2595.5" cy="948.5" r="9.5"/>
+    <circle id="stn622-728" cx="1831" cy="1585" r="9.5"/>
+    <circle id="stn623-1322" cx="1812.5" cy="1657.2" r="9.5"/>
+    <circle id="stn628-824-1124" cx="1563" cy="1795.5" r="9.5"/>
+    <circle id="stn717-1310" cx="1338.5" cy="949" r="9.5"/>
+    <circle id="stn721-918" cx="1444.5" cy="1317" r="9.5"/>
+    <circle id="stn723-1211" cx="1449" cy="1516.6" r="9.5"/>
+    <circle id="stn725-1320" cx="1634.5" cy="1585" r="9.5"/>
+    <circle id="stn726-821" cx="1713.6" cy="1585" r="9.5"/>
+    <circle id="stn809-1014" cx="1926" cy="679.7" r="9.5"/>
+    <circle id="stn814-1217" cx="1713.6" cy="949" r="9.5"/>
+    <circle id="stn817-1021" cx="1713.6" cy="1261" r="9.5"/>
+    <circle id="stn818-922" cx="1713.6" cy="1317" r="9.5"/>
+    <circle id="stn822-1321" cx="1713.6" cy="1657" r="9.5"/>
+    <circle id="stn919-1213" cx="1502" cy="1317" r="9.5"/>
+    <circle id="stn921-1317" cx="1634.5" cy="1317" r="9.5"/>
+    <circle id="stn1018-1218" cx="1774.7" cy="949" r="9.5"/>
+    <circle id="stn1022-1316" cx="1634.5" cy="1261" r="9.5"/>
+    <circle id="stn1025-1118" cx="1212" cy="1252.4" r="9.5"/>
+    <circle id="stn1116-1308" cx="1204.5" cy="949" r="9.5"/>
+    <circle id="stn1121-1210" cx="1370.4" cy="1517" r="9.5"/>
+    <circle id="stn1130-1603" cx="2161" cy="1898" r="9.5"/>
+    <circle id="stn1328-1602" cx="2162" cy="1715.2" r="9.5"/>
+    <!-- If ellipse is desired, consider using:
+    <ellipse id="stn1328-1602x" cx="2172" cy="1705.2" rx="10" ry="9"/>   -->
+  </g>
+</g>
+<g id="Line_Nos" font-family="Verdana" font-weight="bold" font-size="40">
+  <text id="Sign01-1" transform="matrix(1 0 0 1 1621 48)" fill="#E4002B">1</text>
+  <text id="Sign01-2" transform="matrix(1 0 0 1 920 1616)" fill="#E4002B">1</text>
+  <text id="Sign02-1" transform="matrix(1 0 0 1 498 1263)" fill="#97D700">2</text>
+  <text id="Sign02-2" transform="matrix(1 0 0 1 2980 1630)" fill="#97D700">2</text>
+  <text id="Sign03-1" transform="matrix(1 0 0 1 1706 48)" fill="#FFD100">3</text>
+  <text id="Sign03-2" transform="matrix(1 0 0 1 1208 1661)" fill="#FFD100">3</text>
+  <text id="Sign04-1" transform="matrix(1 0 0 1 1072 1375)" fill="#5F259F">4</text>
+  <text id="Sign04-2" transform="matrix(1 0 0 1 1866 1046)" fill="#5F259F">4</text>
+  <text id="Sign05-1" transform="matrix(1 0 0 1 866 1622)" fill="#AC4FC6">5</text>
+  <text id="Sign05-2" transform="matrix(1 0 0 1 570 2130)" fill="#AC4FC6">5</text>
+  <text id="Sign06-1" transform="matrix(1 0 0 1 2610 133)" fill="#D71671">6</text>
+  <text id="Sign06-2" transform="matrix(1 0 0 1 1578 1781)" fill="#D71671">6</text>
+  <text id="Sign07-1" transform="matrix(1 0 0 1 826 200)" fill="#FF6900">7</text>
+  <text id="Sign07-2" transform="matrix(1 0 0 1 2166 1300)" fill="#FF6900">7</text>
+  <text id="Sign08-1" transform="matrix(1 0 0 1 2136 276)" fill="#009EDB">8</text>
+  <text id="Sign08-2" transform="matrix(1 0 0 1 1520 2120)" fill="#009EDB">8</text>
+  <text id="Sign09-1" transform="matrix(1 0 0 1 421 1957)" fill="#71C5E8">9</text>
+  <text id="Sign09-2" transform="matrix(1 0 0 1 2110 1190)" fill="#71C5E8">9</text>
+  <text id="Sign10-1" transform="matrix(1 0 0 1 1976 276)" fill="#C1A7E2">10</text>
+  <text id="Sign10-2" transform="matrix(1 0 0 1 600 1126)" fill="#C1A7E2">10</text>
+  <text id="Sign11-1" transform="matrix(1 0 0 1 450 470)" fill="#76232F">11</text>
+  <text id="Sign11-2" transform="matrix(1 0 0 1 2100 1950)" fill="#76232F">11</text>
+  <text id="Sign12-1" transform="matrix(1 0 0 1 565 1530)" fill="#007B5F">12</text>
+  <text id="Sign12-2" transform="matrix(1 0 0 1 2937 1029)" fill="#007B5F">12</text>
+  <text id="Sign13-1" transform="matrix(1 0 0 1 472 960)" fill="#EF95CF">13</text>
+  <text id="Sign13-2" transform="matrix(1 0 0 1 2760 1800)" fill="#EF95CF">13</text>
+  <text id="Sign16-1" transform="matrix(1 0 0 1 2182 1490)" fill="#2CD5C4">16</text>
+  <text id="Sign16-2" transform="matrix(1 0 0 1 2955 2296)" fill="#2CD5C4">16</text>
+  <text id="Sign17-1" transform="matrix(1 0 0 1 37 1264)" fill="#C09C83" font-size="32">17</text>
+</g>
+<g id="Text">
+  <text id="title" font-family="Verdana" font-size="48" transform="matrix(1 0 0 1 240 150)" fill="#000000">Shanghai Metro</text>
+</g>
+</svg>

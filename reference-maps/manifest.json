@@ -1,0 +1,92 @@
+[
+  {
+    "city": "london",
+    "file": "reference-maps/london/London_Underground_Overground_DLR_Crossrail_map_alt.svg",
+    "bytes": 219891,
+    "size": "2500x1340",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sameboat\" title=\"User:Sameboat\">Sameboat</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:London_Underground_Overground_DLR_Crossrail_map_alt.svg"
+  },
+  {
+    "city": "tokyo",
+    "file": "reference-maps/tokyo/Tokyo_Subway_Linemap_en.svg",
+    "bytes": 1844175,
+    "size": "2952x2148",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Yveltal\" title=\"User:Yveltal\">Yveltal</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Subway_Linemap_en.svg"
+  },
+  {
+    "city": "paris",
+    "file": "reference-maps/paris/Paris_Metro_map_complete.svg",
+    "bytes": 1072072,
+    "size": "1927x1770",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Metropolitan\" title=\"User:Metropolitan\">Metropolitan</a>, <a href=\"//commons.wikimedia.org/wiki/User:Pmx\" title=\"User:Pmx\">Pmx</a>, <a href=\"//commons.wikimedia.org/wiki/User:Nojhan\" title=\"User:Nojhan\">nojhan</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:Paris_Metro_map_complete.svg"
+  },
+  {
+    "city": "new-york",
+    "file": "reference-maps/new-york/New_York_Subway_Map_Alargule.svg",
+    "bytes": 2268077,
+    "size": "1409x1539",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alargule&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alargule (page does not exist)\">Alargule</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:New_York_Subway_Map_Alargule.svg"
+  },
+  {
+    "city": "moscow",
+    "file": "reference-maps/moscow/Moscow_metro_map_sb.svg",
+    "bytes": 413277,
+    "size": "1320x1920",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:IKhitron\" title=\"User:IKhitron\">IKhitron</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:Moscow_metro_map_sb.svg"
+  },
+  {
+    "city": "shanghai",
+    "file": "reference-maps/shanghai/Shanghai_Metro_map_en.svg",
+    "bytes": 39413,
+    "size": "3036x2500",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author_html": "<p><a href=\"//commons.wikimedia.org/wiki/User_talk:Tnds\" title=\"User talk:Tnds\">Tnds</a>\n</p>\n<ul><li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User_talk:ASDFGH\" title=\"User talk:ASDFGH\">ASDFGH</a></li></ul>",
+    "source": "https://commons.wikimedia.org/wiki/File:Shanghai_Metro_map_en.svg"
+  },
+  {
+    "city": "seoul",
+    "file": "reference-maps/seoul/Seoul_subway_linemap_ko.svg",
+    "bytes": 210115,
+    "size": "5724x6516",
+    "license": "Public domain",
+    "license_url": null,
+    "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:IRTC1015\" title=\"User:IRTC1015\">IRTC1015</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:Seoul_subway_linemap_ko.svg"
+  },
+  {
+    "city": "berlin",
+    "file": "reference-maps/berlin/Berlin_U-bahn_und_S-bahn.svg",
+    "bytes": 104996,
+    "size": "4000x3000",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahogany115&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahogany115 (page does not exist)\">Mahogany115</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:Berlin_U-bahn_und_S-bahn.svg"
+  },
+  {
+    "city": "madrid",
+    "file": "reference-maps/madrid/Madrid_Metro_Map.svg",
+    "bytes": 2390049,
+    "size": "512x563",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author_html": "<a href=\"https://en.wikipedia.org/wiki/en:User:Javitomad\" class=\"extiw\" title=\"w:en:User:Javitomad\">Javitomad</a>",
+    "source": "https://commons.wikimedia.org/wiki/File:Madrid_Metro_Map.svg"
+  }
+]
