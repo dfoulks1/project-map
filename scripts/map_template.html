@@ -75,6 +75,7 @@ main { position: relative; flex: 1 1 auto; min-height: 0; }
 .map .term:hover { stroke: var(--accent); }
 .map .sel.term, .map .match.term { stroke: var(--accent); }
 .map .box { fill: #fff; }
+.map .fg .lang { fill: var(--mute); }
 .map .fg.sel, .map .fg.match { font-weight: bold; fill: var(--accent); }
 
 /* ---- floating tooltip + detail panel ---- */
@@ -122,7 +123,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
   <h1>{{TITLE}}</h1>
   <span class="sub">{{SUBTITLE}}</span>
   <div class="tools">
-    <input id="q" type="search" placeholder="Find a project…  ( / )" list="names" autocomplete="off" aria-label="Find a project">
+    <input id="q" type="search" placeholder="Find a project or language…  ( / )" list="names" autocomplete="off" aria-label="Find a project">
     <datalist id="names"></datalist>
     <button id="zin" title="Zoom in" aria-label="Zoom in">+</button>
     <button id="zout" title="Zoom out" aria-label="Zoom out">−</button>
@@ -163,7 +164,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
       : state.sel != null ? new Set(D.stations[state.sel].lines) : null;
     const q = state.q.trim().toLowerCase();
     D.stations.forEach(s => {
-      const match = !!q && s.name.toLowerCase().includes(q);
+      const match = !!q && (s.name.toLowerCase().includes(q) || s.langs.some(l => l.toLowerCase() === q));
       let dim = (hl && !s.lines.some(l => hl.has(l))) || (q && !match);
       (els[s.i] || []).forEach(e => {
         e.classList.toggle('dim', !!dim);
@@ -195,6 +196,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
     panel.innerHTML =
       `<button class="x" data-clear aria-label="Close">×</button><h2>${esc(s.name)}</h2>` +
       `<div class="kind">${kind}</div><div class="chips">${s.lines.map(chip).join('')}</div>` +
+      (s.langs.length ? `<div class="members">Languages: <b>${s.langs.map(esc).join(', ')}</b></div>` : '') +
       (s.desc ? `<p>${esc(s.desc)}</p>` : '') +
       (s.members.length ? `<div class="members">Includes: ${s.members.map(esc).join(', ')}</div>` : '');
   }
@@ -318,6 +320,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
     const d = s.desc ? (s.desc.length > 220 ? s.desc.slice(0, 220) + '…' : s.desc) : '';
     tip.innerHTML = `<b>${esc(s.name)}</b>` +
       `<div class="chips">${s.lines.map(i => `<span class="chip"><i style="background:${D.lines[i].color}"></i>${esc(D.lines[i].name)}</span>`).join('')}</div>` +
+      (s.langs.length ? `<div class="d">${esc(s.langs.join(', '))}</div>` : '') +
       (d ? `<div class="d">${esc(d)}</div>` : '');
     tip.classList.add('on');
     const w = tip.offsetWidth, h = tip.offsetHeight;

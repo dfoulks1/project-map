@@ -50,20 +50,24 @@ ROUTE_STYLE = "mixed"   # mixed | diag | ortho (45-degree routes) | manhattan (9
 MAX_RUN = 4        # stations in one straight piece before it reads as a straightaway
 TERM_BOXES = False # Montreal-style coloured boxes at line ends
 LBL, LBL_HUB = 10.5, 12.0
+SHOW_LANG = True   # small primary-language tag after each station name
+LANG_SCALE, LANG_FILL = 0.8, "#6b7380"
+DEFAULT_LANG = "Java"
 STYLE_DEFAULTS = {"line_width": 7.0, "bundle_gap": 6.5, "tick_len": 14.0, "hub_gap": 1.15,
                   "snap_div": 4, "route_style": "mixed", "max_run": 4, "terminus_boxes": False,
-                  "label_size": 10.5, "hub_label_size": 12.0}
+                  "label_size": 10.5, "hub_label_size": 12.0, "show_languages": True}
 
 
 def apply_style(cfg):
     """Set the module-level drawing/routing knobs from cfg['style']."""
-    global LINE_W, GAP, TICK_LEN, HUB_GAP, SNAP_DIV, ROUTE_STYLE, MAX_RUN, TERM_BOXES, LBL, LBL_HUB
+    global LINE_W, GAP, TICK_LEN, HUB_GAP, SNAP_DIV, ROUTE_STYLE, MAX_RUN, TERM_BOXES, LBL, LBL_HUB, SHOW_LANG
     st = {**STYLE_DEFAULTS, **(cfg.get("style") or {})}
     LINE_W, GAP, TICK_LEN = float(st["line_width"]), float(st["bundle_gap"]), float(st["tick_len"])
     HUB_GAP, SNAP_DIV = float(st["hub_gap"]), int(st["snap_div"])
     ROUTE_STYLE, MAX_RUN = str(st["route_style"]), int(st["max_run"])
     TERM_BOXES = bool(st["terminus_boxes"])
     LBL, LBL_HUB = float(st["label_size"]), float(st["hub_label_size"])
+    SHOW_LANG = bool(st["show_languages"])
 FONT = "Johnston, 'Gill Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
 
@@ -88,11 +92,15 @@ class Model:
                     for pname, info in entry.items():
                         name = self.clean(pname)
                         s = self.stations.setdefault(
-                            name, {"lines": {}, "desc": "", "raw": []})
+                            name, {"lines": {}, "desc": "", "raw": [], "langs": []})
                         s["lines"].setdefault(li, ci)
                         s["raw"].append(pname)
-                        if not s["desc"] and isinstance(info, dict):
-                            s["desc"] = info.get("description", "")
+                        if isinstance(info, dict):
+                            if not s["desc"]:
+                                s["desc"] = info.get("description", "")
+                            for lang in info.get("languages") or []:
+                                if lang not in s["langs"]:
+                                    s["langs"].append(lang)
         self.ignored_categories = sorted(set(projects) - listed)
         self.hubs = sorted(n for n, s in self.stations.items() if len(s["lines"]) > 1)
         self.hub_id = {n: i for i, n in enumerate(self.hubs)}
@@ -717,6 +725,11 @@ def place_labels(model, stations, line_paths):
         text = name.upper() if term else name
         size = LBL_HUB if (bold or term) else LBL
         w, h = text_w(text, size, bold or bool(term)), size * 1.15
+        lang = "" if term or not SHOW_LANG else (model.stations[name]["langs"][:1] or [""])[0]
+        if lang == DEFAULT_LANG:      # the common case stays untagged (legend says so)
+            lang = ""
+        if lang:
+            w += text_w(" " + lang, size * LANG_SCALE, False) - 2
         if term:
             w, h = w + 12, h + 7
         p, t = st["pos"], st["tan"]
@@ -760,7 +773,7 @@ def place_labels(model, stations, line_paths):
         _, x0, y0, x1, y1, anchor, size, bold = best
         placed.append((x0, y0, x1, y1))
         out[name] = {"x0": x0, "y0": y0, "w": x1 - x0, "h": y1 - y0, "anchor": anchor,
-                     "size": size, "bold": bold or bool(term), "cost": best[0], "text": text}
+                     "size": size, "bold": bold or bool(term), "cost": best[0], "text": text, "lang": lang}
         if term:
             out[name].update(box=True, color=model.lines[term[0]]["color"], anchor="middle")
     return out
@@ -796,7 +809,7 @@ def station_records(model, stations, sid):
             if r not in raw:
                 raw.append(r)
         members = raw if len(raw) > 1 else []
-        recs[i] = {"i": i, "name": n, "kind": s["kind"], "lines": sorted(s["lines"]),
+        recs[i] = {"i": i, "name": n, "kind": s["kind"], "lines": sorted(s["lines"]), "langs": model.stations[n]["langs"],
                    "desc": "" if members else " ".join(model.stations[n].get("desc", "").split()),
                    "members": members,
                    "x": round(float(s["pos"][0]), 1), "y": round(float(s["pos"][1]), 1)}
@@ -854,7 +867,8 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
         nrm = np.array([-t[1], t[0]]) * TICK_LEN / 2
         a, b = s["pos"] - nrm, s["pos"] + nrm
         li = next(iter(s["lines"]))
-        tt = f'<title>{escape(name)} — {escape(model.lines[li]["name"])}</title>' if titles else ""
+        lg = (" · " + ", ".join(model.stations[name]["langs"])) if model.stations[name]["langs"] else ""
+        tt = f'<title>{escape(name)} — {escape(model.lines[li]["name"])}{escape(lg)}</title>' if titles else ""
         o.append(f'<line class="st tick" data-s="{sid[name]}" x1="{a[0]:.1f}" y1="{a[1]:.1f}" '
                  f'x2="{b[0]:.1f}" y2="{b[1]:.1f}">{tt}</line>')
     o.append('</g>')
@@ -867,7 +881,8 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
         if titles:
             ln = ", ".join(model.lines[i]["name"] for i in sorted(s["lines"]))
             desc = " ".join(model.stations[name].get("desc", "").split())[:240]
-            tt = f'<title>{escape(name)} — {escape(ln)}\n{escape(desc)}</title>'
+            lg = ("\nLanguages: " + ", ".join(model.stations[name]["langs"])) if model.stations[name]["langs"] else ""
+            tt = f'<title>{escape(name)} — {escape(ln)}{escape(lg)}\n{escape(desc)}</title>'
         o.append(f'<circle class="st hub" data-s="{sid[name]}" cx="{s["pos"][0]:.1f}" '
                  f'cy="{s["pos"][1]:.1f}" r="{r:.1f}">{tt}</circle>')
     o.append('</g>')
@@ -877,10 +892,16 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
                  else '<g class="labels" fill="#1c1c1c">')
         for name, l in labels.items():
             anchor = l["anchor"]
+            if l.get("lang") and not l.get("box"):
+                anchor = "start"      # tspans + text-anchor misplace in some renderers; fill the reserved box from its left edge
             tx = l["x0"] + (0 if anchor == "start" else l["w"] if anchor == "end" else l["w"] / 2)
             ty = l["y0"] + l["h"] * 0.78
             wt = ' font-weight="bold"' if l["bold"] else ""
             txt = escape(l.get("text", name))
+            if l.get("lang") and not l.get("box"):
+                fill = "" if halo else f' fill="{LANG_FILL}"'
+                txt += (f'<tspan class="lang" font-weight="normal" font-size="{l["size"] * LANG_SCALE:.1f}"{fill}>'
+                        f'&#160;{escape(l["lang"])}</tspan>')
             if l.get("box"):
                 if halo:
                     continue
@@ -908,7 +929,7 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
     sy = y1 - 16
     o.append(f'<text class="foot" x="{x0 + 34:.1f}" y="{sy:.1f}" font-size="12" fill="#444">'
              f'<tspan font-weight="bold">○</tspan> interchange (project on several lines)    '
-             f'<tspan font-weight="bold">|</tspan> station    ·   {stats["stations"]} stations, '
+             f'<tspan font-weight="bold">|</tspan> station    ·   small grey text = main language (none = {DEFAULT_LANG})    ·   {stats["stations"]} stations, '
              f'{stats["hubs"]} interchanges, {len(model.lines)} lines</text>')
     o.append(f'<text class="foot credit" x="{x1 - 34:.1f}" y="{sy:.1f}" font-size="11" fill="#777" text-anchor="end">'
              f'{escape(cfg.get("credit", ""))}</text>')
