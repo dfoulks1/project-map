@@ -118,7 +118,7 @@ big-data:
       of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be
       converted directly to/from the data structures carried by data processing frameworks so as to bypass
       any XML/JSON overheads.
-    languages: &id032
+    languages: &id033
     - Scala
     - Java
 - Apache DataFu:
@@ -147,7 +147,7 @@ big-data:
       algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically
       proven error bounds. For interactive queries there may not be other viable alternatives, and in
       the case of real-time analysis, sketches are the only known solution.
-    languages: &id033
+    languages: &id034
     - Java
     - C++
     - Python
@@ -435,7 +435,7 @@ big-data:
       data, featuring multi-language interfaces, high compression ratios, high read/write throughput,
       and fast random access capabilities. It is ideal for scenarios such as building high-quality datasets,
       managing data assets, conducting data analytics, and training AI models.
-    languages: &id024
+    languages: &id025
     - Java
     - C++
     - C
@@ -571,7 +571,7 @@ cloud:
 - Apache Camel:
     description: Apache Camel is an open source integration framework with 350+ connectors. Write routes
       in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.
-    languages: &id021
+    languages: &id022
     - Java
 - Apache CloudStack:
     description: 'Apache CloudStack is open source software designed to deploy and manage large networks
@@ -663,7 +663,7 @@ content:
       conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for
       example the location of a clinical condition (locationOf relation) or the severity of a clinical
       condition (degreeOf relation).
-    languages: &id031
+    languages: &id032
     - Java
     - Python
     - Scala
@@ -835,7 +835,7 @@ data-visualization:
     description: Apache ECharts is a free, powerful charting and visualization library offering easy ways
       to add intuitive, interactive, and highly customizable charts to your commercial products. It is
       written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
-    languages: &id034
+    languages: &id035
     - JavaScript
     - TypeScript
 database:
@@ -876,7 +876,7 @@ database:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
-    languages: &id029
+    languages: &id030
     - Java
 - Apache CouchDB:
     description: Apache CouchDB is a database that completely embraces the web. Store your data with JSON
@@ -984,7 +984,7 @@ database:
       its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements
       of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial
       fields.
-    languages: &id022
+    languages: &id023
     - Java
     - Python
     - C++
@@ -1041,7 +1041,7 @@ database:
       Kit. The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence
       2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun
       JPA 2.0 Technology Compatibility Kit.
-    languages: &id026
+    languages: &id027
     - Java
 - Apache ORC:
     description: ORC is a self-describing type-aware columnar file format designed for Hadoop workloads.
@@ -1175,13 +1175,10 @@ graphics:
     languages:
     - Java
 groovy:
-- Apache Groovy:
-    description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing
-      and static compilation capabilities, for the Java platform aimed at improving developer productivity
-      thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program,
-      and immediately delivers to your application powerful features, including scripting capabilities,
-      Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
-    languages: &id036
+- Apache NetBeans:
+    description: Apache NetBeans is and IDE for many language (java, php, ...). Apache NetBeans is a platform
+      that can be extended by third party developer.
+    languages: &id020
     - Java
 hadoop:
 - Apache Calcite:
@@ -1227,7 +1224,7 @@ http:
       widespread use and years of development, it is a very mature and stable codebase. However, due to
       limitations in the API design, Commons HttpClient will eventually be replaced by HttpClient 4.0
       with a completely redesigned API based on HttpCore.
-    languages: &id030
+    languages: &id031
     - Java
 - Apache CouchDB:
     description: Apache CouchDB is a database that completely embraces the web. Store your data with JSON
@@ -1241,7 +1238,7 @@ http:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
-    languages: &id025
+    languages: &id026
     - Java
 - Apache HTTP Server:
     description: The Apache HTTP Server is an open-source HTTP server for modern operating systems including
@@ -1326,7 +1323,7 @@ http:
       development project. Apache Tomcat powers numerous large-scale, mission-critical web applications
       across a diverse range of industries and organizations. Some of these users and their stories are
       listed on the PoweredBy wiki page.
-    languages: &id027
+    languages: &id028
     - Java
 - Apache Traffic Server:
     description: Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy
@@ -1364,13 +1361,12 @@ ide:
 - Apache NetBeans:
     description: Apache NetBeans is and IDE for many language (java, php, ...). Apache NetBeans is a platform
       that can be extended by third party developer.
-    languages:
-    - Java
+    languages: *id020
 identity-management:
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
-    languages: &id035
+    languages: &id036
     - Java
 - Apache Syncope:
     description: 'Apache Syncope is an Open Source system for managing digital identities in enterprise
@@ -1379,7 +1375,7 @@ identity-management:
       systems and applications. IdM involves considering user attributes, roles, resources and entitlements
       in trying to give a decent answer to the question bumping at every time in IT administrators'' mind:
       Who has access to What, When, How, and Why?'
-    languages: &id020
+    languages: &id021
     - Java
 identity-provisioning:
 - Apache Syncope:
@@ -1389,7 +1385,7 @@ identity-provisioning:
       systems and applications. IdM involves considering user attributes, roles, resources and entitlements
       in trying to give a decent answer to the question bumping at every time in IT administrators'' mind:
       Who has access to What, When, How, and Why?'
-    languages: *id020
+    languages: *id021
 integration:
 - Apache Avro:
     description: Apache Avro is a data serialization system.
@@ -1397,11 +1393,11 @@ integration:
 - Apache Camel:
     description: Apache Camel is an open source integration framework with 350+ connectors. Write routes
       in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.
-    languages: *id021
+    languages: *id022
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
-    languages: &id023
+    languages: &id024
     - C
     - C++
     - C#
@@ -1420,7 +1416,7 @@ iot:
       its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements
       of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial
       fields.
-    languages: *id022
+    languages: *id023
 - Apache Mynewt:
     description: Apache Mynewt is a community-driven module OS for constrained, embedded applications.
       Mynewt provides a real-time operating system, flash file system, network stacks, and support utilities
@@ -1432,20 +1428,20 @@ iot:
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
-    languages: *id023
+    languages: *id024
 - Apache TsFile:
     description: TsFile is a high-performance columnar storage file format designed for industrial time-series
       data, featuring multi-language interfaces, high compression ratios, high read/write throughput,
       and fast random access capabilities. It is ideal for scenarios such as building high-quality datasets,
       managing data assets, conducting data analytics, and training AI models.
-    languages: *id024
+    languages: *id025
 javaee:
 - Apache BVal:
     description: The goal of the Apache BVal project is to deliver an implementation of the Java Bean
       Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The
       initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the
       Apache Software License v2.0.
-    languages: &id028
+    languages: &id029
     - Java
 - Apache DeltaSpike:
     description: 'Apache DeltaSpike is a suite of portable CDI (Contexts & Dependency Injection) extensions
@@ -1464,7 +1460,7 @@ javaee:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
-    languages: *id025
+    languages: *id026
 - Apache MyFaces:
     description: MyFaces is the free open source implementation of Jakarta Server Faces, a web application
       framework that accomplishes the MVC paradigm. It is comparable to the well-known Struts Framework
@@ -1480,7 +1476,7 @@ javaee:
       Kit. The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence
       2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun
       JPA 2.0 Technology Compatibility Kit.
-    languages: *id026
+    languages: *id027
 - Apache OpenWebBeans:
     description: OpenWebBeans is an ALv2-licensed implementation of the "Contexts and Dependency Injection
       for the Java EE platform" specification which is defined as JSR-299.
@@ -1496,7 +1492,7 @@ javaee:
       development project. Apache Tomcat powers numerous large-scale, mission-critical web applications
       across a diverse range of industries and organizations. Some of these users and their stories are
       listed on the PoweredBy wiki page.
-    languages: *id027
+    languages: *id028
 library:
 - Apache Anakia:
     description: Anakia is an XML transformation tool that uses JDOM and Velocity to transform XML documents
@@ -1546,11 +1542,11 @@ library:
       Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The
       initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the
       Apache Software License v2.0.
-    languages: *id028
+    languages: *id029
 - Apache Camel:
     description: Apache Camel is an open source integration framework with 350+ connectors. Write routes
       in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.
-    languages: *id021
+    languages: *id022
 - Apache Cayenne:
     description: Cayenne is a powerful, full-featured, opensource framework created for developers working
       with relational databases. it seamlessly maps any relational database to Java objects, reducing
@@ -1562,7 +1558,7 @@ library:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
-    languages: *id029
+    languages: *id030
 - Apache Commons BCEL:
     description: 'The Byte Code Engineering Library is intended to give users a convenient possibility
       to analyze, create, and manipulate (binary) Java class files (those ending with .class). Classes
@@ -1660,7 +1656,7 @@ library:
       widespread use and years of development, it is a very mature and stable codebase. However, due to
       limitations in the API design, Commons HttpClient will eventually be replaced by HttpClient 4.0
       with a completely redesigned API based on HttpCore.
-    languages: *id030
+    languages: *id031
 - Apache Commons Imaging:
     description: The Apache Commons Imaging library reads and writes a variety of image formats, including
       fast parsing of image info (size, color space, ICC profile, etc.) and metadata. Previously known
@@ -1778,7 +1774,7 @@ library:
       conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for
       example the location of a clinical condition (locationOf relation) or the severity of a clinical
       condition (degreeOf relation).
-    languages: *id031
+    languages: *id032
 - Apache CXF:
     description: Apache CXF is an open source services framework. CXF helps you build and develop services
       using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols
@@ -1794,7 +1790,7 @@ library:
       of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be
       converted directly to/from the data structures carried by data processing frameworks so as to bypass
       any XML/JSON overheads.
-    languages: *id032
+    languages: *id033
 - Apache DataFusion:
     description: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric
       systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion
@@ -1809,23 +1805,24 @@ library:
       algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically
       proven error bounds. For interactive queries there may not be other viable alternatives, and in
       the case of real-time analysis, sketches are the only known solution.
-    languages: *id033
+    languages: *id034
 - Apache ECharts:
     description: Apache ECharts is a free, powerful charting and visualization library offering easy ways
       to add intuitive, interactive, and highly customizable charts to your commercial products. It is
       written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
-    languages: *id034
+    languages: *id035
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
-    languages: *id035
+    languages: *id036
 - Apache Groovy:
     description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing
       and static compilation capabilities, for the Java platform aimed at improving developer productivity
       thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program,
       and immediately delivers to your application powerful features, including scripting capabilities,
       Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
-    languages: *id036
+    languages:
+    - Java
 - Apache HttpComponents Client:
     description: HttpClient is a library for client-side HTTP communication built on HttpCore. It provides
       connection management, cookie management, and authentication. This is the successor to the widely
@@ -1897,7 +1894,7 @@ library:
       Kit. The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence
       2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun
       JPA 2.0 Technology Compatibility Kit.
-    languages: *id026
+    languages: *id027
 - Apache OpenNLP:
     description: Apache OpenNLP software supports the most common NLP tasks, such as tokenization, sentence
       segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference
@@ -1917,7 +1914,7 @@ library:
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
-    languages: *id023
+    languages: *id024
 - Apache POI:
     description: APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and
       Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word
@@ -2086,7 +2083,7 @@ network-client:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
-    languages: *id029
+    languages: *id030
 - Apache Chainsaw:
     description: Apache Chainsaw is a GUI log viewer.
     languages:
@@ -2097,7 +2094,7 @@ network-client:
       widespread use and years of development, it is a very mature and stable codebase. However, due to
       limitations in the API design, Commons HttpClient will eventually be replaced by HttpClient 4.0
       with a completely redesigned API based on HttpCore.
-    languages: *id030
+    languages: *id031
 - Apache CouchDB:
     description: Apache CouchDB is a database that completely embraces the web. Store your data with JSON
       documents. Access your documents with your web browser, via HTTP. Query, combine, and transform
@@ -2169,7 +2166,7 @@ network-client:
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
-    languages: *id023
+    languages: *id024
 - Apache PouchDB:
     description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed
       to run well within the browser. PouchDB was created to help web developers build applications that
@@ -2248,7 +2245,7 @@ network-server:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
-    languages: *id029
+    languages: *id030
 - Apache Celix:
     description: Apache Celix is a framework for C, C++14 and C++17 to develop dynamic modular software
       applications using component and in-process service-oriented programming. Apache Celix is inspired
@@ -2292,7 +2289,7 @@ network-server:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
-    languages: *id025
+    languages: *id026
 - Apache Guacamole:
     description: Apache Guacamole is a clientless remote desktop gateway which supports standard protocols
       like VNC, RDP, and SSH. We call it "clientless" because no plugins or client software are required.
@@ -2411,7 +2408,7 @@ network-server:
       development project. Apache Tomcat powers numerous large-scale, mission-critical web applications
       across a diverse range of industries and organizations. Some of these users and their stories are
       listed on the PoweredBy wiki page.
-    languages: *id027
+    languages: *id028
 - Apache TomEE:
     description: Apache TomEE Web Profile delivers Servlets, JSP, JSF, JTA, JPA, CDI, Bean Validation
       and EJB Lite. Apache TomEE Plus has all the features of TomEE with the addition of JAX-RS (RESTfull
@@ -2445,7 +2442,7 @@ SDK:
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
-    languages: *id035
+    languages: *id036
 search:
 - Apache Lucene Core:
     description: Apache Lucene is a high-performance, full-featured text search engine library written
@@ -2482,7 +2479,7 @@ security:
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
-    languages: *id035
+    languages: *id036
 - Apache Ranger:
     description: Apache Ranger is a framework to enable, monitor and manage comprehensive data security
       - consistently across various data processing services. Integrated with most of the Big-Data technologies
@@ -2498,7 +2495,7 @@ security:
       systems and applications. IdM involves considering user attributes, roles, resources and entitlements
       in trying to give a decent answer to the question bumping at every time in IT administrators'' mind:
       Who has access to What, When, How, and Why?'
-    languages: *id020
+    languages: *id021
 sql:
 - Apache Calcite:
     description: Calcite is a framework for writing data management systems. It converts queries, represented
@@ -2541,6 +2538,215 @@ testing:
     description: A collection of libraries and tools that enable contribution and release processes for
       software projects.
     languages: *id047
+uncategorized:
+- Apache Answer:
+    description: The mission of Apache Answer is the creation and maintenance of software related to A
+      Q-and-A platform software for teams at any scales
+- Apache Apisix:
+    description: The mission of Apache APISIX is the creation and maintenance of software related to a
+      cloud-native microservices API gateway
+- Apache Artemis:
+    description: The mission of Apache Artemis is the creation and maintenance of software related to
+      implementing a distributed messaging system
+- Apache Asterixdb:
+    description: The mission of AsterixDB is the creation and maintenance of software related to open
+      source Big Data Management System
+- Apache Atlas:
+    description: The mission of Apache Atlas is the creation and maintenance of software related to a
+      scalable and extensible set of core foundational governance services - enabling enterprises to effectively
+      and efficiently meet their compliance requirements
+- Apache Auron:
+    description: The mission of Apache Auron is the creation and maintenance of software related to an
+      accelerator for big data engines that leverages native vectorized execution to accelerate query
+      processing
+- Apache Buildstream:
+    description: The mission of Apache BuildStream is the creation and maintenance of software related
+      to efficiently and correctly developing, building and integrating software stacks
+- Apache Celeborn:
+    description: The mission of Apache Celeborn is the creation and maintenance of software related to
+      an intermediate data service for big data computing engines to boost performance, stability, and
+      flexibility
+- Apache Devlake:
+    description: The mission of Apache DevLake is the creation and maintenance of software related to
+      a development data platform, providing the data infrastructure for developer teams to analyze and
+      improve their engineering productivity
+- Apache Dolphinscheduler:
+    description: The mission of Apache DolphinScheduler is the creation and maintenance of software related
+      to a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces
+- Apache Dubbo:
+    description: The mission of Apache Dubbo is the creation and maintenance of software related to a
+      high-performance, lightweight, java based RPC framework.
+- Apache Fineract:
+    description: At Apache Fineract, our mission is to build, maintain and enhance a cloud-ready core
+      banking system for robust, scalable, and secure operations of financial institutions.
+    languages:
+    - Java
+- Apache Flagon:
+    description: The mission of Apache Flagon is the creation and maintenance of software related to thin-client
+      behavioral logging capability useful for business analytics, usage analytics, usability and user
+      testing
+- Apache Fluss:
+    description: The mission of Apache Fluss is the creation and maintenance of software related to a
+      streaming storage built for real-time analytics which can serve as the real-time data layer for
+      Lakehouse architectures
+- Apache Fory:
+    description: The mission of Apache Fory is the creation and maintenance of software related to fast
+      multi-language serialization framework powered by JIT and zero-copy
+- Apache Gluten:
+    description: The mission of Apache Gluten is the creation and maintenance of software related to software
+      related to a pluggable middleware that enables native, vectorized execution engines to accelerate
+      Apache SparkSQL workloads;
+- Apache Gravitino:
+    description: The mission of Apache Gravitino is the creation and maintenance of software related to
+      managing your data and AI assets seamlessly with a flexible, unified governance framework, including
+      lakehouse federation capabilities
+- Apache Hertzbeat:
+    description: The mission of Apache HertzBeat is the creation and maintenance of software related to
+      a real-time monitoring system with agentless, performance cluster, prometheus-compatible, custom
+      monitoring and status page building capabilities
+- Apache Hugegraph:
+    description: The mission of Apache HugeGraph is the creation and maintenance of software related to
+      a convenient, efficient, and adaptable graph database compatible with the Apache TinkerPop3 framework
+      and the Gremlin query language
+- Apache Iggy:
+    description: The mission of Apache Iggy is the creation and maintenance of software related to Iggy
+      is a high-performance, ultra-low latency and large-scale persistent message streaming platform written
+      in Rust.
+- Apache Johnzon:
+    description: The mission of Johnzon is the creation and maintenance of software related to JSR-353
+      compliant JSON parsing; modules to help with JSR-353 as well as JSR-374 and JSR-367
+- Apache Juneau:
+    description: The mission of Apache Juneau is the creation and maintenance of software related to a
+      toolkit for marshalling POJOs to a wide variety of content types using a common framework, and for
+      creating sophisticated self-documenting REST interfaces and microservices using VERY little code
+- Apache Kvrocks:
+    description: The mission of Apache Kvrocks is the creation and maintenance of software related to
+      a distributed key-value NoSQL database, supporting the rich data structure
+- Apache Kyuubi:
+    description: The mission of Apache Kyuubi is the creation and maintenance of software related to a
+      distributed and multi-tenant gateway to provide serverless SQL on data warehouses and lakehouses
+- Apache Livy:
+    description: The mission of Apache Livy is the creation and maintenance of software related to web
+      service that exposes a REST interface for managing long running Apache Spark contexts in your cluster.
+      With Livy, new applications can be built on top of Apache Spark that require fine grained interaction
+      with many Spark contexts
+- Apache Nuttx:
+    description: The mission of Apache NuttX is the creation and maintenance of software related to a
+      mature, real-time embedded operating system (RTOS)
+- Apache Openwhisk:
+    description: The mission of Apache OpenWhisk is the creation and maintenance of software related to
+      a platform for building serverless applications with functions
+- Apache Paimon:
+    description: The mission of Apache Paimon is the creation and maintenance of software related to a
+      unified lake storage to build dynamic tables for both stream and batch processing with big data
+      compute engines, supporting high-speed data ingestion and real-time data query
+- Apache Pekko:
+    description: The mission of Apache Pekko is the creation and maintenance of software related to a
+      toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications
+      for Java and Scala
+- Apache Ratis:
+    description: The mission of Apache Ratis is the creation and maintenance of software related to a
+      highly customizable Raft protocol implementation in Java
+- Apache Reqsign:
+    description: The mission of Apache Reqsign is the creation and maintenance of software related to
+      signing HTTP requests to cloud services
+- Apache Resilientdb:
+    description: The mission of Apache ResilientDB is the creation and maintenance of software related
+      to ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular,
+      and highly performant.
+- Apache Rocketmq:
+    description: The mission of Apache RocketMQ is the creation and maintenance of software related to
+      a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially
+      for processing large amounts of streaming data
+- Apache Rya:
+    description: The mission of Apache Rya is the creation and maintenance of software related to scalable
+      storage, retrieval, and analysis of RDF data
+- Apache Sdap:
+    description: The mission of Apache SDAP is the creation and maintenance of software related to an
+      integrated data analytic center for Big Science problems
+- Apache Sedona:
+    description: The mission of Apache Sedona is the creation and maintenance of software related to a
+      big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists
+      to manage, wrangle, and process geospatial data
+- Apache Servicecomb:
+    description: The mission of Apache ServiceComb is the creation and maintenance of software related
+      to a microservice framework that provides a set of tools and components to make development and
+      deployment of cloud applications easier.
+- Apache Shardingsphere:
+    description: The mission of Apache ShardingSphere is the creation and maintenance of software related
+      to a database clustering system providing data sharding, distributed transactions, and distributed
+      database management
+- Apache Shenyu:
+    description: The mission of Apache ShenYu is the creation and maintenance of software related to a
+      Java native API Gateway for service proxy, protocol conversion and API governance
+- Apache Singa:
+    description: The mission of Apache SINGA is the creation and maintenance of software related to a
+      distributed deep learning platform
+- Apache Sling:
+    description: Apache Sling is a web framework that uses a Java Content Repository, such as Apache Jackrabbit,
+      to store and manage content. Sling applications use either scripts or Java servlets, selected based
+      on simple name conventions, to process HTTP requests in a RESTful way. The embedded Apache Felix
+      OSGi framework and console provide a dynamic runtime environment, where code and content bundles
+      can be loaded, unloaded and reconfigured at runtime. As the first web framework dedicated to JSR-170
+      Java Content Repositories, Sling makes it very simple to implement simple applications, while providing
+      an enterprise-level framework for more complex applications.
+    languages:
+    - Java
+- Apache Sourcelume:
+    description: The mission of Apache Sourcelume is the creation and maintenance of software related
+      to AI training-data provenance
+- Apache SpamAssassin:
+    description: Apache SpamAssassin is an extensible email filter which is used to identify spam. Using
+      its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail
+      headers and body text to identify "spam", also known as unsolicited bulk email. Once identified,
+      the mail can then be optionally tagged as spam for later filtering. It provides a command line tool
+      to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin,
+      a set of Perl modules.
+    languages:
+    - C
+    - Perl
+- Apache Stormcrawler:
+    description: The mission of Apache StormCrawler is the creation and maintenance of software related
+      to an open source collection of resources for building low-latency, scalable web crawlers on Apache
+      Storm
+- Apache Streampark:
+    description: The mission of Apache StreamPark is the creation and maintenance of software related
+      to Make stream processing easier! Easy-to-use streaming application development framework and operation
+      platform
+- Apache Streampipes:
+    description: The mission of Apache StreamPipes is the creation and maintenance of software related
+      to a self-service Industrial IoT toolbox which enables non-technical users to connect, analyze and
+      explore IoT data streams
+- Apache Systemds:
+    description: The mission of Apache SystemDS is the creation and maintenance of software related to
+      declarative, large-scale machine learning that compiles to hybrid runtime execution plans ranging
+      from single node, in-memory computations, to distributed computations such as on Apache Hadoop MapReduce
+      or Apache Spark.
+- Apache Teaclave:
+    description: The mission of Apache Teaclave is the creation and maintenance of software related to
+      SDKs for building memory-safe applications on Trusted Execution Environments
+- Apache Tinkerpop:
+    description: The mission of TinkerPop is the creation and maintenance of software related to A graph
+      computing framework for both graph databases (OLTP) and graph analytic systems (OLAP)
+- Apache Training:
+    description: The mission of Apache Training is the creation and maintenance of software related to
+      training materials for Apache projects and the Apache Software Foundation
+- Apache UIMA:
+    description: The Apache UIMA project supports the community working on the analysis of unstructured
+      information with a unifying Java and C++ framework, tooling, and analysis components, guided by
+      the OASIS UIMA standard. It includes support for very large scaleout using networked clusters of
+      compute nodes.
+    languages:
+    - Java
+    - C++
+- Apache Uniffle:
+    description: The mission of Apache Uniffle is the creation and maintenance of software related to
+      a unified remote shuffle service
+- Apache Wayang:
+    description: The mission of Apache Wayang is the creation and maintenance of software related to cross-engine
+      data processing that aims at (i) decoupling applications from underlying data processing engines,
+      such as Apache Flink, Apache Spark, databases, or ML systems, and (ii) automatically determining
+      the optimal combination of engines to execute a given data pipeline using an optimizer
 web-framework:
 - Apache Causeway:
     description: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write
@@ -2560,7 +2766,7 @@ web-framework:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
-    languages: *id029
+    languages: *id030
 - Apache Flex:
     description: Apache Flex® is a highly productive, open source application framework for building and
       maintaining expressive web applications that deploy consistently on all major browsers, desktops
@@ -2575,7 +2781,7 @@ web-framework:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
-    languages: *id025
+    languages: *id026
 - Apache Grails:
     description: Grails is a powerful Groovy-based web application framework for the JVM built on top
       of Spring Boot that has many plugins to further extend its functionality.
@@ -2705,7 +2911,7 @@ xml:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
-    languages: *id029
+    languages: *id030
 - Apache CXF:
     description: Apache CXF is an open source services framework. CXF helps you build and develop services
       using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols
@@ -2720,7 +2926,7 @@ xml:
       of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be
       converted directly to/from the data structures carried by data processing frameworks so as to bypass
       any XML/JSON overheads.
-    languages: *id032
+    languages: *id033
 - Apache FOP:
     description: FOP (Formatting Objects Processor) is the world's first print formatter driven by XSL
       formatting objects (XSL-FO) and the world's first output independent formatter. It is a Java application

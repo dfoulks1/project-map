@@ -77,7 +77,10 @@ FONT = "Johnston, 'Gill Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 class Model:
     def __init__(self, cfg, projects):
         self.cfg = cfg
-        self.lines = cfg["lines"]
+        self.lines = [l for l in cfg["lines"] if not l.get("inset")]     # laid out as a connected map
+        self.inset_lines = [l for l in cfg["lines"] if l.get("inset")]   # drawn as a separate inset (see build_inset)
+        self.all_lines = self.lines + self.inset_lines                    # index == line id in the SVG and the page data
+        self.inset_frames = []
         self.S = float(cfg.get("spacing", 46))
         self.tail_max = int(cfg.get("tail_max", 4))     # stations per line end
         self.seg_max = int(cfg.get("seg_max", 5))       # stations between two interchanges
@@ -101,6 +104,22 @@ class Model:
                             for lang in info.get("languages") or []:
                                 if lang not in s["langs"]:
                                     s["langs"].append(lang)
+        self.inset = {}                         # inset line id -> station names, alphabetical
+        for k, line in enumerate(self.inset_lines):
+            li = len(self.lines) + k
+            for cat in line["categories"]:
+                listed.add(cat)
+                for entry in projects.get(cat) or []:
+                    for pname, info in entry.items():
+                        name = self.clean(pname)
+                        if name in self.stations:
+                            continue                    # already on the main map
+                        s = self.stations.setdefault(name, {"lines": {li: 0}, "desc": "", "raw": [], "langs": []})
+                        s["raw"].append(pname)
+                        if isinstance(info, dict):
+                            s["desc"] = s["desc"] or info.get("description", "")
+                            s["langs"] += [x for x in info.get("languages") or [] if x not in s["langs"]]
+            self.inset[li] = sorted((n for n, s in self.stations.items() if li in s["lines"]), key=str.lower)
         self.ignored_categories = sorted(set(projects) - listed)
         self.hubs = sorted(n for n, s in self.stations.items() if len(s["lines"]) > 1)
         self.hub_id = {n: i for i, n in enumerate(self.hubs)}
@@ -775,13 +794,78 @@ def place_labels(model, stations, line_paths):
         out[name] = {"x0": x0, "y0": y0, "w": x1 - x0, "h": y1 - y0, "anchor": anchor,
                      "size": size, "bold": bold or bool(term), "cost": best[0], "text": text, "lang": lang}
         if term:
-            out[name].update(box=True, color=model.lines[term[0]]["color"], anchor="middle")
+            out[name].update(box=True, color=model.all_lines[term[0]]["color"], anchor="middle")
     return out
 
 
 # ----------------------------------------------------------------------------
 # 6. svg
 # ----------------------------------------------------------------------------
+def build_inset(model, li):
+    """Serpentine single line for projects that belong to no map line (an inset, like
+    Alaska and Hawaii on a map of the US).  Local coordinates, origin at the top left
+    of the frame.  Returns (path, stations, labels, frame)."""
+    names = model.inset[li]
+    cfg = model.cfg
+    cols, dx = int(cfg.get("inset_cols", 10)), float(cfg.get("inset_spacing", 66))
+    dy, ch = float(cfg.get("inset_row_gap", 64)), 12.0
+    padx, top, pady = 56.0, 88.0, 40.0
+    rows = math.ceil(len(names) / cols)
+    path, stations, labels = [], {}, {}
+    for r in range(rows):
+        row = names[r * cols:(r + 1) * cols]
+        d = 1 if r % 2 == 0 else -1
+        y = top + r * dy
+        xs = [padx + (c if d == 1 else cols - 1 - c) * dx for c in range(len(row))]
+        x_end = (padx + (cols - 1) * dx + dx / 2) if d == 1 else (padx - dx / 2)
+        path += [np.array([padx - dx / 2 if d == 1 else padx + (cols - 1) * dx + dx / 2, y])] if r == 0 else []
+        path.append(np.array([x_end - d * ch, y]))
+        if r < rows - 1:
+            path += [np.array([x_end, y + ch]), np.array([x_end, y + dy - ch]), np.array([x_end - d * ch, y + dy])]
+        for c, (n, x) in enumerate(zip(row, xs)):
+            stations[n] = {"pos": np.array([x, y]), "tan": np.array([float(d), 0.0]), "kind": "tick", "lines": {li}}
+            w, h = text_w(n, LBL, False), LBL * 1.15
+            above = (r * cols + c) % 2 == 0
+            labels[n] = {"x0": x - w / 2, "y0": y - TICK_LEN / 2 - 4 - h if above else y + TICK_LEN / 2 + 4,
+                         "w": w, "h": h, "anchor": "middle", "bold": False, "size": LBL}
+    W = padx * 2 + (cols - 1) * dx
+    H = top + (rows - 1) * dy + pady
+    frame = {"x": 0.0, "y": 0.0, "w": W, "h": H, "line": li,
+             "title": model.all_lines[li].get("title", model.all_lines[li]["name"]),
+             "note": model.all_lines[li].get("note", "")}
+    return path, stations, labels, frame
+
+
+def place_inset(model, line_paths, labels, li):
+    """Build the inset for line `li` and put it in a free bottom corner of the main map
+    (bottom right, then bottom left), or below the map if both corners are taken."""
+    path, stations, ilabels, frame = build_inset(model, li)
+    pts = np.array([p for _, ps in line_paths for q in [sample([np.array(p) for p in ps], 20)] for p in q])
+    boxes = [(l["x0"], l["y0"], l["x0"] + l["w"], l["y0"] + l["h"]) for l in labels.values()]
+    x0, x1 = float(pts[:, 0].min()), float(pts[:, 0].max())
+    y1 = float(pts[:, 1].max())
+    pad = 24.0
+
+    def free(ox, oy):
+        a, b, c, d = ox - pad, oy - pad, ox + frame["w"] + pad, oy + frame["h"] + pad
+        if ((pts[:, 0] > a) & (pts[:, 0] < c) & (pts[:, 1] > b) & (pts[:, 1] < d)).any():
+            return False
+        return not any(bx0 < c and bx1 > a and by0 < d and by1 > b for bx0, by0, bx1, by1 in boxes)
+
+    oy = y1 - frame["h"]
+    spot = next(((ox, oy) for ox in (x1 - frame["w"], x0) if free(ox, oy)), None)
+    ox, oy = spot or (x1 - frame["w"], y1 + 70)
+    shift = np.array([ox, oy])
+    for s in stations.values():
+        s["pos"] = s["pos"] + shift
+    for l in ilabels.values():
+        l["x0"] += ox
+        l["y0"] += oy
+    frame.update(x=ox, y=oy)
+    model.inset_frames.append(frame)
+    return [(li, [p + shift for p in path])], stations, ilabels
+
+
 def fmt(p):
     return f"{p[0]:.1f},{p[1]:.1f}"
 
@@ -824,14 +908,17 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
     allp = [p for _, pts in line_paths for p in pts]
     xs = [p[0] for p in allp] + [l["x0"] for l in labels.values()] + [l["x0"] + l["w"] for l in labels.values()]
     ys = [p[1] for p in allp] + [l["y0"] for l in labels.values()] + [l["y0"] + l["h"] for l in labels.values()]
+    for fr in model.inset_frames:
+        xs += [fr["x"], fr["x"] + fr["w"]]
+        ys += [fr["y"], fr["y"] + fr["h"]]
     margin = 70
     x0, x1 = min(xs) - margin, max(xs) + margin
     y0, y1 = min(ys) - margin - (0 if interactive else 70), max(ys) + margin
-    n = len(model.lines)
+    n = len(model.all_lines)
     cols = 3
     rows = math.ceil(n / cols)
     colw = max(240, (x1 - x0) / cols)
-    leg_h = 70 + rows * 34
+    leg_h = 88 + rows * 34
     y1 += leg_h
     W, Hh = x1 - x0, y1 - y0
     title = cfg.get("title", "Metro map")
@@ -845,13 +932,20 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
                  f'{escape(cfg.get("title", ""))}</text>')
         o.append(f'<text class="sub" x="{x0 + 36:.1f}" y="{y0 + 80:.1f}" font-size="13" fill="#555">'
                  f'{escape(cfg.get("subtitle", ""))}</text>')
+    for fr in model.inset_frames:     # inset panel under its line
+        col = model.all_lines[fr["line"]]["color"]
+        o.append(f'<g class="inset" data-l="{fr["line"]}"><rect x="{fr["x"]:.1f}" y="{fr["y"]:.1f}" width="{fr["w"]:.1f}" '
+                 f'height="{fr["h"]:.1f}" rx="12" fill="#faf9fc" stroke="{col}" stroke-width="2"/>'
+                 f'<text x="{fr["x"] + 20:.1f}" y="{fr["y"] + 28:.1f}" font-size="16" font-weight="bold" fill="#1c1c1c">'
+                 f'{escape(fr["title"])}</text>'
+                 f'<text x="{fr["x"] + 20:.1f}" y="{fr["y"] + 46:.1f}" font-size="11" fill="#666">{escape(fr["note"])}</text></g>')
     # lines
     o.append(f'<g class="lines" fill="none" stroke-width="{LINE_W}" stroke-linecap="round" stroke-linejoin="round">')
     for li, pts in line_paths:
         pts = dedupe([np.array(p) for p in pts])
         d = "M" + " L".join(fmt(p) for p in pts)
-        t = f'<title>{escape(model.lines[li]["name"])}</title>' if titles else ""
-        o.append(f'<path class="line l{li}" data-l="{li}" d="{d}" stroke="{model.lines[li]["color"]}">{t}</path>')
+        t = f'<title>{escape(model.all_lines[li]["name"])}</title>' if titles else ""
+        o.append(f'<path class="line l{li}" data-l="{li}" d="{d}" stroke="{model.all_lines[li]["color"]}">{t}</path>')
     o.append('</g>')
     # ticks
     o.append('<g class="ticks" stroke="#1c1c1c" stroke-width="2.6" stroke-linecap="butt">')
@@ -859,7 +953,7 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
         if s["kind"] != "tick":
             continue
         if TERM_BOXES and s.get("term"):
-            col = model.lines[s["term"][0]]["color"]
+            col = model.all_lines[s["term"][0]]["color"]
             o.append(f'<circle class="st term" data-s="{sid[name]}" cx="{s["pos"][0]:.1f}" cy="{s["pos"][1]:.1f}" '
                      f'r="{LINE_W * 0.62 + 2:.1f}" fill="#ffffff" stroke="{col}" stroke-width="{LINE_W * 0.45 + 1:.1f}"/>')
             continue
@@ -868,7 +962,7 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
         a, b = s["pos"] - nrm, s["pos"] + nrm
         li = next(iter(s["lines"]))
         lg = (" · " + ", ".join(model.stations[name]["langs"])) if model.stations[name]["langs"] else ""
-        tt = f'<title>{escape(name)} — {escape(model.lines[li]["name"])}{escape(lg)}</title>' if titles else ""
+        tt = f'<title>{escape(name)} — {escape(model.all_lines[li]["name"])}{escape(lg)}</title>' if titles else ""
         o.append(f'<line class="st tick" data-s="{sid[name]}" x1="{a[0]:.1f}" y1="{a[1]:.1f}" '
                  f'x2="{b[0]:.1f}" y2="{b[1]:.1f}">{tt}</line>')
     o.append('</g>')
@@ -879,7 +973,7 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
         r = 7.0 + 0.9 * max(0, len(s["lines"]) - 2)
         tt = ""
         if titles:
-            ln = ", ".join(model.lines[i]["name"] for i in sorted(s["lines"]))
+            ln = ", ".join(model.all_lines[i]["name"] for i in sorted(s["lines"]))
             desc = " ".join(model.stations[name].get("desc", "").split())[:240]
             lg = ("\nLanguages: " + ", ".join(model.stations[name]["langs"])) if model.stations[name]["langs"] else ""
             tt = f'<title>{escape(name)} — {escape(ln)}{escape(lg)}\n{escape(desc)}</title>'
@@ -917,7 +1011,7 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
     # legend
     ly = y1 - leg_h + 20
     o.append(f'<line class="rule" x1="{x0 + 34:.1f}" y1="{ly - 8:.1f}" x2="{x1 - 34:.1f}" y2="{ly - 8:.1f}" stroke="#ccc"/>')
-    for i, line in enumerate(model.lines):
+    for i, line in enumerate(model.all_lines):
         cx = x0 + 34 + (i % cols) * colw
         cy = ly + 22 + (i // cols) * 34
         cnt = sum(1 for s in model.stations.values() if i in s["lines"])
@@ -926,12 +1020,12 @@ def render_svg(model, line_paths, stations, labels, cfg, stats, interactive=Fals
                  f'<rect x="{cx:.1f}" y="{cy - 12:.1f}" width="40" height="{LINE_W + 2}" rx="4" fill="{line["color"]}"/>'
                  f'<text class="legtxt" x="{cx + 52:.1f}" y="{cy:.1f}" font-size="15" font-weight="bold" fill="#1c1c1c">'
                  f'{escape(line["name"])}<tspan class="n" font-weight="normal" fill="#666" font-size="12"> · {cnt} stations</tspan></text></g>')
-    sy = y1 - 16
+    sy = y1 - 34
     o.append(f'<text class="foot" x="{x0 + 34:.1f}" y="{sy:.1f}" font-size="12" fill="#444">'
              f'<tspan font-weight="bold">○</tspan> interchange (project on several lines)    '
              f'<tspan font-weight="bold">|</tspan> station    ·   small grey text = main language (none = {DEFAULT_LANG})    ·   {stats["stations"]} stations, '
-             f'{stats["hubs"]} interchanges, {len(model.lines)} lines</text>')
-    o.append(f'<text class="foot credit" x="{x1 - 34:.1f}" y="{sy:.1f}" font-size="11" fill="#777" text-anchor="end">'
+             f'{stats["hubs"]} interchanges, {len(model.all_lines)} lines</text>')
+    o.append(f'<text class="foot credit" x="{x0 + 34:.1f}" y="{y1 - 14:.1f}" font-size="11" fill="#777">'
              f'{escape(cfg.get("credit", ""))}</text>')
     o.append('</svg>')
     return "\n".join(o)
@@ -942,7 +1036,7 @@ def render_html(template, svg, model, stations, cfg, stats):
     data = {"title": cfg.get("title", ""), "subtitle": cfg.get("subtitle", ""),
             "lines": [{"name": l["name"], "color": l["color"],
                        "count": sum(1 for s in model.stations.values() if i in s["lines"])}
-                      for i, l in enumerate(model.lines)],
+                      for i, l in enumerate(model.all_lines)],
             "stations": station_records(model, stations, sid), "stats": stats}
     blob = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     return (template.replace("{{TITLE}}", escape(cfg.get("title", "Metro map")))
@@ -1052,7 +1146,11 @@ def build(cfg, projects, restarts, seed, verbose=True):
         if best is None or m["score"] < best[0]["score"]:
             best = (m, line_paths, stations, labels)
     m, line_paths, stations, labels = best
-    stats = {"stations": len(stations), "hubs": len(model.hubs), **m}
+    stats = {"stations": len(stations) + sum(len(v) for v in model.inset.values()), "hubs": len(model.hubs), **m}
+    for li in model.inset:
+        if model.inset[li]:
+            lp, st, lb = place_inset(model, line_paths, labels, li)
+            line_paths, stations, labels = line_paths + lp, {**stations, **st}, {**labels, **lb}
     return model, line_paths, stations, labels, stats
 
 
@@ -1072,7 +1170,7 @@ def write_outputs(res, cfg, out=None, html=None, png=None, png_width=4200, templ
         written.append(html)
     if layout:
         lay = {"stations": {n: {"x": float(v["pos"][0]), "y": float(v["pos"][1]), "kind": v["kind"],
-                                 "lines": [model.lines[i]["name"] for i in sorted(v["lines"])]}
+                                 "lines": [model.all_lines[i]["name"] for i in sorted(v["lines"])]}
                             for n, v in stations.items()}, "stats": stats}
         json.dump(lay, open(layout, "w", encoding="utf8"), indent=1)
         written.append(layout)

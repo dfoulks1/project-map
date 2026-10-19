@@ -71,6 +71,12 @@ lines:
   - name: Cloud & IoT
     color: "#EE7C0E"
     categories: [cloud, iot, observability]
+  - name: Uncategorized
+    title: No category yet
+    note: Not drawn on the main map - no DOAP category on projects.apache.org yet
+    color: "#8E6BBF"
+    categories: [uncategorized]
+    inset: true
 
 # --- look & feel ---------------------------------------------------------------
 # Defaults for every build.  Variants below override any of these.
