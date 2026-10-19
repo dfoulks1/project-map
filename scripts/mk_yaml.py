@@ -45,6 +45,8 @@ for pid, v in sorted(p.items(), key=lambda kv: kv[1]["name"].lower()):
     l = langs(v)
     cats = [c for c in (v.get("category") or []) if c.lower() not in ALL_LANGS and c not in NO_CATEGORY]
     info = {"description": norm(d)}
+    if v.get("homepage"):
+        info["homepage"] = v["homepage"]
     if l:
         info["languages"] = l
     for cat in cats or ["uncategorized"]:

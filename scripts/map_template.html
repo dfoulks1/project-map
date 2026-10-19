@@ -8,16 +8,23 @@
   Template for scripts/build_map.py --html.  Placeholders: {{TITLE}} {{SUBTITLE}}
   {{CREDIT}} {{DATA}} (JSON) {{SVG}} (the map).  Self-contained: no external requests.
 -->
+<script>
+// theme: saved choice, else the system setting; set before first paint
+(() => {
+  let t = null;
+  try { t = localStorage.getItem("theme"); } catch (e) {}
+  if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  document.documentElement.dataset.theme = t;
+})();
+</script>
 <style>
 :root {
   --bg: #ffffff; --fg: #1c1c1c; --mute: #5f6670; --panel: #ffffff;
   --rule: #d9dde3; --accent: #0019A8; --chip: #eef1f5; --shadow: 0 4px 18px rgba(0,0,0,.14);
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14171c; --fg: #eef0f3; --mute: #a0a9b4; --panel: #1d2128;
-    --rule: #2c323b; --accent: #8aa6ff; --chip: #262c35; --shadow: 0 4px 18px rgba(0,0,0,.5);
-  }
+:root[data-theme="dark"] {
+  --bg: #14171c; --fg: #eef0f3; --mute: #a0a9b4; --panel: #1d2128;
+  --rule: #2c323b; --accent: #8aa6ff; --chip: #262c35; --shadow: 0 4px 18px rgba(0,0,0,.5);
 }
 * { box-sizing: border-box; }
 html, body { height: 100%; margin: 0; }
@@ -75,6 +82,9 @@ main { position: relative; flex: 1 1 auto; min-height: 0; }
 .map .term:hover { stroke: var(--accent); }
 .map .sel.term, .map .match.term { stroke: var(--accent); }
 .map .box { fill: #fff; }
+.map .inset-bg { fill: var(--panel); }
+.map .inset-ttl { fill: var(--fg); }
+.map .inset-note { fill: var(--mute); }
 .map .fg .lang { fill: var(--mute); }
 .map .fg.sel, .map .fg.match { font-weight: bold; fill: var(--accent); }
 
@@ -100,6 +110,7 @@ main { position: relative; flex: 1 1 auto; min-height: 0; }
 #panel p { margin: .5rem 0 0; font-size: .88rem; }
 #panel .members { color: var(--mute); font-size: .82rem; margin-top: .5rem; }
 #panel .help { color: var(--mute); font-size: .85rem; margin: 0; }
+#panel a.home { color: var(--accent, #6ea8fe); }
 #panel .x { float: right; padding: 0 .45rem; line-height: 1.4; }
 .chips { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .45rem; }
 .chip {
@@ -128,6 +139,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
     <button id="zin" title="Zoom in" aria-label="Zoom in">+</button>
     <button id="zout" title="Zoom out" aria-label="Zoom out">−</button>
     <button id="reset" title="Reset view and filters (Esc)">Reset</button>
+    <button id="theme" title="Switch between light and dark" aria-label="Switch between light and dark theme"></button>
   </div>
 </header>
 <main>
@@ -135,7 +147,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
   <aside id="panel" aria-live="polite"></aside>
 </main>
 <div id="tip" role="tooltip"></div>
-<footer>{{CREDIT}} · Click a station or a line (or its legend entry) to highlight it · drag to pan · scroll to zoom</footer>
+<footer>{{CREDIT}} · ○ interchange (project on several lines) · Click a station or a line to highlight it · drag to pan · scroll to zoom</footer>
 
 <script id="map-data" type="application/json">{{DATA}}</script>
 <script>
@@ -146,6 +158,16 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
   const panel = document.getElementById('panel');
   const tip = document.getElementById('tip');
   const qIn = document.getElementById('q');
+
+  // ---- theme ----------------------------------------------------------
+  const themeBtn = document.getElementById('theme'), root = document.documentElement;
+  const showTheme = () => { themeBtn.textContent = root.dataset.theme === 'dark' ? '☀ Light' : '☾ Dark'; };
+  themeBtn.addEventListener('click', () => {
+    root.dataset.theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    showTheme();
+  });
+  showTheme();
 
   // ---- index the SVG --------------------------------------------------
   const els = {}, lineEls = {}, legEls = {};
@@ -198,6 +220,7 @@ footer { padding: .3rem 16px; font-size: .75rem; color: var(--mute); border-top:
       `<div class="kind">${kind}</div><div class="chips">${s.lines.map(chip).join('')}</div>` +
       (s.langs.length ? `<div class="members">Languages: <b>${s.langs.map(esc).join(', ')}</b></div>` : '') +
       (s.desc ? `<p>${esc(s.desc)}</p>` : '') +
+      (/^https?:\/\//i.test(s.home || '') ? `<p><a class="home" href="${esc(s.home)}" target="_blank" rel="noopener noreferrer">Project website ↗</a></p>` : '') +
       (s.members.length ? `<div class="members">Includes: ${s.members.map(esc).join(', ')}</div>` : '');
   }
   panel.addEventListener('click', e => {

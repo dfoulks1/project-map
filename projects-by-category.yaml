@@ -4,6 +4,7 @@ big-data:
       design. It is built on top of Apache Hadoop, Apache Zookeeper, and Apache Thrift. It features a
       few novel improvements on the BigTable design in the form of cell-level access labels and a server-side
       programming mechanism that can modify key/value pairs at various points in the data management process.
+    homepage: https://accumulo.apache.org
     languages:
     - Java
 - Apache Airavata:
@@ -12,16 +13,19 @@ big-data:
       clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly
       used to build Web-based science gateways and assist to compose, manage, execute, and monitor large
       scale applications (wrapped as Web services) and workflows composed of these services.
+    homepage: http://airavata.apache.org
     languages: &id001
     - Java
 - Apache Airflow:
     description: The mission of Apache Airflow is the creation and maintenance of software related to
       workflow automation and scheduling that can be used to author and manage data pipelines.
+    homepage: https://airflow.apache.org
     languages:
     - Python
     - JavaScript
 - Apache Ambari:
     description: Apache Ambari simplifies provisioning, managing, and monitoring of Apache Hadoop clusters.
+    homepage: https://ambari.apache.org
     languages:
     - Java
     - JavaScript
@@ -37,6 +41,7 @@ big-data:
       the developer community. We are dedicated to open, kind communication and consensus decision making.
       Our committers come from a range of organizations and backgrounds, and we welcome all to participate
       with us.
+    homepage: https://arrow.apache.org
     languages: &id005
     - C
     - C++
@@ -52,6 +57,7 @@ big-data:
     - Rust
 - Apache Avro:
     description: Apache Avro is a data serialization system.
+    homepage: https://avro.apache.org
     languages: &id006
     - C
     - C#
@@ -67,6 +73,7 @@ big-data:
     description: Apache Beam is a unified programming model for both batch and streaming data processing,
       enabling efficient execution across diverse distributed execution engines and providing extensibility
       points for connecting to different technologies and user communities.
+    homepage: https://beam.apache.org
     languages:
     - Java
     - Python
@@ -76,12 +83,14 @@ big-data:
       of Hadoop-related projects. This includes testing at various levels (packaging, platform, runtime,
       upgrade, etc...) developed by a community with a focus on the system as a whole, rather than individual
       projects. In short we strive to be for Hadoop what Debian is to Linux.
+    homepage: http://bigtop.apache.org/
     languages:
     - Java
 - Apache BookKeeper:
     description: BookKeeper is a reliable replicated log service. It can be used to turn any standalone
       service into a highly available replicated service. BookKeeper is highly available (no single point
       of failure), and scales horizontally as more storage nodes are added.
+    homepage: http://bookkeeper.apache.org/
     languages:
     - Java
 - Apache Calcite:
@@ -90,12 +99,14 @@ big-data:
       There is an optional SQL parser and JDBC driver. Calcite does not store data or have a preferred
       execution engine. Data formats, execution algorithms, planning rules, operator types, metadata,
       and cost model are added at runtime as plugins.
+    homepage: https://calcite.apache.org
     languages: &id016
     - Java
 - Apache CarbonData:
     description: Apache CarbonData is a new big data file format for faster interactive query using advanced
       columnar storage, index, compression and encoding techniques to improve computing efficiency, which
       helps in speeding up queries by an order of magnitude faster over PetaBytes of data.
+    homepage: https://carbondata.apache.org
     languages:
     - Java
     - Scala
@@ -105,6 +116,7 @@ big-data:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: &id002
     - JavaScript
     - Erlang
@@ -118,6 +130,7 @@ big-data:
       of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be
       converted directly to/from the data structures carried by data processing frameworks so as to bypass
       any XML/JSON overheads.
+    homepage: https://daffodil.apache.org
     languages: &id033
     - Scala
     - Java
@@ -129,6 +142,7 @@ big-data:
       at regular intervals (e.g. daily, weekly), and therefore the sliding nature of the computations
       means that much of the work is unnecessarily repeated. DataFu''s Hourglass was created to make these
       computations more efficient, yielding sometimes 50-95% reductions in computational resources.'
+    homepage: http://datafu.apache.org/
     languages:
     - Java
 - Apache DataFusion:
@@ -136,6 +150,7 @@ big-data:
       systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion
       offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and
       Avro, extensive customization, and a great community.
+    homepage: https://datafusion.apache.org
     languages: &id007
     - Python
     - Rust
@@ -147,6 +162,7 @@ big-data:
       algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically
       proven error bounds. For interactive queries there may not be other viable alternatives, and in
       the case of real-time analysis, sketches are the only known solution.
+    homepage: https://datasketches.apache.org
     languages: &id034
     - Java
     - C++
@@ -156,6 +172,7 @@ big-data:
 - Apache Drill:
     description: Apache Drill is a distributed MPP query layer that supports SQL and alternative query
       languages against NoSQL and Hadoop data storage systems. It was inspired in part by Google's Dremel.
+    homepage: http://drill.apache.org
     languages:
     - Java
 - Apache Druid:
@@ -164,6 +181,7 @@ big-data:
       and ingest really matter. Druid excels at powering UIs, running operational (ad-hoc) queries, or
       handling high concurrency. Consider Druid as an open source alternative to data warehouses for a
       variety of use cases.
+    homepage: https://druid.apache.org/
     languages: &id011
     - Java
 - Apache Flink:
@@ -171,6 +189,7 @@ big-data:
       analysis. It combines the scalability and programming flexibility of distributed MapReduce-like
       platforms with the efficiency, out-of-core execution, and query optimization capabilities found
       in parallel databases.
+    homepage: http://flink.apache.org
     languages:
     - Java
     - Scala
@@ -178,6 +197,7 @@ big-data:
     description: Apache Flume is a distributed, reliable, and available system for efficiently collecting,
       aggregating and moving large amounts of log data from many different sources to a centralized data
       store
+    homepage: http://flume.apache.org
     languages:
     - Java
 - Apache Fluo:
@@ -185,6 +205,7 @@ big-data:
       to large data sets. With Apache Fluo, users can set up workflows that execute cross node transactions
       when data changes. These workflows enable users to continuously join new data into large existing
       data sets without reprocessing all data. Apache Fluo is built on Apache Accumulo.
+    homepage: https://fluo.apache.org
     languages:
     - Java
 - Apache Fluo Recipes:
@@ -193,16 +214,19 @@ big-data:
       to iterate and innovate faster than Fluo (which will maintain a more minimal API on a slower release
       cycle). Fluo Recipes offers code to implement common patterns on top of Fluo's API. It also offers
       glue code to external libraries like Spark and Kryo.
+    homepage: https://fluo.apache.org
     languages:
     - Java
 - Apache Fluo YARN:
     description: Apache Fluo YARN is a tool for running Apache Fluo applications in Apache Hadoop YARN.
+    homepage: https://fluo.apache.org
     languages:
     - Java
 - Apache Gobblin:
     description: A distributed data integration framework that simplifies common aspects of big data integration
       such as data ingestion, replication, organization and lifecycle management for both streaming and
       batch data ecosystems.
+    homepage: https://gobblin.apache.org
     languages:
     - Java
 - Apache Hadoop:
@@ -212,12 +236,14 @@ big-data:
       Rather than rely on hardware to deliver high-availability, the library itself is designed to detect
       and handle failures at the application layer, so delivering a highly-available service on top of
       a cluster of computers, each of which may be prone to failures.
+    homepage: https://hadoop.apache.org/
     languages:
     - Java
 - Apache Helix:
     description: Apache Helix is a generic cluster management framework used for the automatic management
       of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates
       reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
+    homepage: http://helix.apache.org
     languages: &id003
     - Java
 - Apache Hop:
@@ -229,12 +255,14 @@ big-data:
       remote), or on Spark, Flink, Google Dataflow or AWS EMR through Beam. Lifecycle Management enables
       developers and administrators to switch between projects, environments and purposes without leaving
       your train of thought.
+    homepage: https://hop.apache.org
     languages:
     - Java
 - Apache Iceberg:
     description: Iceberg brings the reliability and simplicity of SQL tables to big data, while making
       it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the
       same tables, at the same time.
+    homepage: https://iceberg.apache.org
     languages: &id008
     - Java
     - Python
@@ -244,6 +272,7 @@ big-data:
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: &id004
     - Java
     - C#
@@ -253,6 +282,7 @@ big-data:
     - ODBC
 - Apache Impala:
     description: Apache Impala is the open source, native analytic database for open data and table formats.
+    homepage: https://impala.apache.org
     languages:
     - C++
     - Java
@@ -261,6 +291,7 @@ big-data:
       supports Data Ingestion, Data Synchronization, and Data Subscription, and it provides automatic,
       safe, reliable, and high-performance data transmission capabilities to facilitate the construction
       of streaming-based data analysis, modeling, and applications.
+    homepage: https://inlong.apache.org
     languages:
     - Java
 - Apache Kafka:
@@ -272,6 +303,7 @@ big-data:
       has a modern cluster-centric design that offers strong durability and fault-tolerance guarantees.
       Messages are persisted on disk and replicated within the cluster to prevent data loss. Each broker
       can handle terabytes of messages without performance impact.
+    homepage: https://kafka.apache.org/
     languages:
     - Scala
 - Apache Knox:
@@ -286,10 +318,12 @@ big-data:
       the Knox Gateway provides the enterprise with a solution that: Integrates well with enterprise identity
       management solutions Protects the details of the Hadoop cluster deployment (hosts and ports are
       hidden from endusers) Simplifies the number of services that clients need to interact with'
+    homepage: https://knox.apache.org
     languages:
     - Java
 - Apache Kudu:
     description: Apache Kudu is a columnar storage manager developed for the Apache Hadoop platform.
+    homepage: https://kudu.apache.org
     languages:
     - C++
 - Apache Kylin:
@@ -298,6 +332,7 @@ big-data:
       the multi-dimensional cube and precalculation technology on Hadoop and Spark, Kylin is able to achieve
       near constant query speed regardless of the ever-growing data volume. Reducing query latency from
       minutes to sub-second, Kylin brings online analytics back to big data.
+    homepage: https://kylin.apache.org
     languages:
     - Java
     - Scala
@@ -305,6 +340,7 @@ big-data:
     description: Apache Linkis is a computation middleware project, which decouples the upper applications
       and the underlying data engines, provides standardized interfaces (REST, JDBC etc.) to easily connect
       to various underlying engines (Spark, Presto, Flink, etc.).
+    homepage: https://linkis.apache.org/
     languages:
     - Java
     - Scala
@@ -314,6 +350,7 @@ big-data:
       is an edge data collection agent built to seamlessly integrate with and leverage the command and
       control of NiFi. Apache NiFi Registry is a centralized registry for key configuration items including
       flow versions, assets, and extensions for Apache NiFi and Apache MiNiFi.
+    homepage: https://nifi.apache.org/
     languages:
     - Java
 - Apache ORC:
@@ -321,6 +358,7 @@ big-data:
       It is optimized for large streaming reads, but with integrated support for finding required rows
       quickly. Storing data in a columnar format lets the reader read, decompress, and process only the
       values that are required for the current query.
+    homepage: https://orc.apache.org
     languages: &id013
     - Java
     - C++
@@ -331,12 +369,14 @@ big-data:
       It is built on a highly available, replicated block storage layer called Hadoop Distributed Data
       Store (HDDS). Applications using frameworks like Apache Spark, YARN and Hive work natively without
       any modifications.
+    homepage: https://ozone.apache.org/
     languages:
     - Java
 - Apache Parquet:
     description: Apache Parquet is an open source, column-oriented data file format designed for efficient
       data storage and retrieval. It provides high performance compression and encoding schemes to handle
       complex data in bulk and is supported in many programming language and analytics tools.
+    homepage: http://parquet.apache.org
     languages:
     - Java
 - Apache Phoenix:
@@ -344,6 +384,7 @@ big-data:
       a relational database layer leveraging Apache HBase as its backing store. It includes integration
       with Apache Spark, Pig, Flume, Map Reduce, and other products in the Hadoop ecosystem. It is accessed
       as a JDBC driver and enables querying, updating, and managing HBase tables through standard SQL.
+    homepage: http://phoenix.apache.org
     languages: &id014
     - Java
     - SQL
@@ -356,12 +397,14 @@ big-data:
       upper bound. Consistent performance based on the size of your cluster and an expected query per
       second (QPS) threshold. It''s perfect for user-facing real-time analytics and other analytical use
       cases, including internal dashboards, anomaly detection, and ad hoc data exploration.'
+    homepage: https://pinot.apache.org
     languages:
     - Java
 - Apache Polaris:
     description: Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine
       interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache
       Spark, ...
+    homepage: https://polaris.apache.org
     languages: &id009
     - Java
     - Python
@@ -372,12 +415,14 @@ big-data:
       include multi-tenancy with resource separation and access control, geo-replication across regions,
       tiered storage and support for six official client languages. It supports up to one million unique
       topics and is designed to simplify your application architecture.
+    homepage: https://pulsar.apache.org/
     languages:
     - Java
 - Apache Ranger:
     description: Apache Ranger is a framework to enable, monitor and manage comprehensive data security
       - consistently across various data processing services. Integrated with most of the Big-Data technologies
       (Hadoop, Hive, HBase, Spark, Trino, ...)
+    homepage: https://ranger.apache.org
     languages: &id064
     - Java
 - Apache Samza:
@@ -385,18 +430,21 @@ big-data:
       such as Apache Kafka. The developer writes a stream processing task, and executes it as a Samza
       job. Samza then routes messages between stream processing tasks and the publish-subscribe systems
       that the messages are addressed to.
+    homepage: http://samza.apache.org/
     languages:
     - Scala
 - Apache SeaTunnel:
     description: SeaTunnel is a next-generation super high-performance, distributed, massive data integration
       tool. It can synchronize tens of billions of data stably and efficiently every day, and has been
       used in the production of many companies.
+    homepage: https://seatunnel.apache.org/
     languages:
     - Java
 - Apache Spark:
     description: Apache Spark is a fast and general engine for large-scale data processing. It offers
       high-level APIs in Java, Scala, Python and R, as well as a rich set of libraries including stream
       processing, machine learning, and graph analytics.
+    homepage: http://spark.apache.org
     languages:
     - Java
     - Scala
@@ -408,6 +456,7 @@ big-data:
     description: Apache Storm is a distributed real-time computation system. Similar to how Hadoop provides
       a set of general primitives for doing batch processing, Storm provides a set of general primitives
       for doing real-time computation.
+    homepage: http://storm.apache.org/
     languages:
     - Java
 - Apache Superset:
@@ -420,6 +469,7 @@ big-data:
       and highly scalable, leveraging the power of your existing data infrastructure without requiring
       yet another ingestion layer. * Rich visualizations and dashboards Superset ships with 40+ pre-installed
       visualization types. Our plug-in architecture makes it easy to build custom visualizations.'
+    homepage: https://superset.apache.org
     languages: &id010
     - JavaScript
     - Python
@@ -428,6 +478,7 @@ big-data:
     description: Apache Tez is an effort to develop a generic application framework which can be used
       to process arbitrarily complex directed-acyclic graphs (DAGs) of data-processing tasks and also
       a re-usable set of data-processing primitives which can be used by other projects.
+    homepage: http://tez.apache.org
     languages:
     - Java
 - Apache TsFile:
@@ -435,6 +486,7 @@ big-data:
       data, featuring multi-language interfaces, high compression ratios, high read/write throughput,
       and fast random access capabilities. It is ideal for scenarios such as building high-quality datasets,
       managing data assets, conducting data analytics, and training AI models.
+    homepage: https://tsfile.apache.org
     languages: &id025
     - Java
     - C++
@@ -445,12 +497,14 @@ big-data:
     description: Apache TVM is an open source machine learning compiler framework for CPUs, GPUs, and
       machine learning accelerators. It aims to enable machine learning engineers to optimize and run
       computations efficiently on any hardware backend.
+    homepage: https://tvm.apache.org/
     languages:
     - C++
     - Python
 - Apache Zeppelin:
     description: Zeppelin is a modern web-based tool for the data scientists to collaborate over large-scale
       data exploration and visualization projects.
+    homepage: http://zeppelin.apache.org/
     languages:
     - Java
     - JavaScript
@@ -458,35 +512,42 @@ big-data:
 build-management:
 - Apache Ant:
     description: Apache Ant is a Java-based build tool.
+    homepage: http://ant.apache.org
     languages:
     - Java
 - Apache AntUnit:
     description: The Ant Library provides Ant tasks for testing Ant task, it can also be used to drive
       functional and integration tests of arbitrary applications with Ant.
+    homepage: http://ant.apache.org/antlibs/antunit/
     languages: &id066
     - Java
 - Apache Compress Ant Library:
     description: This is a library of Ant tasks and types uses Apache Commons Compress to support additional
       archive formats like ar, pack200, xz and cpio.
+    homepage: http://ant.apache.org/antlibs/compress/
     languages:
     - Java
 - Apache CycloneDX Ant Library:
     description: Provides support for the creation of CycloneDX SBOMs.
+    homepage: http://ant.apache.org/antlibs/cyclonedx/
     languages:
     - Java
 - Apache Gump:
     description: Gump provides large scale continuous integration for various open source projects.
+    homepage: http://gump.apache.org/
     languages: &id067
     - Python
 - Apache Ivy:
     description: Apache Ivy is a very powerful dependency manager oriented toward Java dependency management,
       even though it could be used to manage dependencies of any kind.
+    homepage: http://ant.apache.org/ivy/
     languages:
     - Java
 - Apache IvyDE:
     description: The now retired IvyDE lets you manage your dependencies declared in an ivy.xml in your
       Java Eclipse projects. IvyDE will contribute to the classpath of your Java project, with the classpath
       container. It also bring an editor of ivy.xml files, with completion.
+    homepage: http://ant.apache.org/ivyde/
     languages:
     - Java
 - Apache Magpie:
@@ -496,6 +557,7 @@ build-management:
       automation level that fits its culture and risk tolerance. Magpie covers security-issue handling,
       contributor mentoring, agent-drafted remediation under human review, and developer-side development-cycle
       workflows, with a privacy-aware model-routing posture for sensitive content.
+    homepage: https://github.com/apache/magpie
     languages:
     - Python
 - Apache Maven:
@@ -503,6 +565,7 @@ build-management:
       of a project object model: builds, dependency management, documentation creation, site publication,
       and distribution publication are all controlled from the declarative file. Maven can be extended
       by plugins to utilise a number of other development tools for reporting or the build process.'
+    homepage: https://maven.apache.org/
     languages:
     - Java
 - Apache Maven Doxia:
@@ -510,12 +573,14 @@ build-management:
       techniques for generating static and dynamic content: Doxia can be used in web-based publishing
       context to generate static sites, in addition to being incorporated into dynamic content generation
       systems like blogs, wikis and content management systems.'
+    homepage: https://maven.apache.org/doxia/
     languages:
     - Java
 - Apache Props Ant Library:
     description: The Apache Props Antlib is a library of supplementary handlers for Apache Ant properties
       resolution. The types provided are instances of org.apache.tools.ant.PropertyHelper.Delegate and
       can be invoked using the <propertyhelper> task provided in Ant 1.8.0.
+    homepage: http://ant.apache.org/antlibs/props/
     languages:
     - Java
 - Apache Rat:
@@ -525,6 +590,7 @@ build-management:
       Rat was developed in response to a need felt in the Apache Incubator to be able to review releases
       for the most common faults less labour intensively. It is therefore highly tuned to the Apache style
       of releases.'
+    homepage: http://creadur.apache.org/rat/
     languages:
     - Java
 - Apache Subversion:
@@ -532,11 +598,13 @@ build-management:
       version control system characterized by its reliability as a safe haven for valuable data; the simplicity
       of its model and usage; and its ability to support the needs of a wide variety of users and projects,
       from individuals to large-scale enterprise operations.
+    homepage: http://subversion.apache.org/
     languages:
     - C
 - Apache Tentacles:
     description: Apache Tentacles helps the reviewer by automating interactions with the repository containing
       the artifacts comprising the release.
+    homepage: http://creadur.apache.org/tentacles
     languages:
     - Java
 - Apache Whisker:
@@ -544,11 +612,13 @@ build-management:
       of its distributions. Use cases are auditing the model against the contents of a distribution, reporting
       on the contents of a distribution and generation licensing documents (LICENSE, NOTICE and so on)
       for a distribution. Whisker distributes tooling for the command line and build system such as Maven.
+    homepage: http://creadur.apache.org/whisker
     languages:
     - Java
 - Apache Yetus:
     description: A collection of libraries and tools that enable contribution and release processes for
       software projects.
+    homepage: https://yetus.apache.org/
     languages: &id047
     - Bash
     - Java
@@ -560,17 +630,20 @@ cloud:
       clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly
       used to build Web-based science gateways and assist to compose, manage, execute, and monitor large
       scale applications (wrapped as Web services) and workflows composed of these services.
+    homepage: http://airavata.apache.org
     languages: *id001
 - Apache Brooklyn:
     description: 'Brooklyn is about deploying and managing applications: composing a full stack for an
       application; deploying to cloud and non-cloud targets; using monitoring tools to collect key health/performance
       metrics; responding to situations such as a failing node; and adding or removing capacity to match
       demand.'
+    homepage: http://brooklyn.apache.org
     languages:
     - Java
 - Apache Camel:
     description: Apache Camel is an open source integration framework with 350+ connectors. Write routes
       in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.
+    homepage: https://camel.apache.org/
     languages: &id022
     - Java
 - Apache CloudStack:
@@ -585,6 +658,7 @@ cloud:
       Platform (XCP). Users can manage their cloud with an easy to use Web interface, command line tools,
       and / or a full-featured RESTful API. In addition, CloudStack provides an API that''s compatible
       with AWS EC2 and S3 for organizations that wish to deploy hybrid clouds.'
+    homepage: http://cloudstack.apache.org
     languages:
     - Java
     - Python
@@ -594,34 +668,41 @@ cloud:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: *id002
 - Apache EventMesh:
     description: EventMesh is a new generation serverless event middleware for building distributed event-driven
       applications.
+    homepage: https://eventmesh.apache.org
     languages:
     - Java
 - Apache Helix:
     description: Apache Helix is a generic cluster management framework used for the automatic management
       of partitioned, replicated and distributed resources hosted on a cluster of nodes. Helix automates
       reassignment of resources in the face of node failure and recovery, cluster expansion, and reconfiguration.
+    homepage: http://helix.apache.org
     languages: *id003
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache Libcloud:
     description: Apache Libcloud is a standard Python library that abstracts away differences among multiple
       cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.
+    homepage: http://libcloud.apache.org
     languages: &id040
     - Python
 - Apache Solr Operator:
     description: Manages Solr resources in Kubernetes
+    homepage: https://solr.apache.org/operator
     languages: &id063
     - Go
 - Apache VCL:
     description: VCL is a modular cloud computing platform which dynamically provisions and brokers remote
       access to compute resources including virtual machines, bare-metal computers, and resources in other
       cloud platforms. A self-service web portal is used to request resources and for administration.
+    homepage: http://vcl.apache.org
     languages:
     - Bash
     - JavaScript
@@ -630,6 +711,7 @@ cloud:
     - SQL
 - Apache YuniKorn:
     description: A light-weight universal resource scheduler for container orchestrator systems.
+    homepage: https://yunikorn.apache.org
     languages:
     - Go
     - JavaScript
@@ -638,12 +720,14 @@ content:
     description: Apache Allura is an open source implementation of a software "forge", a web site that
       manages source code repositories, bug reports, discussions, wiki pages, blogs and more for any number
       of individual projects.
+    homepage: http://allura.apache.org
     languages:
     - Python
 - Apache Annotator:
     description: Apache Annotator is a collaborative community for creating annotation related code which
       works to provide a future for Annotator.js-based projects and plugins while enabling W3C spec-compliant
       Web Annotation in Web browsers, Web Publication readers, and the servers that serve them.
+    homepage: http://annotator.apache.org
     languages:
     - JavaScript
 - Apache CouchDB:
@@ -652,6 +736,7 @@ content:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: *id002
 - Apache cTAKES:
     description: Apache clinical Text Analysis and Knowledge Extraction System (cTAKES) is an open-source
@@ -663,6 +748,7 @@ content:
       conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for
       example the location of a clinical condition (locationOf relation) or the severity of a clinical
       condition (degreeOf relation).
+    homepage: https://github.com/apache/ctakes
     languages: &id032
     - Java
     - Python
@@ -675,6 +761,7 @@ content:
       (like Java) is used to prepare the data (issue database queries, do business calculations). Then,
       Apache FreeMarker displays that prepared data using templates. In the template you are focusing
       on how to present the data, and outside the template you are focusing on what data to present.'
+    homepage: https://freemarker.apache.org
     languages: &id017
     - Java
 - Apache JSPWiki:
@@ -684,6 +771,7 @@ content:
       ones - Security: Authorization and authentication fine grain control - Easy plugin and page filter
       interfaces - UTF-8 support - JSP-based - Easy-ish installation - Page locking to prevent editing
       conflicts - Support for Multiple Wikis - Custom User Preferences'
+    homepage: http://jspwiki.apache.org/
     languages:
     - Java
 - Apache ManifoldCF:
@@ -691,6 +779,7 @@ content:
       repositories like Microsoft Sharepoint and EMC Documentum, to target repositories or indexes, such
       as Apache Solr , OpenSearchServer or ElasticSearch. ManifoldCF also defines a security model for
       target repositories that permits them to enforce source-repository security policies.
+    homepage: https://manifoldcf.apache.org
     languages:
     - Java
 - Apache OFBiz:
@@ -700,6 +789,7 @@ content:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: &id012
     - Java
     - Groovy
@@ -711,10 +801,12 @@ content:
       six productivity applications (Writer, Calc, Impress, Draw, Math, Base) based around the OpenDocument
       Format (ODF). OpenOffice is released on Windows, macOS (OS X), Linux 32-bit DEB+RPM, Linux 64-bit
       DEB+RPM and in 41 languages.
+    homepage: https://openoffice.apache.org
     languages:
     - C++
 - Apache PDFBox:
     description: The Apache PDFBox library is an open source Java tool for working with PDF documents.
+    homepage: https://pdfbox.apache.org
     languages: &id042
     - Java
 - Apache POI:
@@ -722,12 +814,14 @@ content:
       Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word
       and PowerPoint solution. We have a complete API for porting other OOXML and OLE 2 Compound Document
       formats and welcome others to participate.
+    homepage: https://poi.apache.org
     languages: &id043
     - Java
 - Apache Pony Mail:
     description: Apache Pony Mail is a web-based mail archive browser and interaction platform for mailing
       lists. It provides full-text search, threading, and real-time interaction with archived mailing
       lists, and is the engine behind lists.apache.org.
+    homepage: https://ponymail.apache.org
     languages: &id048
     - Python
     - JavaScript
@@ -738,6 +832,7 @@ content:
       work as well offline as they do online. It enables applications to store data locally while offline,
       then synchronize it with CouchDB and compatible servers when the application is back online, keeping
       the user's data in sync no matter where they next log in.
+    homepage: https://pouchdb.apache.org
     languages: &id015
     - JavaScript
 - Apache rivet:
@@ -747,6 +842,7 @@ content:
       for other programming tasks outside the web (GUI's, system administration tasks, text processing,
       database manipulation, XML, and so on). In order to meet these goals Tcl programming language was
       chosen to combine with the Apache HTTP Server.
+    homepage: https://tcl.apache.org/rivet
     languages:
     - Tcl
 - Apache Roller:
@@ -761,6 +857,7 @@ content:
       engine indexes weblog entry content - Pluggable cache and rendering system - Support for blog clients
       that support MetaWeblog API - All blogs have entry and comment feeds in both RSS 2.0 and Atom 1.0
       formats'
+    homepage: http://roller.apache.org/
     languages:
     - Java
 - Apache Tika:
@@ -768,12 +865,14 @@ content:
       from digital documents. Tika allows search engines, content management systems and other applications
       that work with various kinds of digital documents to easily detect and extract metadata and content
       from all major file formats.
+    homepage: https://tika.apache.org
     languages: &id046
     - Java
 - Apache Whimsy:
     description: The production Whimsy server also has a number of tools that automate some organizational
       processes, like adding PMC members to official corporate rosters or reading, updating, and approving
       the monthly board agenda.
+    homepage: http://whimsy.apache.org/
     languages:
     - JavaScript
     - Ruby
@@ -789,30 +888,36 @@ data-engineering:
       the developer community. We are dedicated to open, kind communication and consensus decision making.
       Our committers come from a range of organizations and backgrounds, and we welcome all to participate
       with us.
+    homepage: https://arrow.apache.org
     languages: *id005
 - Apache Avro:
     description: Apache Avro is a data serialization system.
+    homepage: https://avro.apache.org
     languages: *id006
 - Apache DataFusion:
     description: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric
       systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion
       offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and
       Avro, extensive customization, and a great community.
+    homepage: https://datafusion.apache.org
     languages: *id007
 - Apache Iceberg:
     description: Iceberg brings the reliability and simplicity of SQL tables to big data, while making
       it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the
       same tables, at the same time.
+    homepage: https://iceberg.apache.org
     languages: *id008
 - Apache OpenDAL:
     description: Apache OpenDAL is a data access layer that allows users to easily and efficiently retrieve
       data from various storage services in a unified way.
+    homepage: https://opendal.apache.org/
     languages:
     - Rust
 - Apache Polaris:
     description: Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine
       interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache
       Spark, ...
+    homepage: https://polaris.apache.org
     languages: *id009
 - Apache Superset:
     description: 'Superset is a fast, lightweight, intuitive, business intelligence platform. Loaded with
@@ -824,17 +929,20 @@ data-engineering:
       and highly scalable, leveraging the power of your existing data infrastructure without requiring
       yet another ingestion layer. * Rich visualizations and dashboards Superset ships with 40+ pre-installed
       visualization types. Our plug-in architecture makes it easy to build custom visualizations.'
+    homepage: https://superset.apache.org
     languages: *id010
 data-management-platform:
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 data-visualization:
 - Apache ECharts:
     description: Apache ECharts is a free, powerful charting and visualization library offering easy ways
       to add intuitive, interactive, and highly customizable charts to your commercial products. It is
       written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
+    homepage: https://echarts.apache.org
     languages: &id035
     - JavaScript
     - TypeScript
@@ -843,6 +951,7 @@ database:
     description: The goal of Apache AGE™ is to provide graph data processing and analytics capability
       to all relational databases. Through Apache AGE, PostgreSQL users will gain access to graph query
       modeling within the existing relational database.
+    homepage: https://age.apache.org/
     languages:
     - C
 - Apache Arrow:
@@ -856,6 +965,7 @@ database:
       the developer community. We are dedicated to open, kind communication and consensus decision making.
       Our committers come from a range of organizations and backgrounds, and we welcome all to participate
       with us.
+    homepage: https://arrow.apache.org
     languages: *id005
 - Apache Cassandra:
     description: Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure
@@ -863,6 +973,7 @@ database:
       across multiple datacenters is best-in-class. Cassandra is in use at Netflix, Twitter, Urban Airship,
       Constant Contact, Reddit, Cisco, OpenX, Digg, CloudKick, Ooyala, and more companies that have large,
       active data sets. Cassandra provides full Hadoop integration, including with Pig and Hive.
+    homepage: http://cassandra.apache.org
     languages:
     - Java
 - Apache Cayenne:
@@ -876,6 +987,7 @@ database:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
+    homepage: https://cayenne.apache.org
     languages: &id030
     - Java
 - Apache CouchDB:
@@ -884,12 +996,14 @@ database:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: *id002
 - Apache Curator:
     description: Apache Curator is a Java/JVM client library for Apache ZooKeeper, a distributed coordination
       service. It includes a highlevel API framework and utilities to make using Apache ZooKeeper much
       easier and more reliable. It also includes recipes for common use cases and extensions such as service
       discovery and a Java 8 asynchronous DSL.
+    homepage: http://curator.apache.org/
     languages:
     - Java
 - Apache DataFusion:
@@ -897,6 +1011,7 @@ database:
       systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion
       offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and
       Avro, extensive customization, and a great community.
+    homepage: https://datafusion.apache.org
     languages: *id007
 - Apache Derby:
     description: Apache Derby is an open source relational database implemented entirely in Java. It has
@@ -904,6 +1019,7 @@ database:
       the more familiar client/server mode. It is based on the Java, JDBC, and SQL standards, making code
       developed more portable to standards-compliant databases. The developer community voted to retire
       the project and move it into a read-only mode as of 2025-10-10. See https://lists.apache.org/thread/q7xnvbyo818vvtyh2b5oljr8won4zjx7
+    homepage: http://db.apache.org/derby
     languages:
     - Java
 - Apache Doris:
@@ -915,6 +1031,7 @@ database:
       and data lake query acceleration. On Apache Doris, users can build various applications, such as
       user behavior analysis, AB test platform, log retrieval analysis, user portrait analysis, and order
       analysis.
+    homepage: https://doris.apache.org/
     languages:
     - C++
     - Java
@@ -924,6 +1041,7 @@ database:
       and ingest really matter. Druid excels at powering UIs, running operational (ad-hoc) queries, or
       handling high concurrency. Consider Druid as an open source alternative to data warehouses for a
       variety of use cases.
+    homepage: https://druid.apache.org/
     languages: *id011
 - Apache Empire-db:
     description: Apache Empire-db is intended for developers who strive to have full SQL freedom when
@@ -934,6 +1052,7 @@ database:
       between traditional Java Beans and a more sophisticated dynamic interface provided by Record and
       DataListEntriy classes. Empire-db is DBMS vendor independent and provides handlers for Oracle, Microsoft
       SQLServer, PostgreSQL, MySQL, HsqlDB, Derby, H2 and more.
+    homepage: https://empire-db.apache.org
     languages:
     - Java
 - Apache Geode:
@@ -944,6 +1063,7 @@ database:
       high availability, improved performance, scalability, and fault tolerance. In addition to being
       a distributed data container, Geode is an in-memory data management system that provides reliable
       asynchronous event notifications and guaranteed message delivery.
+    homepage: https://geode.apache.org
     languages:
     - Java
 - Apache HBase:
@@ -953,6 +1073,7 @@ database:
       column-oriented store modeled after Google''s Bigtable: A Distributed Storage System for Structured
       Data by Chang et al. Just as Bigtable leverages the distributed data storage provided by the Google
       File System, HBase provides Bigtable-like capabilities on top of Hadoop and HDFS.'
+    homepage: https://hbase.apache.org
     languages:
     - Java
 - Apache Hive:
@@ -966,16 +1087,19 @@ database:
       able to plug in their custom mappers and reducers to perform more sophisticated analysis that may
       not be supported by the built-in capabilities of the language. HiveQL can also be extended with
       custom scalar functions (UDF's), aggregations (UDAF's), and table functions (UDTF's).
+    homepage: http://hive.apache.org
     languages:
     - Java
 - Apache Iceberg:
     description: Iceberg brings the reliability and simplicity of SQL tables to big data, while making
       it possible for engines like Spark, Trino, Flink, Presto, Hive and Impala to safely work with the
       same tables, at the same time.
+    homepage: https://iceberg.apache.org
     languages: *id008
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache IoTDB:
     description: Apache IoTDB (Database for Internet of Things) is an integrated data management engine
@@ -984,6 +1108,7 @@ database:
       its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements
       of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial
       fields.
+    homepage: http://iotdb.apache.org
     languages: &id023
     - Java
     - Python
@@ -998,6 +1123,7 @@ database:
       structured and unstructured content, full text search, versioning, transactions, observation, and
       more. Typical applications that use content repositories include content management, document management,
       and records management systems.
+    homepage: http://jackrabbit.apache.org/
     languages: &id039
     - Java
 - Apache JDO:
@@ -1005,12 +1131,14 @@ database:
       the Java domain objects) from database manipulation (done by calling the JDO interface methods).
       This separation of concerns leads to a high degree of independence of the Java view of data from
       the database view of the data.
+    homepage: https://db.apache.org/jdo/
     languages:
     - Java
 - Apache Lucene Core:
     description: Apache Lucene is a high-performance, full-featured text search engine library written
       entirely in Java. It is a technology suitable for nearly any application that requires full-text
       search, especially cross-platform.
+    homepage: https://lucene.apache.org/core/
     languages: &id041
     - Java
 - Apache Lucene.Net:
@@ -1022,6 +1150,7 @@ database:
       library; 3. Maximize usability and power when used within the .NET runtime. To that end, it will
       present a highly idiomatic, carefully tailored API that takes advantage of many of the special features
       of the .NET runtime.'
+    homepage: http://lucenenet.apache.org/
     languages:
     - C#
 - Apache OFBiz:
@@ -1031,6 +1160,7 @@ database:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: *id012
 - Apache OpenJPA:
     description: Apache OpenJPA is a Java persistence project at The Apache Software Foundation that can
@@ -1041,6 +1171,7 @@ database:
       Kit. The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence
       2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun
       JPA 2.0 Technology Compatibility Kit.
+    homepage: http://openjpa.apache.org
     languages: &id027
     - Java
 - Apache ORC:
@@ -1048,12 +1179,14 @@ database:
       It is optimized for large streaming reads, but with integrated support for finding required rows
       quickly. Storing data in a columnar format lets the reader read, decompress, and process only the
       values that are required for the current query.
+    homepage: https://orc.apache.org
     languages: *id013
 - Apache Phoenix:
     description: Apache Phoenix enables OLTP and operational analytics for Apache Hadoop by providing
       a relational database layer leveraging Apache HBase as its backing store. It includes integration
       with Apache Spark, Pig, Flume, Map Reduce, and other products in the Hadoop ecosystem. It is accessed
       as a JDBC driver and enables querying, updating, and managing HBase tables through standard SQL.
+    homepage: http://phoenix.apache.org
     languages: *id014
 - Apache Pig:
     description: 'Apache Pig is a platform for analyzing large data sets that consists of a high-level
@@ -1068,12 +1201,14 @@ database:
       opportunities. The way in which tasks are encoded permits the system to optimize their execution
       automatically, allowing the user to focus on semantics rather than efficiency. * Extensibility.
       Users can create their own functions to do special-purpose processing.'
+    homepage: http://pig.apache.org
     languages:
     - Java
 - Apache Polaris:
     description: Apache Polaris implements the Apache Iceberg REST API, enabling seamless multi-engine
       interoperability across a wide range of platforms, including Apache Doris, Apache Flink, Apache
       Spark, ...
+    homepage: https://polaris.apache.org
     languages: *id009
 - Apache PouchDB:
     description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed
@@ -1081,6 +1216,7 @@ database:
       work as well offline as they do online. It enables applications to store data locally while offline,
       then synchronize it with CouchDB and compatible servers when the application is back online, keeping
       the user's data in sync no matter where they next log in.
+    homepage: https://pouchdb.apache.org
     languages: *id015
 - Apache Superset:
     description: 'Superset is a fast, lightweight, intuitive, business intelligence platform. Loaded with
@@ -1092,6 +1228,7 @@ database:
       and highly scalable, leveraging the power of your existing data infrastructure without requiring
       yet another ingestion layer. * Rich visualizations and dashboards Superset ships with 40+ pre-installed
       visualization types. Our plug-in architecture makes it easy to build custom visualizations.'
+    homepage: https://superset.apache.org
     languages: *id010
 - Apache Torque:
     description: Torque is an object-relational mapper for Java. In other words, Torque lets you access
@@ -1100,17 +1237,20 @@ database:
       classes (including the Data Objects) from an XML schema describing the database layout (which can
       either be written by hand or generated from an existing database). The XML schema can also be used
       to generate and execute a SQL script which creates all the tables in the database.
+    homepage: https://db.apache.org/torque/
     languages:
     - Java
 - Apache ZooKeeper:
     description: Apache ZooKeeper is an effort to develop and maintain an open-source server which enables
       highly reliable distributed coordination.
+    homepage: https://zookeeper.apache.org/
     languages:
     - Java
 distributed-sql-database:
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 ftp:
 - Apache mod_ftp:
@@ -1118,6 +1258,7 @@ ftp:
       the HTTP protocol could also be used). It provides both RETR/REST retrieval and STOR/APPE upload,
       using the same user/permissions model as httpd (so it shares the same security considerations as
       mod_dav plus mod_dav_fs).
+    homepage: https://httpd.apache.org/mod_ftp/
     languages: &id019
     - C
 geospatial:
@@ -1127,6 +1268,7 @@ geospatial:
       There is an optional SQL parser and JDBC driver. Calcite does not store data or have a preferred
       execution engine. Data formats, execution algorithms, planning rules, operator types, metadata,
       and cost model are added at runtime as plugins.
+    homepage: https://calcite.apache.org
     languages: *id016
 - Apache OFBiz:
     description: Apache OFBiz is an open source product for the automation of enterprise processes that
@@ -1135,11 +1277,13 @@ geospatial:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: *id012
 - Apache Spatial Information System:
     description: Apache SIS provides data structures for geographic data and associated metadata along
       with methods to manipulate those data structures. The library is an implementation of GeoAPI interfaces
       and can be used for desktop or server applications.
+    homepage: http://sis.apache.org/
     languages: &id044
     - Java
 - Apache Superset:
@@ -1152,11 +1296,13 @@ geospatial:
       and highly scalable, leveraging the power of your existing data infrastructure without requiring
       yet another ingestion layer. * Rich visualizations and dashboards Superset ships with 40+ pre-installed
       visualization types. Our plug-in architecture makes it easy to build custom visualizations.'
+    homepage: https://superset.apache.org
     languages: *id010
 graphics:
 - Apache Batik:
     description: Batik is a Java-based toolkit for applications or applets to use images in the Scalable
       Vector Graphics (SVG) format for various purposes, such as display, generation and manipulation.
+    homepage: http://xmlgraphics.apache.org/batik/
     languages: &id072
     - SVG
 - Apache FOP:
@@ -1165,6 +1311,7 @@ graphics:
       that reads a formatting object (FO) tree and renders the resulting pages to a specified output.
       Output formats currently supported include PDF, PCL, PS, SVG, XML (area tree representation), Print,
       AWT, MIF and TXT. The primary output target is PDF.
+    homepage: http://xmlgraphics.apache.org/fop
     languages: &id073
     - Java
 - Apache XML Graphics Commons:
@@ -1172,12 +1319,14 @@ graphics:
       used by Apache Batik and Apache FOP. Many of these components can easily be used separately outside
       the domains of SVG and XSL-FO. You will find components such as a PDF library, an RTF library, Graphics2D
       implementations that let you generate PDF and PostScript files and much more.
+    homepage: http://xmlgraphics.apache.org/commons/
     languages:
     - Java
 groovy:
 - Apache NetBeans:
     description: Apache NetBeans is and IDE for many language (java, php, ...). Apache NetBeans is a platform
       that can be extended by third party developer.
+    homepage: https://netbeans.apache.org
     languages: &id020
     - Java
 hadoop:
@@ -1187,16 +1336,19 @@ hadoop:
       There is an optional SQL parser and JDBC driver. Calcite does not store data or have a preferred
       execution engine. Data formats, execution algorithms, planning rules, operator types, metadata,
       and cost model are added at runtime as plugins.
+    homepage: https://calcite.apache.org
     languages: *id016
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache ORC:
     description: ORC is a self-describing type-aware columnar file format designed for Hadoop workloads.
       It is optimized for large streaming reads, but with integrated support for finding required rows
       quickly. Storing data in a columnar format lets the reader read, decompress, and process only the
       values that are required for the current query.
+    homepage: https://orc.apache.org
     languages: *id013
 html:
 - Apache FreeMarker:
@@ -1207,6 +1359,7 @@ html:
       (like Java) is used to prepare the data (issue database queries, do business calculations). Then,
       Apache FreeMarker displays that prepared data using templates. In the template you are focusing
       on how to present the data, and outside the template you are focusing on what data to present.'
+    homepage: https://freemarker.apache.org
     languages: *id017
 http:
 - Apache Axis2:
@@ -1215,6 +1368,7 @@ http:
       engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing,
       WS-ReliableMessaging, WS-Security, WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.
       Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
+    homepage: http://axis.apache.org/axis2/java/core
     languages: &id050
     - Java
     - C
@@ -1224,6 +1378,7 @@ http:
       widespread use and years of development, it is a very mature and stable codebase. However, due to
       limitations in the API design, Commons HttpClient will eventually be replaced by HttpClient 4.0
       with a completely redesigned API based on HttpCore.
+    homepage: http://hc.apache.org/httpclient-3.x/
     languages: &id031
     - Java
 - Apache CouchDB:
@@ -1232,12 +1387,14 @@ http:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: *id002
 - Apache Geronimo:
     description: Apache Geronimo is an open source server runtime that integrates the best open source
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
+    homepage: http://geronimo.apache.org
     languages: &id026
     - Java
 - Apache HTTP Server:
@@ -1245,12 +1402,14 @@ http:
       UNIX, Microsoft Windows, Mac OS/X and Netware. The goal of this project is to provide a secure,
       efficient and extensible server that provides HTTP services observing the current HTTP standards.
       Apache has been the most popular web server on the Internet since April of 1996.
+    homepage: https://httpd.apache.org/
     languages: &id018
     - C
 - Apache HttpComponents Client:
     description: HttpClient is a library for client-side HTTP communication built on HttpCore. It provides
       connection management, cookie management, and authentication. This is the successor to the widely
       used Jakarta Commons HttpClient 3.1.
+    homepage: http://hc.apache.org/httpcomponents-client/
     languages: &id037
     - Java
 - Apache HttpComponents Core:
@@ -1258,6 +1417,7 @@ http:
       client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models:
       blocking I/O model based on the classic Java I/O and non-blocking, event driven I/O model based
       on Java NIO.'
+    homepage: http://hc.apache.org/httpcomponents-core/
     languages: &id038
     - Java
 - Apache OFBiz:
@@ -1267,6 +1427,7 @@ http:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: *id012
 - Apache PouchDB:
     description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed
@@ -1274,6 +1435,7 @@ http:
       work as well offline as they do online. It enables applications to store data locally while offline,
       then synchronize it with CouchDB and compatible servers when the application is back online, keeping
       the user's data in sync no matter where they next log in.
+    homepage: https://pouchdb.apache.org
     languages: *id015
 - Apache Synapse:
     description: Apache Synapse is a simple and highly effective ESB, Web Services intermediary and SOA
@@ -1285,6 +1447,7 @@ http:
       Axiom. in addition, the use of a completely asynchronous architecture and non-blocking IO based
       on Java NIO ensures that Synapse has very low overhead and can scale to support thousands of concurrent
       clients without dropping messages.
+    homepage: http://synapse.apache.org/
     languages: &id052
     - Java
 - Apache Thrift:
@@ -1293,6 +1456,7 @@ http:
       and servers that communicate seamlessly across programming languages. Instead of writing a load
       of boilerplate code to serialize and transport your objects and invoke remote methods, you can get
       right down to business.
+    homepage: https://thrift.apache.org
     languages: &id045
     - C
     - C#
@@ -1323,11 +1487,13 @@ http:
       development project. Apache Tomcat powers numerous large-scale, mission-critical web applications
       across a diverse range of industries and organizations. Some of these users and their stories are
       listed on the PoweredBy wiki page.
+    homepage: http://tomcat.apache.org/
     languages: &id028
     - Java
 - Apache Traffic Server:
     description: Apache Traffic Server is fast, scalable and extensible HTTP/1.1 compliant caching proxy
       server. ATS can be used as a reverse, forward or even transparent HTTP proxy.
+    homepage: https://trafficserver.apache.org
     languages:
     - C++
 httpd-module:
@@ -1336,17 +1502,20 @@ httpd-module:
       UNIX, Microsoft Windows, Mac OS/X and Netware. The goal of this project is to provide a secure,
       efficient and extensible server that provides HTTP services observing the current HTTP standards.
       Apache has been the most popular web server on the Internet since April of 1996.
+    homepage: https://httpd.apache.org/
     languages: *id018
 - Apache mod_ftp:
     description: mod_ftp is an FTP Protocol module to serve httpd content over the FTP protocol (whereever
       the HTTP protocol could also be used). It provides both RETR/REST retrieval and STOR/APPE upload,
       using the same user/permissions model as httpd (so it shares the same security considerations as
       mod_dav plus mod_dav_fs).
+    homepage: https://httpd.apache.org/mod_ftp/
     languages: *id019
 - Apache mod_perl:
     description: mod_perl is a unique piece of software that integrates the power of Perl with the flexibility
       and stability of the Apache Web server. With mod_perl, you can harness the power of the full Apache
       API with Perl and develop Web applications quickly, without sacrificing performance.
+    homepage: http://perl.apache.org/
     languages:
     - C
     - Perl
@@ -1354,6 +1523,7 @@ httpd-module:
     description: Websh is a rapid development environment for building powerful, fast, and reliable web
       applications in Tcl. Websh is versatile and handles everything from HTML generation to data-base
       driven one-to-one page customization. Websh can be run in CGI environments and as Apache module.
+    homepage: http://tcl.apache.org/websh
     languages: &id070
     - C
     - Tcl
@@ -1361,11 +1531,13 @@ ide:
 - Apache NetBeans:
     description: Apache NetBeans is and IDE for many language (java, php, ...). Apache NetBeans is a platform
       that can be extended by third party developer.
+    homepage: https://netbeans.apache.org
     languages: *id020
 identity-management:
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
+    homepage: https://directory.apache.org/fortress/
     languages: &id036
     - Java
 - Apache Syncope:
@@ -1375,6 +1547,7 @@ identity-management:
       systems and applications. IdM involves considering user attributes, roles, resources and entitlements
       in trying to give a decent answer to the question bumping at every time in IT administrators'' mind:
       Who has access to What, When, How, and Why?'
+    homepage: http://syncope.apache.org/
     languages: &id021
     - Java
 identity-provisioning:
@@ -1385,18 +1558,22 @@ identity-provisioning:
       systems and applications. IdM involves considering user attributes, roles, resources and entitlements
       in trying to give a decent answer to the question bumping at every time in IT administrators'' mind:
       Who has access to What, When, How, and Why?'
+    homepage: http://syncope.apache.org/
     languages: *id021
 integration:
 - Apache Avro:
     description: Apache Avro is a data serialization system.
+    homepage: https://avro.apache.org
     languages: *id006
 - Apache Camel:
     description: Apache Camel is an open source integration framework with 350+ connectors. Write routes
       in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.
+    homepage: https://camel.apache.org/
     languages: *id022
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
+    homepage: https://plc4x.apache.org/
     languages: &id024
     - C
     - C++
@@ -1408,6 +1585,7 @@ iot:
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache IoTDB:
     description: Apache IoTDB (Database for Internet of Things) is an integrated data management engine
@@ -1416,24 +1594,28 @@ iot:
       its deep integration with Apache Hadoop, Spark and Flink. Apache IoTDB can meet the requirements
       of massive data storage, high-speed data ingestion and complex data analysis in the IoT industrial
       fields.
+    homepage: http://iotdb.apache.org
     languages: *id023
 - Apache Mynewt:
     description: Apache Mynewt is a community-driven module OS for constrained, embedded applications.
       Mynewt provides a real-time operating system, flash file system, network stacks, and support utilities
       for real-world embedded systems. Its goal is to make it easy to develop applications for microcontroller
       environments where power and cost are driving factors.
+    homepage: https://mynewt.apache.org
     languages:
     - C
     - Go
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
+    homepage: https://plc4x.apache.org/
     languages: *id024
 - Apache TsFile:
     description: TsFile is a high-performance columnar storage file format designed for industrial time-series
       data, featuring multi-language interfaces, high compression ratios, high read/write throughput,
       and fast random access capabilities. It is ideal for scenarios such as building high-quality datasets,
       managing data assets, conducting data analytics, and training AI models.
+    homepage: https://tsfile.apache.org
     languages: *id025
 javaee:
 - Apache BVal:
@@ -1441,6 +1623,7 @@ javaee:
       Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The
       initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the
       Apache Software License v2.0.
+    homepage: http://bval.apache.org/
     languages: &id029
     - Java
 - Apache DeltaSpike:
@@ -1453,6 +1636,7 @@ javaee:
       and transaction support. - A Data module, to create an easy to use repository pattern on top of
       JPA. - Quartz integration Testing support is also provided, to allow you to do low level unit testing
       of your CDI enabled projects.'
+    homepage: http://deltaspike.apache.org
     languages:
     - Java
 - Apache Geronimo:
@@ -1460,11 +1644,13 @@ javaee:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
+    homepage: http://geronimo.apache.org
     languages: *id026
 - Apache MyFaces:
     description: MyFaces is the free open source implementation of Jakarta Server Faces, a web application
       framework that accomplishes the MVC paradigm. It is comparable to the well-known Struts Framework
       but has features and concepts that are beyond those of Struts - especially the component orientation.
+    homepage: http://myfaces.apache.org
     languages: &id068
     - Java
 - Apache OpenJPA:
@@ -1476,10 +1662,12 @@ javaee:
       Kit. The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence
       2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun
       JPA 2.0 Technology Compatibility Kit.
+    homepage: http://openjpa.apache.org
     languages: *id027
 - Apache OpenWebBeans:
     description: OpenWebBeans is an ALv2-licensed implementation of the "Contexts and Dependency Injection
       for the Java EE platform" specification which is defined as JSR-299.
+    homepage: http://openwebbeans.apache.org
     languages:
     - Java
 - Apache Tomcat:
@@ -1492,12 +1680,14 @@ javaee:
       development project. Apache Tomcat powers numerous large-scale, mission-critical web applications
       across a diverse range of industries and organizations. Some of these users and their stories are
       listed on the PoweredBy wiki page.
+    homepage: http://tomcat.apache.org/
     languages: *id028
 library:
 - Apache Anakia:
     description: Anakia is an XML transformation tool that uses JDOM and Velocity to transform XML documents
       into the format of your choice. It provides an alternative to using Ant's style task and XSL to
       process XML files.
+    homepage: http://velocity.apache.org/anakia/
     languages:
     - Java
 - Apache Aries:
@@ -1505,6 +1695,7 @@ library:
       OSGi application programming model. This includes implementations and extensions of application-focused
       specifications defined by the OSGi Alliance Enterprise Expert Group (EEG) and an assembly format
       for multi-bundle applications, for deployment to a variety of OSGi based runtimes.
+    homepage: https://aries.apache.org/
     languages:
     - Java
 - Apache Arrow:
@@ -1518,9 +1709,11 @@ library:
       the developer community. We are dedicated to open, kind communication and consensus decision making.
       Our committers come from a range of organizations and backgrounds, and we welcome all to participate
       with us.
+    homepage: https://arrow.apache.org
     languages: *id005
 - Apache Avro:
     description: Apache Avro is a data serialization system.
+    homepage: https://avro.apache.org
     languages: *id006
 - Apache Axiom:
     description: Apache Axiom is a StAX-based, XML Infoset compliant object model which supports on-demand
@@ -1529,12 +1722,14 @@ library:
       for XML Optimized Packaging (XOP) and MTOM, the combination of which allows XML to carry binary
       data efficiently and in a transparent manner. The combination of these is an easy to use API with
       a very high performant architecture!
+    homepage: http://ws.apache.org/axiom/
     languages: &id071
     - Java
 - Apache bRPC:
     description: bRPC is an Industrial-grade RPC framework using C++ Language, which is often used in
       high performance system such as Search, Storage, Machine learning, Advertisement, Recommendation
       etc. "bRPC" means "better RPC".
+    homepage: https://brpc.apache.org
     languages:
     - C++
 - Apache BVal:
@@ -1542,10 +1737,12 @@ library:
       Validation Specfication (JSR303/346) which is TCK compliant and works on Java SE 6 or later. The
       initial codebase for the project was donated to the ASF by a SGA from Agimatec GmbH and uses the
       Apache Software License v2.0.
+    homepage: http://bval.apache.org/
     languages: *id029
 - Apache Camel:
     description: Apache Camel is an open source integration framework with 350+ connectors. Write routes
       in Java, YAML, or XML. Run on Spring Boot, Quarkus, or standalone. Apache License 2.0.
+    homepage: https://camel.apache.org/
     languages: *id022
 - Apache Cayenne:
     description: Cayenne is a powerful, full-featured, opensource framework created for developers working
@@ -1558,16 +1755,19 @@ library:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
+    homepage: https://cayenne.apache.org
     languages: *id030
 - Apache Commons BCEL:
     description: 'The Byte Code Engineering Library is intended to give users a convenient possibility
       to analyze, create, and manipulate (binary) Java class files (those ending with .class). Classes
       are represented by objects which contain all the symbolic information of the given class: methods,
       fields and byte code instructions, in particular.'
+    homepage: http://commons.apache.org/bcel/
     languages:
     - Java
 - Apache Commons BeanUtils:
     description: BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.
+    homepage: https://commons.apache.org/beanutils/
     languages:
     - Java
 - Apache Commons BSF:
@@ -1578,76 +1778,92 @@ library:
       extended) by a language that is embedded within it. This is achieved by providing an API that permits
       calling scripting language engines from within Java, as well as an object registry that exposes
       Java objects to these scripting language engines.
+    homepage: http://commons.apache.org/bsf/
     languages:
     - Java
 - Apache Commons CLI:
     description: Commons CLI provides a simple API for presenting, proecessing and validating a command
       line interface.
+    homepage: http://commons.apache.org/cli/
     languages:
     - Java
 - Apache Commons Codec:
     description: The codec package contains simple encoder and decoders for various formats such as Base64
       and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also
       maintains a collection of phonetic encoding utilities.
+    homepage: http://commons.apache.org/codec/
     languages:
     - Java
 - Apache Commons Collections:
     description: Types that extend and augment the Java Collections Framework.
+    homepage: http://commons.apache.org/collections/
     languages:
     - Java
 - Apache Commons Compress:
     description: 'Commons Compress: working with zip, ar, jar, bz2, cpio, tar, gz, dump, pack200, lzma,
       7z, arj and xz files.'
+    homepage: http://commons.apache.org/compress/
     languages:
     - Java
 - Apache Commons Configuration:
     description: Library to use configuration/preferences of various sources and formats.
+    homepage: http://commons.apache.org/configuration/
     languages:
     - Java
 - Apache Commons Crypto:
     description: 'Commons Crypto: a cryptographic library optimized with AES-NI.'
+    homepage: http://commons.apache.org/crypto/
     languages:
     - Java
     - C
 - Apache Commons CSV:
     description: The Apache Commons CSV library provides a simple interface for reading and writing CSV
       files of various types.
+    homepage: http://commons.apache.org/csv/
     languages:
     - Java
 - Apache Commons Daemon:
     description: Commons Daemon
+    homepage: http://commons.apache.org/daemon/
     languages:
     - Java
     - C
 - Apache Commons DBCP:
     description: Commons Database Connection Pooling
+    homepage: http://commons.apache.org/dbcp/
     languages:
     - Java
 - Apache Commons DbUtils:
     description: A package of Java utility classes for easing JDBC development
+    homepage: http://commons.apache.org/dbutils/
     languages:
     - Java
 - Apache Commons Digester:
     description: The Digester package lets you configure an XML->Java object mapping module which triggers
       certain actions called rules whenever a particular pattern of nested XML elements is recognized.
+    homepage: http://commons.apache.org/digester/
     languages:
     - Java
 - Apache Commons Email:
     description: Commons-Email aims to provide a API for sending email. It is built on top of the Java
       Mail API, which it aims to simplify.
+    homepage: http://commons.apache.org/email/
     languages:
     - Java
 - Apache Commons Exec:
     description: A library to reliably execute external processes from within the JVM
+    homepage: http://commons.apache.org/exec/
     languages:
     - Java
 - Apache Commons FileUpload:
     description: The FileUpload component provides a simple yet flexible means of adding support for multipart
       file upload functionality to servlets and web applications.
+    homepage: http://commons.apache.org/fileupload/
     languages:
     - Java
 - Apache Commons Geometry:
     description: Geometry.
+    homepage: http://commons.apache.org/geometry/
     languages:
     - Java
 - Apache Commons HttpClient:
@@ -1656,109 +1872,132 @@ library:
       widespread use and years of development, it is a very mature and stable codebase. However, due to
       limitations in the API design, Commons HttpClient will eventually be replaced by HttpClient 4.0
       with a completely redesigned API based on HttpCore.
+    homepage: http://hc.apache.org/httpclient-3.x/
     languages: *id031
 - Apache Commons Imaging:
     description: The Apache Commons Imaging library reads and writes a variety of image formats, including
       fast parsing of image info (size, color space, ICC profile, etc.) and metadata. Previously known
       as Apache Commons Sanselan.
+    homepage: http://commons.apache.org/imaging/
     languages:
     - Java
 - Apache Commons IO:
     description: Commons-IO contains utility classes, stream implementations, file filters, file comparators
       and endian classes.
+    homepage: http://commons.apache.org/io/
     languages:
     - Java
 - Apache Commons JCI:
     description: Commons JCI provides a unified interface to any of several Java compilers.
+    homepage: http://commons.apache.org/jci/
     languages:
     - Java
 - Apache Commons JCS:
     description: Comprehensive Caching System
+    homepage: http://commons.apache.org/jcs/
     languages:
     - Java
 - Apache Commons Jelly:
     description: Jelly is a Java and XML based scripting engine. Jelly combines the best ideas from JSTL,
       Velocity, DVSL, Ant and Cocoon all together in a simple yet powerful scripting engine.
+    homepage: http://commons.apache.org/jelly/
     languages:
     - Java
 - Apache Commons JEXL:
     description: Jexl is an implementation of the JSTL Expression Language with extensions.
+    homepage: http://commons.apache.org/jexl/
     languages:
     - Java
 - Apache Commons JXPath:
     description: A Java-based implementation of XPath 1.0 that, in addition to XML processing, can inspect/modify
       Java object graphs (the library's explicit purpose) and even mixed Java/XML structures.
+    homepage: http://commons.apache.org/jxpath/
     languages:
     - Java
 - Apache Commons Lang:
     description: Commons Lang, a package of Java utility classes for the classes that are in java.lang's
       hierarchy, or are considered to be so standard as to justify existence in java.lang.
+    homepage: http://commons.apache.org/lang/
     languages:
     - Java
 - Apache Commons Logging:
     description: Commons Logging is a thin adapter allowing configurable bridging to other, well known
       logging systems.
+    homepage: http://commons.apache.org/logging/
     languages:
     - Java
 - Apache Commons Math:
     description: The Math project is a library of lightweight, self-contained mathematics and statistics
       components addressing the most common practical problems not immediately available in the Java programming
       language or commons-lang.
+    homepage: http://commons.apache.org/math/
     languages:
     - Java
 - Apache Commons Net:
     description: 'Apache Commons Net library contains a collection of network utilities and protocol implementations.
       Supported protocols include: Echo, Finger, FTP, NNTP, NTP, POP3(S), SMTP(S), Telnet, Whois'
+    homepage: http://commons.apache.org/net/
     languages:
     - Java
 - Apache Commons Numbers:
     description: Number types and utilities.
+    homepage: http://commons.apache.org/numbers/
     languages:
     - Java
 - Apache Commons Pool:
     description: Commons Object Pooling Library
+    homepage: http://commons.apache.org/pool/
     languages:
     - Java
 - Apache Commons RDF:
     description: provide a type-safe, non-general API that covers RDF 1.1.
+    homepage: https://commons.apache.org/rdf/
     languages:
     - Java
 - Apache Commons RNG:
     description: Implementations of pseudo-random generators.
+    homepage: https://commons.apache.org/rng/
     languages:
     - Java
 - Apache Commons SCXML:
     description: An implementation of the State Chart XML specification aimed at creating and maintaining
       a Java SCXML engine. It is capable of executing an environment agnostic state machine defined using
       a SCXML document.
+    homepage: http://commons.apache.org/scxml/
     languages:
     - Java
 - Apache Commons Statistics:
     description: Statistics.
+    homepage: http://commons.apache.org/statistics/
     languages:
     - Java
 - Apache Commons Text:
     description: Apache Commons Text is a library focused on algorithms working on strings.
+    homepage: http://commons.apache.org/text/
     languages:
     - Java
 - Apache Commons Validator:
     description: Commons Validator provides the building blocks for both client side validation and server
       side data validation. It may be used standalone or with a framework like Struts.
+    homepage: http://commons.apache.org/validator/
     languages:
     - Java
 - Apache Commons VFS:
     description: VFS is a Virtual File System library.
+    homepage: http://commons.apache.org/vfs/
     languages:
     - Java
 - Apache Commons Weaver:
     description: Apache Commons Weaver provides an easy way to enhance compiled Java classes by generating
       ("weaving") bytecode into those classes.
+    homepage: http://commons.apache.org/weaver/
     languages:
     - Java
 - Apache Cordova:
     description: Apache Cordova is a tool to create cross-platform apps from standard web technologies
       (HTML, CSS, and JavaScript). Its primary purpose is to provide a bridge for native device API access
       and to bundle for distribution.
+    homepage: https://cordova.apache.org
     languages: &id049
     - JavaScript
     - Java
@@ -1774,12 +2013,14 @@ library:
       conditional, generic, degree of certainty). Some of the attributes are expressed as relations, for
       example the location of a clinical condition (locationOf relation) or the severity of a clinical
       condition (degreeOf relation).
+    homepage: https://github.com/apache/ctakes
     languages: *id032
 - Apache CXF:
     description: Apache CXF is an open source services framework. CXF helps you build and develop services
       using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols
       such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP,
       JMS or JBI.
+    homepage: https://cxf.apache.org/
     languages: &id051
     - Java
 - Apache Daffodil:
@@ -1790,12 +2031,14 @@ library:
       of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be
       converted directly to/from the data structures carried by data processing frameworks so as to bypass
       any XML/JSON overheads.
+    homepage: https://daffodil.apache.org
     languages: *id033
 - Apache DataFusion:
     description: Apache DataFusion is a fast, extensible query engine for building high-quality data-centric
       systems in Rust, using the Apache Arrow in-memory format. Python Bindings are also available. DataFusion
       offers SQL and Dataframe APIs, excellent performance, built-in support for CSV, Parquet, JSON, and
       Avro, extensive customization, and a great community.
+    homepage: https://datafusion.apache.org
     languages: *id007
 - Apache DataSketches:
     description: In the analysis of big data there are often problem queries that don’t scale because
@@ -1805,15 +2048,18 @@ library:
       algorithms, or sketches, that can produce results orders-of magnitude faster and with mathematically
       proven error bounds. For interactive queries there may not be other viable alternatives, and in
       the case of real-time analysis, sketches are the only known solution.
+    homepage: https://datasketches.apache.org
     languages: *id034
 - Apache ECharts:
     description: Apache ECharts is a free, powerful charting and visualization library offering easy ways
       to add intuitive, interactive, and highly customizable charts to your commercial products. It is
       written in pure JavaScript and based on zrender, which is a whole new lightweight canvas library.
+    homepage: https://echarts.apache.org
     languages: *id035
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
+    homepage: https://directory.apache.org/fortress/
     languages: *id036
 - Apache Groovy:
     description: Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing
@@ -1821,22 +2067,26 @@ library:
       thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program,
       and immediately delivers to your application powerful features, including scripting capabilities,
       Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.
+    homepage: http://groovy.apache.org
     languages:
     - Java
 - Apache HttpComponents Client:
     description: HttpClient is a library for client-side HTTP communication built on HttpCore. It provides
       connection management, cookie management, and authentication. This is the successor to the widely
       used Jakarta Commons HttpClient 3.1.
+    homepage: http://hc.apache.org/httpcomponents-client/
     languages: *id037
 - Apache HttpComponents Core:
     description: 'HttpCore is a set of low level HTTP transport components that can be used to build custom
       client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models:
       blocking I/O model based on the classic Java I/O and non-blocking, event driven I/O model based
       on Java NIO.'
+    homepage: http://hc.apache.org/httpcomponents-core/
     languages: *id038
 - Apache Hudi:
     description: Hudi brings transactions, stream processing, indexes, mutability and incremental processing
       to data lakes.
+    homepage: https://hudi.apache.org
     languages:
     - Java
     - Scala
@@ -1846,6 +2096,7 @@ library:
       structured and unstructured content, full text search, versioning, transactions, observation, and
       more. Typical applications that use content repositories include content management, document management,
       and records management systems.
+    homepage: http://jackrabbit.apache.org/
     languages: *id039
 - Apache Jena:
     description: 'Apache Jena provides a complete framework for building Semantic Web and Linked Data
@@ -1854,35 +2105,43 @@ library:
       and OWL entailments; TDB (a non-SQL persistent triple store); SDB (a persistent triples store built
       on a relational store) and Fuseki, an RDF server using web protocols. Jena complies with all relevant
       recommendations for RDF and related technologies from the W3C.'
+    homepage: http://jena.apache.org
     languages:
     - Java
 - Apache Libcloud:
     description: Apache Libcloud is a standard Python library that abstracts away differences among multiple
       cloud provider APIs. It allows users to manage cloud servers, cloud storage and load-balancers.
+    homepage: http://libcloud.apache.org
     languages: *id040
 - Apache log4cxx:
     description: Apache log4cxx provides logging services for C++.
+    homepage: https://logging.apache.org/log4cxx
     languages:
     - C++
 - Apache Log4j:
     description: Log4j is a versatile, feature-rich, efficient logging API and backend for Java.
+    homepage: https://logging.apache.org/log4j/2.x/index.html
     languages:
     - Java
 - Apache log4net:
     description: Apache log4net provides logging services for .NET.
+    homepage: https://logging.apache.org/log4net/
     languages:
     - C#
 - Apache log4php:
     description: Apache log4php is a logging framework for PHP.
+    homepage: http://logging.apache.org/log4php/
     languages:
     - PHP
 - Apache Lucene Core:
     description: Apache Lucene is a high-performance, full-featured text search engine library written
       entirely in Java. It is a technology suitable for nearly any application that requires full-text
       search, especially cross-platform.
+    homepage: https://lucene.apache.org/core/
     languages: *id041
 - Apache Mahout:
     description: Scalable machine learning library
+    homepage: http://mahout.apache.org
     languages:
     - Java
 - Apache OpenJPA:
@@ -1894,12 +2153,14 @@ library:
       Kit. The 2.x releases are a production ready, compliant implement of the JSR-317 Java Persistence
       2.0 specification, which is backwards compatible to the JPA 1.0 specification and passes the Sun
       JPA 2.0 Technology Compatibility Kit.
+    homepage: http://openjpa.apache.org
     languages: *id027
 - Apache OpenNLP:
     description: Apache OpenNLP software supports the most common NLP tasks, such as tokenization, sentence
       segmentation, part-of-speech tagging, named entity extraction, chunking, parsing, and coreference
       resolution. These tasks are usually required to build more advanced text processing services. OpenNLP
       also includes maximum entropy and perceptron based machine learning.
+    homepage: http://opennlp.apache.org
     languages:
     - Java
 - Apache ORC:
@@ -1907,19 +2168,23 @@ library:
       It is optimized for large streaming reads, but with integrated support for finding required rows
       quickly. Storing data in a columnar format lets the reader read, decompress, and process only the
       values that are required for the current query.
+    homepage: https://orc.apache.org
     languages: *id013
 - Apache PDFBox:
     description: The Apache PDFBox library is an open source Java tool for working with PDF documents.
+    homepage: https://pdfbox.apache.org
     languages: *id042
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
+    homepage: https://plc4x.apache.org/
     languages: *id024
 - Apache POI:
     description: APIs for manipulating various file formats based upon Open Office XML (ECMA-376) and
       Microsoft's OLE 2 Compound Document formats using pure Java. Apache POI is your Java Excel, Word
       and PowerPoint solution. We have a complete API for porting other OOXML and OLE 2 Compound Document
       formats and welcome others to participate.
+    homepage: https://poi.apache.org
     languages: *id043
 - Apache Portable Runtime:
     description: The mission of the Apache Portable Runtime (APR) project is to create and maintain software
@@ -1928,36 +2193,43 @@ library:
       if not identical behaviour regardless of the platform on which their software is built, relieving
       them of the need to code special-case conditions to work around or take advantage of platform-specific
       deficiencies or features.
+    homepage: https://apr.apache.org/
     languages:
     - C
 - Apache PyLucene:
     description: PyLucene is a Python extension for accessing Java Lucene TM. Its goal is to allow you
       to use Lucene's text indexing and searching capabilities from Python.
+    homepage: https://lucene.apache.org/pylucene/index.html
     languages: &id061
     - C++
     - Python
 - Apache Santuario:
     description: Library implementing XML Digital Signature Specification & XML Encryption Specification
+    homepage: https://santuario.apache.org
     languages: &id065
     - Java
 - Apache Serf:
     description: The serf library is a high performance C-based HTTP client library built upon the Apache
       Portable Runtime (APR) library
+    homepage: https://serf.apache.org
     languages:
     - C
 - Apache Shiro:
     description: Apache Shiro is a powerful and flexible open-source security framework that cleanly handles
       authentication, authorization, enterprise session management, single sign-on and cryptography services.
+    homepage: https://shiro.apache.org/
     languages: &id069
     - Java
 - Apache Spatial Information System:
     description: Apache SIS provides data structures for geographic data and associated metadata along
       with methods to manipulate those data structures. The library is an implementation of GeoAPI interfaces
       and can be used for desktop or server applications.
+    homepage: http://sis.apache.org/
     languages: *id044
 - Apache STeVe:
     description: Apache STeVe is a collection of online voting tools, used by the ASF, to handle STV and
       other voting methods.
+    homepage: https://steve.apache.org
     languages:
     - Perl
     - Python
@@ -1967,6 +2239,7 @@ library:
       an optional set of worker templates, and control context to govern the generated output. Although
       TexenTask can be used directly, it is usually subclassed to initialize your control context before
       generating any output.
+    homepage: http://velocity.apache.org/texen/
     languages:
     - Java
 - Apache Thrift:
@@ -1975,12 +2248,14 @@ library:
       and servers that communicate seamlessly across programming languages. Instead of writing a load
       of boilerplate code to serialize and transport your objects and invoke remote methods, you can get
       right down to business.
+    homepage: https://thrift.apache.org
     languages: *id045
 - Apache Tika:
     description: The Apache Tika toolkit is an ASFv2 licensed open source tool for extracting information
       from digital documents. Tika allows search engines, content management systems and other applications
       that work with various kinds of digital documents to easily detect and extract metadata and content
       from all major file formats.
+    homepage: https://tika.apache.org
     languages: *id046
 - Apache Velocity:
     description: Velocity is a Java-based template engine. It permits anyone to use a simple yet powerful
@@ -1990,6 +2265,7 @@ library:
       and programmers can focus solely on writing top-notch code. Velocity separates Java code from the
       web pages, making the web site more maintainable over its lifespan and providing a viable alternative
       to Java Server Pages (JSPs) or PHP.
+    homepage: http://velocity.apache.org
     languages:
     - Java
 - Apache Velocity DVSL:
@@ -1998,17 +2274,20 @@ library:
       for the transformations. The key differences are that it incorporates easy access to Java objects
       and allows you to use the Velocity template language and it's features for expressing the transformation
       templates.
+    homepage: http://velocity.apache.org/dvsl/devel/
     languages:
     - Java
 - Apache Velocity Tools:
     description: VelocityTools is a collection of Velocity subprojects with a common goal of creating
       tools and infrastructure for building both web and non-web applications using the Velocity template
       engine.
+    homepage: http://velocity.apache.org/velocity/tools/
     languages:
     - Java
 - Apache Yetus:
     description: A collection of libraries and tools that enable contribution and release processes for
       software projects.
+    homepage: https://yetus.apache.org/
     languages: *id047
 mail:
 - Apache JAMES:
@@ -2020,18 +2299,21 @@ mail:
       spam, build a message archive, or whatever you can imagine. A matcher determines whether your mailet
       should process an email in the server. The James project hosts the Mailet API, and James provides
       an implementation of this mail application platform API.
+    homepage: http://james.apache.org
     languages: &id055
     - Java
 - Apache Pony Mail:
     description: Apache Pony Mail is a web-based mail archive browser and interaction platform for mailing
       lists. It provides full-text search, threading, and real-time interaction with archived mailing
       lists, and is the engine behind lists.apache.org.
+    homepage: https://ponymail.apache.org
     languages: *id048
 mobile:
 - Apache Cordova:
     description: Apache Cordova is a tool to create cross-platform apps from standard web technologies
       (HTML, CSS, and JavaScript). Its primary purpose is to provide a bridge for native device API access
       and to bundle for distribution.
+    homepage: https://cordova.apache.org
     languages: *id049
 - Apache PouchDB:
     description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed
@@ -2039,11 +2321,13 @@ mobile:
       work as well offline as they do online. It enables applications to store data locally while offline,
       then synchronize it with CouchDB and compatible servers when the application is back online, keeping
       the user's data in sync no matter where they next log in.
+    homepage: https://pouchdb.apache.org
     languages: *id015
 network-client:
 - Apache ActiveMQ:
     description: ActiveMQ is a fast and powerful Message Broker which supports many Cross Language Clients
       and Protocols and many advanced features while fully supporting JMS 1.1 and J2EE 1.4.
+    homepage: http://activemq.apache.org/
     languages: &id053
     - Java
     - C
@@ -2064,6 +2348,7 @@ network-client:
       the developer community. We are dedicated to open, kind communication and consensus decision making.
       Our committers come from a range of organizations and backgrounds, and we welcome all to participate
       with us.
+    homepage: https://arrow.apache.org
     languages: *id005
 - Apache Axis2:
     description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM,
@@ -2071,6 +2356,7 @@ network-client:
       engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing,
       WS-ReliableMessaging, WS-Security, WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.
       Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
+    homepage: http://axis.apache.org/axis2/java/core
     languages: *id050
 - Apache Cayenne:
     description: Cayenne is a powerful, full-featured, opensource framework created for developers working
@@ -2083,9 +2369,11 @@ network-client:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
+    homepage: https://cayenne.apache.org
     languages: *id030
 - Apache Chainsaw:
     description: Apache Chainsaw is a GUI log viewer.
+    homepage: http://logging.apache.org/log4j/docs/chainsaw.html
     languages:
     - Java
 - Apache Commons HttpClient:
@@ -2094,6 +2382,7 @@ network-client:
       widespread use and years of development, it is a very mature and stable codebase. However, due to
       limitations in the API design, Commons HttpClient will eventually be replaced by HttpClient 4.0
       with a completely redesigned API based on HttpCore.
+    homepage: http://hc.apache.org/httpclient-3.x/
     languages: *id031
 - Apache CouchDB:
     description: Apache CouchDB is a database that completely embraces the web. Store your data with JSON
@@ -2101,16 +2390,19 @@ network-client:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: *id002
 - Apache CXF:
     description: Apache CXF is an open source services framework. CXF helps you build and develop services
       using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols
       such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP,
       JMS or JBI.
+    homepage: https://cxf.apache.org/
     languages: *id051
 - Apache Directory LDAP API:
     description: The Apache Directory LDAP API is an ongoing effort to provide an enhanced LDAP API, as
       a replacement for JNDI and the existing LDAP API (jLdap and Mozilla LDAP API).
+    homepage: https://directory.apache.org/api
     languages:
     - Java
 - Apache Directory Studio:
@@ -2118,12 +2410,14 @@ network-client:
       with any LDAP server however it is particularly designed for use with ApacheDS. It is an Eclipse
       RCP application, composed of several Eclipse (OSGi) plugins, that can be easily upgraded with additional
       ones. These plugins can even run within Eclipse itself.
+    homepage: https://directory.apache.org/studio/
     languages:
     - Java
 - Apache Guacamole:
     description: Apache Guacamole is a clientless remote desktop gateway which supports standard protocols
       like VNC, RDP, and SSH. We call it "clientless" because no plugins or client software are required.
       Once Guacamole is installed on a server, all you need to access your desktops is a web browser.
+    homepage: http://guacamole.apache.org
     languages: &id054
     - C
     - Java
@@ -2132,33 +2426,39 @@ network-client:
     description: HttpClient is a library for client-side HTTP communication built on HttpCore. It provides
       connection management, cookie management, and authentication. This is the successor to the widely
       used Jakarta Commons HttpClient 3.1.
+    homepage: http://hc.apache.org/httpcomponents-client/
     languages: *id037
 - Apache HttpComponents Core:
     description: 'HttpCore is a set of low level HTTP transport components that can be used to build custom
       client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models:
       blocking I/O model based on the classic Java I/O and non-blocking, event driven I/O model based
       on Java NIO.'
+    homepage: http://hc.apache.org/httpcomponents-core/
     languages: *id038
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache Kerby:
     description: Apache Kerby, as an Apache Directory sub project, is a Java Kerberos binding. It provides
       a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates
       PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
+    homepage: https://directory.apache.org/kerby/
     languages: &id056
     - Java
 - Apache MINA:
     description: Apache MINA is a network application framework which helps users develop high performance
       and high scalability network applications easily. It provides an abstract, event-driven, asynchronous
       API over various transports such as TCP/IP and UDP/IP via Java NIO.
+    homepage: http://mina.apache.org/
     languages: &id057
     - Java
 - Apache OpenMeetings:
     description: The Apache OpenMeetings provides video conferencing, instant messaging, white board,
       collaborative document editing and other groupware tools. Kurento Media Server is used or audio/video
       communication.
+    homepage: https://openmeetings.apache.org/
     languages: &id058
     - Java
     - JavaScript
@@ -2166,6 +2466,7 @@ network-client:
 - Apache PLC4X:
     description: PLC4X is a set of libraries for communicating with industrial programmable logic controllers
       (PLCs) using a variety of protocols but with a shared API.
+    homepage: https://plc4x.apache.org/
     languages: *id024
 - Apache PouchDB:
     description: PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed
@@ -2173,11 +2474,13 @@ network-client:
       work as well offline as they do online. It enables applications to store data locally while offline,
       then synchronize it with CouchDB and compatible servers when the application is back online, keeping
       the user's data in sync no matter where they next log in.
+    homepage: https://pouchdb.apache.org
     languages: *id015
 - Apache Qpid:
     description: Apache Qpid implements the latest AMQP specification, the first open standard for enterprise
       messaging, and provides transaction management, queuing, distribution, security, management, clustering,
       federation and heterogeneous multi-platform support and a lot more.
+    homepage: http://qpid.apache.org
     languages: &id059
     - C++
     - Java
@@ -2195,6 +2498,7 @@ network-client:
       Axiom. in addition, the use of a completely asynchronous architecture and non-blocking IO based
       on Java NIO ensures that Synapse has very low overhead and can scale to support thousands of concurrent
       clients without dropping messages.
+    homepage: http://synapse.apache.org/
     languages: *id052
 - Apache Thrift:
     description: Apache Thrift allows you to define data types and service interfaces in a simple definition
@@ -2202,11 +2506,13 @@ network-client:
       and servers that communicate seamlessly across programming languages. Instead of writing a load
       of boilerplate code to serialize and transport your objects and invoke remote methods, you can get
       right down to business.
+    homepage: https://thrift.apache.org
     languages: *id045
 network-server:
 - Apache ActiveMQ:
     description: ActiveMQ is a fast and powerful Message Broker which supports many Cross Language Clients
       and Protocols and many advanced features while fully supporting JMS 1.1 and J2EE 1.4.
+    homepage: http://activemq.apache.org/
     languages: *id053
 - Apache Airavata:
     description: Apache Airavata is a micro-service architecture based software framework for executing
@@ -2214,6 +2520,7 @@ network-server:
       clusters, supercomputers, national grids, academic and commercial clouds. Airavata is dominantly
       used to build Web-based science gateways and assist to compose, manage, execute, and monitor large
       scale applications (wrapped as Web services) and workflows composed of these services.
+    homepage: http://airavata.apache.org
     languages: *id001
 - Apache Arrow:
     description: Apache Arrow defines a language-independent columnar memory format for flat and nested
@@ -2226,6 +2533,7 @@ network-server:
       the developer community. We are dedicated to open, kind communication and consensus decision making.
       Our committers come from a range of organizations and backgrounds, and we welcome all to participate
       with us.
+    homepage: https://arrow.apache.org
     languages: *id005
 - Apache Axis2:
     description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM,
@@ -2233,6 +2541,7 @@ network-server:
       engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing,
       WS-ReliableMessaging, WS-Security, WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.
       Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
+    homepage: http://axis.apache.org/axis2/java/core
     languages: *id050
 - Apache Cayenne:
     description: Cayenne is a powerful, full-featured, opensource framework created for developers working
@@ -2245,11 +2554,13 @@ network-server:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
+    homepage: https://cayenne.apache.org
     languages: *id030
 - Apache Celix:
     description: Apache Celix is a framework for C, C++14 and C++17 to develop dynamic modular software
       applications using component and in-process service-oriented programming. Apache Celix is inspired
       by the OSGi specification adapted for C and C++.
+    homepage: https://celix.apache.org
     languages:
     - C
     - C++
@@ -2259,21 +2570,25 @@ network-server:
       your documents with JavaScript. Apache CouchDB works well with modern web and mobile apps. CouchDB's
       killer feature is its ability to distribute data efficiently using Apache CouchDB’s incremental
       replication. Apache CouchDB supports master-master setups with automatic conflict detection.
+    homepage: https://couchdb.apache.org/
     languages: *id002
 - Apache CXF:
     description: Apache CXF is an open source services framework. CXF helps you build and develop services
       using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols
       such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP,
       JMS or JBI.
+    homepage: https://cxf.apache.org/
     languages: *id051
 - Apache Directory Server:
     description: ApacheDS is an extensible and embeddable directory server entirely written in Java, which
       has been certified LDAPv3 compatible by the Open Group. It has been designed to introduce triggers,
       stored procedures, queues and views to the world of LDAP which has lacked these rich constructs.
+    homepage: https://directory.apache.org/apacheds
     languages:
     - Java
 - Apache Felix:
     description: OSGi framework implementation and related technologies.
+    homepage: http://felix.apache.org
     languages:
     - Java
 - Apache FtpServer:
@@ -2282,6 +2597,7 @@ network-server:
       FtpServer can be run standalone as a Windows service or Unix/Linux daemon, or embedded into a Java
       application. We also provide support for integration within Spring applications and provide our
       releases as OSGi bundles.
+    homepage: http://mina.apache.org/ftpserver-project
     languages:
     - Java
 - Apache Geronimo:
@@ -2289,27 +2605,32 @@ network-server:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
+    homepage: http://geronimo.apache.org
     languages: *id026
 - Apache Guacamole:
     description: Apache Guacamole is a clientless remote desktop gateway which supports standard protocols
       like VNC, RDP, and SSH. We call it "clientless" because no plugins or client software are required.
       Once Guacamole is installed on a server, all you need to access your desktops is a web browser.
+    homepage: http://guacamole.apache.org
     languages: *id054
 - Apache HTTP Server:
     description: The Apache HTTP Server is an open-source HTTP server for modern operating systems including
       UNIX, Microsoft Windows, Mac OS/X and Netware. The goal of this project is to provide a secure,
       efficient and extensible server that provides HTTP services observing the current HTTP standards.
       Apache has been the most popular web server on the Internet since April of 1996.
+    homepage: https://httpd.apache.org/
     languages: *id018
 - Apache HttpComponents Core:
     description: 'HttpCore is a set of low level HTTP transport components that can be used to build custom
       client and server side HTTP services with a minimal footprint. HttpCore supports two I/O models:
       blocking I/O model based on the classic Java I/O and non-blocking, event driven I/O model based
       on Java NIO.'
+    homepage: http://hc.apache.org/httpcomponents-core/
     languages: *id038
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache Jackrabbit:
     description: Apache Jackrabbit is a fully conforming implementation of the Content Repository for
@@ -2317,6 +2638,7 @@ network-server:
       structured and unstructured content, full text search, versioning, transactions, observation, and
       more. Typical applications that use content repositories include content management, document management,
       and records management systems.
+    homepage: http://jackrabbit.apache.org/
     languages: *id039
 - Apache JAMES:
     description: The Apache Java Enterprise Mail Server (a.k.a. Apache James) is a 100% pure Java SMTP
@@ -2327,27 +2649,32 @@ network-server:
       spam, build a message archive, or whatever you can imagine. A matcher determines whether your mailet
       should process an email in the server. The James project hosts the Mailet API, and James provides
       an implementation of this mail application platform API.
+    homepage: http://james.apache.org
     languages: *id055
 - Apache Karaf:
     description: Apache Karaf is a small OSGi based runtime which provides a lightweight container onto
       which various components and applications can be deployed.
+    homepage: http://karaf.apache.org
     languages: &id060
     - Java
 - Apache Kerby:
     description: Apache Kerby, as an Apache Directory sub project, is a Java Kerberos binding. It provides
       a rich, intuitive and interoperable implementation, library, KDC and various facilities that integrates
       PKI, OTP and token (OAuth2) as desired in modern environments such as cloud, Hadoop and mobile.
+    homepage: https://directory.apache.org/kerby/
     languages: *id056
 - Apache MINA:
     description: Apache MINA is a network application framework which helps users develop high performance
       and high scalability network applications easily. It provides an abstract, event-driven, asynchronous
       API over various transports such as TCP/IP and UDP/IP via Java NIO.
+    homepage: http://mina.apache.org/
     languages: *id057
 - Apache mod_ftp:
     description: mod_ftp is an FTP Protocol module to serve httpd content over the FTP protocol (whereever
       the HTTP protocol could also be used). It provides both RETR/REST retrieval and STOR/APPE upload,
       using the same user/permissions model as httpd (so it shares the same security considerations as
       mod_dav plus mod_dav_fs).
+    homepage: https://httpd.apache.org/mod_ftp/
     languages: *id019
 - Apache OFBiz:
     description: Apache OFBiz is an open source product for the automation of enterprise processes that
@@ -2356,21 +2683,25 @@ network-server:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: *id012
 - Apache OpenMeetings:
     description: The Apache OpenMeetings provides video conferencing, instant messaging, white board,
       collaborative document editing and other groupware tools. Kurento Media Server is used or audio/video
       communication.
+    homepage: https://openmeetings.apache.org/
     languages: *id058
 - Apache Qpid:
     description: Apache Qpid implements the latest AMQP specification, the first open standard for enterprise
       messaging, and provides transaction management, queuing, distribution, security, management, clustering,
       federation and heterogeneous multi-platform support and a lot more.
+    homepage: http://qpid.apache.org
     languages: *id059
 - Apache Solr:
     description: Solr is an open source enterprise search server based on the Lucene Java search library,
       with Rest-like JSON/HTTP APIs, high performance, high availability, powerful analytics, hit highlighting,
       faceted search, caching, replication, and a web administration interface.
+    homepage: http://solr.apache.org
     languages: &id062
     - Java
 - Apache SSHD:
@@ -2378,6 +2709,7 @@ network-server:
       and server side. This library is based on Apache MINA, a scalable and high performance asynchronous
       IO library. SSHD does not really aim at being a replacement for the SSH client or SSH server from
       Unix operating systems, but rather provides support for Java based applications requiring SSH support.
+    homepage: http://mina.apache.org/sshd-project
     languages:
     - Java
 - Apache Synapse:
@@ -2390,6 +2722,7 @@ network-server:
       Axiom. in addition, the use of a completely asynchronous architecture and non-blocking IO based
       on Java NIO ensures that Synapse has very low overhead and can scale to support thousands of concurrent
       clients without dropping messages.
+    homepage: http://synapse.apache.org/
     languages: *id052
 - Apache Thrift:
     description: Apache Thrift allows you to define data types and service interfaces in a simple definition
@@ -2397,6 +2730,7 @@ network-server:
       and servers that communicate seamlessly across programming languages. Instead of writing a load
       of boilerplate code to serialize and transport your objects and invoke remote methods, you can get
       right down to business.
+    homepage: https://thrift.apache.org
     languages: *id045
 - Apache Tomcat:
     description: Apache Tomcat is a web server that is an open source software implementation of the Java
@@ -2408,6 +2742,7 @@ network-server:
       development project. Apache Tomcat powers numerous large-scale, mission-critical web applications
       across a diverse range of industries and organizations. Some of these users and their stories are
       listed on the PoweredBy wiki page.
+    homepage: http://tomcat.apache.org/
     languages: *id028
 - Apache TomEE:
     description: Apache TomEE Web Profile delivers Servlets, JSP, JSF, JTA, JPA, CDI, Bean Validation
@@ -2415,11 +2750,13 @@ network-server:
       Services), JAX-WS (Web Services), JMS (Java Message Service) and JCA (the Java Connector Architecture).
       The additional functionality is delivered via Apache CXF, Apache ActiveMQ and the Geronimo Connector
       library
+    homepage: http://tomee.apache.org
     languages:
     - Java
 - Apache Vysper:
     description: Apache Vysper aims to be a modular, full featured XMPP (Jabber) server. Vysper is implemented
       in Java.
+    homepage: http://mina.apache.org/vysper-project
     languages:
     - Java
 observability:
@@ -2427,39 +2764,47 @@ observability:
     description: Use Apache SkyWalking when you need an application performance monitor tool for distributed
       systems, especially designed for microservices, cloud native and container-based (Docker, K8s, Mesos)
       architectures.
+    homepage: http://skywalking.apache.org
     languages:
     - Java
 osgi:
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 - Apache Karaf:
     description: Apache Karaf is a small OSGi based runtime which provides a lightweight container onto
       which various components and applications can be deployed.
+    homepage: http://karaf.apache.org
     languages: *id060
 SDK:
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
+    homepage: https://directory.apache.org/fortress/
     languages: *id036
 search:
 - Apache Lucene Core:
     description: Apache Lucene is a high-performance, full-featured text search engine library written
       entirely in Java. It is a technology suitable for nearly any application that requires full-text
       search, especially cross-platform.
+    homepage: https://lucene.apache.org/core/
     languages: *id041
 - Apache PyLucene:
     description: PyLucene is a Python extension for accessing Java Lucene TM. Its goal is to allow you
       to use Lucene's text indexing and searching capabilities from Python.
+    homepage: https://lucene.apache.org/pylucene/index.html
     languages: *id061
 - Apache Solr:
     description: Solr is an open source enterprise search server based on the Lucene Java search library,
       with Rest-like JSON/HTTP APIs, high performance, high availability, powerful analytics, hit highlighting,
       faceted search, caching, replication, and a web administration interface.
+    homepage: http://solr.apache.org
     languages: *id062
 - Apache Solr Operator:
     description: Manages Solr resources in Kubernetes
+    homepage: https://solr.apache.org/operator
     languages: *id063
 - Apache Unomi:
     description: Apache Unomi is a REST server that manages user profiles and events related to the profiles.
@@ -2473,20 +2818,24 @@ search:
       makes it possible to perform any action when an event is collected for a profile. It also has the
       notion of user segments, making it possible to classify user profiles into dynamic sub-groups, notably
       to build personalized experiences for specific segments.
+    homepage: https://unomi.apache.org
     languages:
     - Java
 security:
 - Apache Fortress:
     description: Apache Fortress is a standards-based authorization system, written in Java, that provides
       role-based access control, delegated administration and password policy services using an LDAP backend.
+    homepage: https://directory.apache.org/fortress/
     languages: *id036
 - Apache Ranger:
     description: Apache Ranger is a framework to enable, monitor and manage comprehensive data security
       - consistently across various data processing services. Integrated with most of the Big-Data technologies
       (Hadoop, Hive, HBase, Spark, Trino, ...)
+    homepage: https://ranger.apache.org
     languages: *id064
 - Apache Santuario:
     description: Library implementing XML Digital Signature Specification & XML Encryption Specification
+    homepage: https://santuario.apache.org
     languages: *id065
 - Apache Syncope:
     description: 'Apache Syncope is an Open Source system for managing digital identities in enterprise
@@ -2495,6 +2844,7 @@ security:
       systems and applications. IdM involves considering user attributes, roles, resources and entitlements
       in trying to give a decent answer to the question bumping at every time in IT administrators'' mind:
       Who has access to What, When, How, and Why?'
+    homepage: http://syncope.apache.org/
     languages: *id021
 sql:
 - Apache Calcite:
@@ -2503,10 +2853,12 @@ sql:
       There is an optional SQL parser and JDBC driver. Calcite does not store data or have a preferred
       execution engine. Data formats, execution algorithms, planning rules, operator types, metadata,
       and cost model are added at runtime as plugins.
+    homepage: https://calcite.apache.org
     languages: *id016
 - Apache Ignite:
     description: Apache Ignite is a distributed database for high-performance computing with in-memory
       speed.
+    homepage: http://ignite.apache.org
     languages: *id004
 templating:
 - Apache FreeMarker:
@@ -2517,14 +2869,17 @@ templating:
       (like Java) is used to prepare the data (issue database queries, do business calculations). Then,
       Apache FreeMarker displays that prepared data using templates. In the template you are focusing
       on how to present the data, and outside the template you are focusing on what data to present.'
+    homepage: https://freemarker.apache.org
     languages: *id017
 testing:
 - Apache AntUnit:
     description: The Ant Library provides Ant tasks for testing Ant task, it can also be used to drive
       functional and integration tests of arbitrary applications with Ant.
+    homepage: http://ant.apache.org/antlibs/antunit/
     languages: *id066
 - Apache Gump:
     description: Gump provides large scale continuous integration for various open source projects.
+    homepage: http://gump.apache.org/
     languages: *id067
 - Apache JMeter:
     description: Apache JMeter may be used to test performance both on static and dynamic resources (files,
@@ -2532,156 +2887,198 @@ testing:
       to simulate a heavy load on a server, network or object to test its strength or to analyze overall
       performance under different load types. You can use it to make a graphical analysis of performance
       or to test your server/script/object behavior under heavy concurrent load.
+    homepage: http://jmeter.apache.org/index.html
     languages:
     - Java
 - Apache Yetus:
     description: A collection of libraries and tools that enable contribution and release processes for
       software projects.
+    homepage: https://yetus.apache.org/
     languages: *id047
 uncategorized:
 - Apache Answer:
     description: The mission of Apache Answer is the creation and maintenance of software related to A
       Q-and-A platform software for teams at any scales
+    homepage: https://answer.apache.org
 - Apache Apisix:
     description: The mission of Apache APISIX is the creation and maintenance of software related to a
       cloud-native microservices API gateway
+    homepage: https://apisix.apache.org
 - Apache Artemis:
     description: The mission of Apache Artemis is the creation and maintenance of software related to
       implementing a distributed messaging system
+    homepage: https://artemis.apache.org
 - Apache Asterixdb:
     description: The mission of AsterixDB is the creation and maintenance of software related to open
       source Big Data Management System
+    homepage: https://asterixdb.apache.org
 - Apache Atlas:
     description: The mission of Apache Atlas is the creation and maintenance of software related to a
       scalable and extensible set of core foundational governance services - enabling enterprises to effectively
       and efficiently meet their compliance requirements
+    homepage: https://atlas.apache.org
 - Apache Auron:
     description: The mission of Apache Auron is the creation and maintenance of software related to an
       accelerator for big data engines that leverages native vectorized execution to accelerate query
       processing
+    homepage: https://auron.apache.org
 - Apache Buildstream:
     description: The mission of Apache BuildStream is the creation and maintenance of software related
       to efficiently and correctly developing, building and integrating software stacks
+    homepage: https://buildstream.apache.org
 - Apache Celeborn:
     description: The mission of Apache Celeborn is the creation and maintenance of software related to
       an intermediate data service for big data computing engines to boost performance, stability, and
       flexibility
+    homepage: https://celeborn.apache.org
 - Apache Devlake:
     description: The mission of Apache DevLake is the creation and maintenance of software related to
       a development data platform, providing the data infrastructure for developer teams to analyze and
       improve their engineering productivity
+    homepage: https://devlake.apache.org
 - Apache Dolphinscheduler:
     description: The mission of Apache DolphinScheduler is the creation and maintenance of software related
       to a distributed and extensible workflow scheduler platform with powerful DAG visual interfaces
+    homepage: https://dolphinscheduler.apache.org
 - Apache Dubbo:
     description: The mission of Apache Dubbo is the creation and maintenance of software related to a
       high-performance, lightweight, java based RPC framework.
+    homepage: https://dubbo.apache.org
 - Apache Fineract:
     description: At Apache Fineract, our mission is to build, maintain and enhance a cloud-ready core
       banking system for robust, scalable, and secure operations of financial institutions.
+    homepage: https://fineract.apache.org
     languages:
     - Java
 - Apache Flagon:
     description: The mission of Apache Flagon is the creation and maintenance of software related to thin-client
       behavioral logging capability useful for business analytics, usage analytics, usability and user
       testing
+    homepage: https://flagon.apache.org
 - Apache Fluss:
     description: The mission of Apache Fluss is the creation and maintenance of software related to a
       streaming storage built for real-time analytics which can serve as the real-time data layer for
       Lakehouse architectures
+    homepage: https://fluss.apache.org
 - Apache Fory:
     description: The mission of Apache Fory is the creation and maintenance of software related to fast
       multi-language serialization framework powered by JIT and zero-copy
+    homepage: https://fory.apache.org
 - Apache Gluten:
     description: The mission of Apache Gluten is the creation and maintenance of software related to software
       related to a pluggable middleware that enables native, vectorized execution engines to accelerate
       Apache SparkSQL workloads;
+    homepage: https://gluten.apache.org
 - Apache Gravitino:
     description: The mission of Apache Gravitino is the creation and maintenance of software related to
       managing your data and AI assets seamlessly with a flexible, unified governance framework, including
       lakehouse federation capabilities
+    homepage: https://gravitino.apache.org
 - Apache Hertzbeat:
     description: The mission of Apache HertzBeat is the creation and maintenance of software related to
       a real-time monitoring system with agentless, performance cluster, prometheus-compatible, custom
       monitoring and status page building capabilities
+    homepage: https://hertzbeat.apache.org
 - Apache Hugegraph:
     description: The mission of Apache HugeGraph is the creation and maintenance of software related to
       a convenient, efficient, and adaptable graph database compatible with the Apache TinkerPop3 framework
       and the Gremlin query language
+    homepage: https://hugegraph.apache.org
 - Apache Iggy:
     description: The mission of Apache Iggy is the creation and maintenance of software related to Iggy
       is a high-performance, ultra-low latency and large-scale persistent message streaming platform written
       in Rust.
+    homepage: https://iggy.apache.org
 - Apache Johnzon:
     description: The mission of Johnzon is the creation and maintenance of software related to JSR-353
       compliant JSON parsing; modules to help with JSR-353 as well as JSR-374 and JSR-367
+    homepage: https://johnzon.apache.org
 - Apache Juneau:
     description: The mission of Apache Juneau is the creation and maintenance of software related to a
       toolkit for marshalling POJOs to a wide variety of content types using a common framework, and for
       creating sophisticated self-documenting REST interfaces and microservices using VERY little code
+    homepage: https://juneau.apache.org
 - Apache Kvrocks:
     description: The mission of Apache Kvrocks is the creation and maintenance of software related to
       a distributed key-value NoSQL database, supporting the rich data structure
+    homepage: https://kvrocks.apache.org
 - Apache Kyuubi:
     description: The mission of Apache Kyuubi is the creation and maintenance of software related to a
       distributed and multi-tenant gateway to provide serverless SQL on data warehouses and lakehouses
+    homepage: https://kyuubi.apache.org
 - Apache Livy:
     description: The mission of Apache Livy is the creation and maintenance of software related to web
       service that exposes a REST interface for managing long running Apache Spark contexts in your cluster.
       With Livy, new applications can be built on top of Apache Spark that require fine grained interaction
       with many Spark contexts
+    homepage: https://livy.apache.org
 - Apache Nuttx:
     description: The mission of Apache NuttX is the creation and maintenance of software related to a
       mature, real-time embedded operating system (RTOS)
+    homepage: https://nuttx.apache.org
 - Apache Openwhisk:
     description: The mission of Apache OpenWhisk is the creation and maintenance of software related to
       a platform for building serverless applications with functions
+    homepage: https://openwhisk.apache.org
 - Apache Paimon:
     description: The mission of Apache Paimon is the creation and maintenance of software related to a
       unified lake storage to build dynamic tables for both stream and batch processing with big data
       compute engines, supporting high-speed data ingestion and real-time data query
+    homepage: https://paimon.apache.org
 - Apache Pekko:
     description: The mission of Apache Pekko is the creation and maintenance of software related to a
       toolkit and an ecosystem for building highly concurrent, distributed, reactive and resilient applications
       for Java and Scala
+    homepage: https://pekko.apache.org
 - Apache Ratis:
     description: The mission of Apache Ratis is the creation and maintenance of software related to a
       highly customizable Raft protocol implementation in Java
+    homepage: https://ratis.apache.org
 - Apache Reqsign:
     description: The mission of Apache Reqsign is the creation and maintenance of software related to
       signing HTTP requests to cloud services
+    homepage: https://reqsign.apache.org
 - Apache Resilientdb:
     description: The mission of Apache ResilientDB is the creation and maintenance of software related
       to ResilientDB is a distributed blockchain framework that is open-source, lightweight, modular,
       and highly performant.
+    homepage: https://resilientdb.apache.org
 - Apache Rocketmq:
     description: The mission of Apache RocketMQ is the creation and maintenance of software related to
       a fast, low latency, reliable, scalable, distributed, easy to use message-oriented middleware, especially
       for processing large amounts of streaming data
+    homepage: https://rocketmq.apache.org
 - Apache Rya:
     description: The mission of Apache Rya is the creation and maintenance of software related to scalable
       storage, retrieval, and analysis of RDF data
+    homepage: https://rya.apache.org
 - Apache Sdap:
     description: The mission of Apache SDAP is the creation and maintenance of software related to an
       integrated data analytic center for Big Science problems
+    homepage: https://sdap.apache.org
 - Apache Sedona:
     description: The mission of Apache Sedona is the creation and maintenance of software related to a
       big geospatial data processing engine. It provides an easy to use APIs for spatial data scientists
       to manage, wrangle, and process geospatial data
+    homepage: https://sedona.apache.org
 - Apache Servicecomb:
     description: The mission of Apache ServiceComb is the creation and maintenance of software related
       to a microservice framework that provides a set of tools and components to make development and
       deployment of cloud applications easier.
+    homepage: https://servicecomb.apache.org
 - Apache Shardingsphere:
     description: The mission of Apache ShardingSphere is the creation and maintenance of software related
       to a database clustering system providing data sharding, distributed transactions, and distributed
       database management
+    homepage: https://shardingsphere.apache.org
 - Apache Shenyu:
     description: The mission of Apache ShenYu is the creation and maintenance of software related to a
       Java native API Gateway for service proxy, protocol conversion and API governance
+    homepage: https://shenyu.apache.org
 - Apache Singa:
     description: The mission of Apache SINGA is the creation and maintenance of software related to a
       distributed deep learning platform
+    homepage: https://singa.apache.org
 - Apache Sling:
     description: Apache Sling is a web framework that uses a Java Content Repository, such as Apache Jackrabbit,
       to store and manage content. Sling applications use either scripts or Java servlets, selected based
@@ -2690,11 +3087,13 @@ uncategorized:
       can be loaded, unloaded and reconfigured at runtime. As the first web framework dedicated to JSR-170
       Java Content Repositories, Sling makes it very simple to implement simple applications, while providing
       an enterprise-level framework for more complex applications.
+    homepage: http://sling.apache.org/
     languages:
     - Java
 - Apache Sourcelume:
     description: The mission of Apache Sourcelume is the creation and maintenance of software related
       to AI training-data provenance
+    homepage: https://sourcelume.apache.org
 - Apache SpamAssassin:
     description: Apache SpamAssassin is an extensible email filter which is used to identify spam. Using
       its rule base, it uses a wide range of advanced heuristic and statistical analysis tests on mail
@@ -2702,6 +3101,7 @@ uncategorized:
       the mail can then be optionally tagged as spam for later filtering. It provides a command line tool
       to perform filtering, a client-server system to filter large volumes of mail, and Mail::SpamAssassin,
       a set of Perl modules.
+    homepage: https://spamassassin.apache.org/
     languages:
     - C
     - Perl
@@ -2709,50 +3109,61 @@ uncategorized:
     description: The mission of Apache StormCrawler is the creation and maintenance of software related
       to an open source collection of resources for building low-latency, scalable web crawlers on Apache
       Storm
+    homepage: https://stormcrawler.apache.org
 - Apache Streampark:
     description: The mission of Apache StreamPark is the creation and maintenance of software related
       to Make stream processing easier! Easy-to-use streaming application development framework and operation
       platform
+    homepage: https://streampark.apache.org
 - Apache Streampipes:
     description: The mission of Apache StreamPipes is the creation and maintenance of software related
       to a self-service Industrial IoT toolbox which enables non-technical users to connect, analyze and
       explore IoT data streams
+    homepage: https://streampipes.apache.org
 - Apache Systemds:
     description: The mission of Apache SystemDS is the creation and maintenance of software related to
       declarative, large-scale machine learning that compiles to hybrid runtime execution plans ranging
       from single node, in-memory computations, to distributed computations such as on Apache Hadoop MapReduce
       or Apache Spark.
+    homepage: https://systemds.apache.org
 - Apache Teaclave:
     description: The mission of Apache Teaclave is the creation and maintenance of software related to
       SDKs for building memory-safe applications on Trusted Execution Environments
+    homepage: https://teaclave.apache.org
 - Apache Tinkerpop:
     description: The mission of TinkerPop is the creation and maintenance of software related to A graph
       computing framework for both graph databases (OLTP) and graph analytic systems (OLAP)
+    homepage: https://tinkerpop.apache.org
 - Apache Training:
     description: The mission of Apache Training is the creation and maintenance of software related to
       training materials for Apache projects and the Apache Software Foundation
+    homepage: https://training.apache.org
 - Apache UIMA:
     description: The Apache UIMA project supports the community working on the analysis of unstructured
       information with a unifying Java and C++ framework, tooling, and analysis components, guided by
       the OASIS UIMA standard. It includes support for very large scaleout using networked clusters of
       compute nodes.
+    homepage: http://uima.apache.org
     languages:
     - Java
     - C++
 - Apache Uniffle:
     description: The mission of Apache Uniffle is the creation and maintenance of software related to
       a unified remote shuffle service
+    homepage: https://uniffle.apache.org
 - Apache Wayang:
     description: The mission of Apache Wayang is the creation and maintenance of software related to cross-engine
       data processing that aims at (i) decoupling applications from underlying data processing engines,
       such as Apache Flink, Apache Spark, databases, or ML systems, and (ii) automatically determining
       the optimal combination of engines to execute a given data pipeline using an optimizer
+    homepage: https://wayang.apache.org
 web-framework:
 - Apache Causeway:
     description: Apache Causeway is a framework for rapidly developing domain-driven apps in Java. Write
       your business logic in entities, domain services and repositories, and the framework dynamically
       (at runtime) generates a representation of that domain model as a webapp, RESTful or GraphQL API.
       For prototyping or production.
+    homepage: https://causeway.apache.org
     languages:
     - Java
 - Apache Cayenne:
@@ -2766,6 +3177,7 @@ web-framework:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
+    homepage: https://cayenne.apache.org
     languages: *id030
 - Apache Flex:
     description: Apache Flex® is a highly productive, open source application framework for building and
@@ -2774,6 +3186,7 @@ web-framework:
       and programming model that supports common design patterns suitable for developers from many backgrounds.
       Flex applications can be deployed to the ubiquitous Adobe® Flash® Player in the browser, Adobe®
       AIR™ on desktop and mobile or to native Android™, IOS™, QNX®, Windows® or Mac® applications.
+    homepage: http://flex.apache.org
     languages:
     - ActionScript
 - Apache Geronimo:
@@ -2781,16 +3194,19 @@ web-framework:
       projects to create Java/OSGi server runtimes that meet the needs of enterprise developers and system
       administrators. Our most popular distribution is a fully certified Java EE 5 application server
       runtime.
+    homepage: http://geronimo.apache.org
     languages: *id026
 - Apache Grails:
     description: Grails is a powerful Groovy-based web application framework for the JVM built on top
       of Spring Boot that has many plugins to further extend its functionality.
+    homepage: https://grails.apache.org
     languages:
     - Groovy
 - Apache MyFaces:
     description: MyFaces is the free open source implementation of Jakarta Server Faces, a web application
       framework that accomplishes the MVC paradigm. It is comparable to the well-known Struts Framework
       but has features and concepts that are beyond those of Struts - especially the component orientation.
+    homepage: http://myfaces.apache.org
     languages: *id068
 - Apache Nutch:
     description: 'Apache Nutch is a highly extensible and scalable open source web crawler software project.
@@ -2803,6 +3219,7 @@ web-framework:
       storage is abstracted away from any specific underlying data store by using Apache Gora for handling
       object to persistent mappings and to store fetch time, status, content, parsed text, outlinks, inlinks,
       etc. into a number of NoSQL storage solutions.'
+    homepage: https://nutch.apache.org
     languages:
     - Java
 - Apache OFBiz:
@@ -2812,27 +3229,32 @@ web-framework:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: *id012
 - Apache Royale:
     description: Apache Royale implements the principles of Apache Flex to support development of applications
       designed for JavaScript instead of Adobe Flash/AIR runtimes. Apache Royale improves developer productivity
       in creating applications to run wherever JavaScript runs, including on browsers, in Apache Cordova
       applications, on Node, and on other platforms.
+    homepage: https://royale.apache.org
     languages:
     - ActionScript
 - Apache Shiro:
     description: Apache Shiro is a powerful and flexible open-source security framework that cleanly handles
       authentication, authorization, enterprise session management, single sign-on and cryptography services.
+    homepage: https://shiro.apache.org/
     languages: *id069
 - Apache Solr:
     description: Solr is an open source enterprise search server based on the Lucene Java search library,
       with Rest-like JSON/HTTP APIs, high performance, high availability, powerful analytics, hit highlighting,
       faceted search, caching, replication, and a web administration interface.
+    homepage: http://solr.apache.org
     languages: *id062
 - Apache Struts:
     description: The Apache Struts Project offers the Apache Struts 2 web framework which is a comprehensive
       and modular tooling stack for creating web-based Java applications. Struts 2, emerged from the WebWork
       2 framework, is an excellent choice for teams who value elegant solutions to difficult problems.
+    homepage: http://struts.apache.org
     languages:
     - Java
 - Apache Tapestry:
@@ -2842,11 +3264,13 @@ web-framework:
       conventions rather than XML. Web page and component templates use regular (X)HTML that can be edited
       by any web designer. Live Class Reloading enables you to edit Java code and immediately see results
       by reloading the page in the web browser, resulting in a very fast "code it - see it - fix it" loop.
+    homepage: http://tapestry.apache.org
     languages:
     - Java
 - Apache Tobago:
     description: The goal of Tobago is to provide the community with a well designed set of user interface
       components based on JSF.
+    homepage: http://myfaces.apache.org/#/tobago
     languages:
     - Java
     - TypeScript
@@ -2867,17 +3291,20 @@ web-framework:
       environment and released under the Apache Software License. Turbine is intended to be a collaboration
       of the best-of-breed developers from around the world. We invite you to participate in this open
       development project. To learn more about getting involved, look at our "How to Help" pages.
+    homepage: https://turbine.apache.org
     languages:
     - Java
 - Apache Websh:
     description: Websh is a rapid development environment for building powerful, fast, and reliable web
       applications in Tcl. Websh is versatile and handles everything from HTML generation to data-base
       driven one-to-one page customization. Websh can be run in CGI environments and as Apache module.
+    homepage: http://tcl.apache.org/websh
     languages: *id070
 - Apache Wicket:
     description: Write maintainable, secure and scalable web applications using just Java and HTML. Invented
       in 2004, Wicket is one of the few survivors of the Java serverside web framework wars of the mid
       2000's, and a proud member of the Apache Software Foundation.
+    homepage: https://wicket.apache.org
     languages:
     - Java
 xml:
@@ -2888,6 +3315,7 @@ xml:
       for XML Optimized Packaging (XOP) and MTOM, the combination of which allows XML to carry binary
       data efficiently and in a transparent manner. The combination of these is an easy to use API with
       a very high performant architecture!
+    homepage: http://ws.apache.org/axiom/
     languages: *id071
 - Apache Axis2:
     description: Apache Axis2 is a toolkit for creating and using Web Services, including SOAP, MTOM,
@@ -2895,10 +3323,12 @@ xml:
       engine, together with tooling support for WSDL and WS-Policy, and plugin support for WS-Addressing,
       WS-ReliableMessaging, WS-Security, WS-Eventing, WS-Transactions, WS-Trust and WS-SecureConversation.
       Axis2 runs either standalone or hosted in Tomcat or other servlet containers.
+    homepage: http://axis.apache.org/axis2/java/core
     languages: *id050
 - Apache Batik:
     description: Batik is a Java-based toolkit for applications or applets to use images in the Scalable
       Vector Graphics (SVG) format for various purposes, such as display, generation and manipulation.
+    homepage: http://xmlgraphics.apache.org/batik/
     languages: *id072
 - Apache Cayenne:
     description: Cayenne is a powerful, full-featured, opensource framework created for developers working
@@ -2911,12 +3341,14 @@ xml:
       of all modified objects), seamless integration of multiple databases into a single virtual data
       source, three tier persistence with caching on the remote client, paging of results, record locking,
       and many more features.
+    homepage: https://cayenne.apache.org
     languages: *id030
 - Apache CXF:
     description: Apache CXF is an open source services framework. CXF helps you build and develop services
       using frontend programming APIs like JAX-WS and JAX-RS. These services can speak a variety of protocols
       such as SOAP, XML/HTTP, RESTful HTTP, or CORBA and work over a variety of transports such as HTTP,
       JMS or JBI.
+    homepage: https://cxf.apache.org/
     languages: *id051
 - Apache Daffodil:
     description: Apache Daffodil is an open-source implementation of the DFDL specification that uses
@@ -2926,6 +3358,7 @@ xml:
       of serializing or "unparsing" data back to the original data format. The DFDL infoset can also be
       converted directly to/from the data structures carried by data processing frameworks so as to bypass
       any XML/JSON overheads.
+    homepage: https://daffodil.apache.org
     languages: *id033
 - Apache FOP:
     description: FOP (Formatting Objects Processor) is the world's first print formatter driven by XSL
@@ -2933,6 +3366,7 @@ xml:
       that reads a formatting object (FO) tree and renders the resulting pages to a specified output.
       Output formats currently supported include PDF, PCL, PS, SVG, XML (area tree representation), Print,
       AWT, MIF and TXT. The primary output target is PDF.
+    homepage: http://xmlgraphics.apache.org/fop
     languages: *id073
 - Apache Jackrabbit:
     description: Apache Jackrabbit is a fully conforming implementation of the Content Repository for
@@ -2940,9 +3374,11 @@ xml:
       structured and unstructured content, full text search, versioning, transactions, observation, and
       more. Typical applications that use content repositories include content management, document management,
       and records management systems.
+    homepage: http://jackrabbit.apache.org/
     languages: *id039
 - Apache Neethi:
     description: Apache Neethi is a Java implementation of the WS-Policy Specification.
+    homepage: https://ws.apache.org/neethi/
     languages:
     - Java
 - Apache OFBiz:
@@ -2952,14 +3388,17 @@ xml:
       MRP (Manufacturing Resource Planning), MMS/EAM (Maintenance Management System/Enterprise Asset Management).
       Apache OFBiz provides a foundation and starting point for reliable, secure and scalable enterprise
       solutions, see https://ofbiz.apache.org/ for more.
+    homepage: http://ofbiz.apache.org
     languages: *id012
 - Apache Sandesha2:
     description: Apache Sandesha2 is an Axis2 module that implements the WS-ReliableMessaging specification.
       It can be used both on the client side and on the server side.
+    homepage: http://axis.apache.org/axis2/java/sandesha/
     languages:
     - Java
 - Apache Santuario:
     description: Library implementing XML Digital Signature Specification & XML Encryption Specification
+    homepage: https://santuario.apache.org
     languages: *id065
 - Apache Synapse:
     description: Apache Synapse is a simple and highly effective ESB, Web Services intermediary and SOA
@@ -2971,6 +3410,7 @@ xml:
       Axiom. in addition, the use of a completely asynchronous architecture and non-blocking IO based
       on Java NIO ensures that Synapse has very low overhead and can scale to support thousands of concurrent
       clients without dropping messages.
+    homepage: http://synapse.apache.org/
     languages: *id052
 - Apache Woden:
     description: 'The Woden project is a subproject of the Apache Web Services Project to develop a Java
@@ -2980,18 +3420,21 @@ xml:
       Java interfaces. The WSDL 2.0-specific portion of the Woden API will conform to the W3C WSDL 2.0
       specification. The implementation will be a high performance implementation directly usable in other
       Apache projects such as Axis2.'
+    homepage: http://ws.apache.org/woden/
     languages:
     - Java
 - Apache WSS4J:
     description: The Apache WSS4J project provides a Java implementation of the primary security standards
       for Web Services, namely the OASIS Web Services Security (WS-Security) specifications from the OASIS
       Web Services Security TC.
+    homepage: https://ws.apache.org/wss4j/
     languages:
     - Java
 - Apache Xalan for C++ XSLT Processor:
     description: Xalan-C++ is an XSLT processor for transforming XML documents into HTML, text, or other
       XML document types. It implements XSL Transformations (XSLT) Version 1.0 and XML Path Language (XPath)
       Version 1.0 and can be used from the command line.
+    homepage: http://xalan.apache.org/xalan-c
     languages:
     - C++
 - Apache Xalan for Java XSLT Processor:
@@ -3001,6 +3444,7 @@ xml:
       other program. Xalan-J implements the javax.xml.transform interface in Java API for XML Processing
       (JAXP) 1.3. This interface provides a modular framework and a standard API for performing XML transformations,
       and utilizes system properties to determine which Transformer and which XML parser to use.
+    homepage: http://xalan.apache.org/xalan-j/
     languages:
     - Java
 - Apache Xerces for C++ XML Parser:
@@ -3011,6 +3455,7 @@ xml:
       modularity, and scalability. Source code, samples and API documentation are provided with the parser.
       For portability, care has been taken to make minimal use of templates, no RTTI, and minimal use
       of #ifdefs.'
+    homepage: http://xerces.apache.org/xerces-c/
     languages:
     - C
 - Apache Xerces for Java XML Parser:
@@ -3025,6 +3470,7 @@ xml:
       SAX. Xerces developers and application developers that need more power and flexibility than that
       provided by the standard interfaces should read and understand XNI. The latest Xerces-J version
       released is, 2.12.2.
+    homepage: http://xerces.apache.org/xerces2-j/
     languages:
     - Java
 - Apache Xerces for Perl XML Parser:
@@ -3041,6 +3487,7 @@ xml:
       the Perl module. The majority of the API is created automatically using Simplified Wrapper Interface
       Generator (SWIG). However, care has been taken to make most method invocations natural to perl programmers,
       so a number of rough C++ edges have been smoothed over (See the Special Perl API Features section).
+    homepage: http://xerces.apache.org/xerces-p
     languages:
     - Perl
 - Apache XML Commons External:
@@ -3052,6 +3499,7 @@ xml:
       we can only take fixes we want and add Apache-specific changes, 3) Better overview documentation
       of how these interfaces fit into the XML processing world, 4) More chance for cross-project community
       building within Apache projects.'
+    homepage: http://xerces.apache.org/xml-commons/components/external/
     languages:
     - Java
 - Apache XML Commons Resolver:
@@ -3059,6 +3507,7 @@ xml:
       related programs to resolve various public or system identifiers into accessible URLs for use by
       your application. The resolver supports several catalog types for mapping, including OASIS XML,
       OASIS TR 9401 and XCatalog styles.
+    homepage: http://xerces.apache.org/xml-commons/components/resolver/
     languages:
     - Java
 - Apache XMLBeans:
@@ -3098,10 +3547,12 @@ xml:
       instance for an XML schema or perhaps find the enumerations for an element so that you can display
       them. All of this was built with performance in mind. Informal benchmarks and user feedback indicate
       that XMLBeans is extremely fast.'
+    homepage: https://xmlbeans.apache.org/
     languages:
     - Java
 - Apache XMLSchema:
     description: Apache XMLSchema is a lightweight Java object model that can be used to manipulate and
       generate XML schema representations.
+    homepage: https://ws.apache.org/xmlschema/
     languages:
     - Java
